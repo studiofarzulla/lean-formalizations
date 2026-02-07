@@ -14,6 +14,7 @@ import FarzullaProofs.ConsensualSovereignty.Definitions
 import FarzullaProofs.ConsensualSovereignty.Core
 import FarzullaProofs.ConsensualSovereignty.Dynamics
 import FarzullaProofs.ROMEthics.Basic
+import FarzullaProofs.ROMEthics.Bridge
 import FarzullaProofs.SemanticVision.Basic
 import FarzullaProofs.GenreMimicry.Basic
 import FarzullaProofs.AMLParadox.Basic

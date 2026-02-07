@@ -145,7 +145,8 @@ FarzullaProofs/
 |-- ConsensualSovereignty/
 |   +-- Basic.lean                          # Bronze scaffold
 |-- ROMEthics/
-|   +-- Basic.lean                          # Bronze bridge scaffold
+|   |-- Basic.lean                          # Bronze welfare core
+|   +-- Bridge.lean                         # Silver bridge to ROM + AoC friction
 |-- SemanticVision/
 |   +-- Basic.lean                          # Bronze scaffold
 |-- GenreMimicry/

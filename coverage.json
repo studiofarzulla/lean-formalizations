@@ -4,7 +4,7 @@
   "papers": [
     {"paper": "consensual-sovereignty", "module": "ConsensualSovereignty", "status": "bronze"},
     {"paper": "axiom-of-consent", "module": "AxiomOfConsent", "status": "silver-existing"},
-    {"paper": "rom-ethics", "module": "ROMEthics", "status": "bronze"},
+    {"paper": "rom-ethics", "module": "ROMEthics", "status": "silver-bridge"},
     {"paper": "identity-thesis", "module": "IdentityThesis", "status": "silver-existing"},
     {"paper": "quantum-oscillation", "module": "QuantumOscillatory", "status": "silver-existing"},
     {"paper": "semantic-vision", "module": "SemanticVision", "status": "bronze"},
