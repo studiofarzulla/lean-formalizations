@@ -26,4 +26,6 @@ import FarzullaProofs.AutonomousRedteam.Bridge
 import FarzullaProofs.CBDCPrivacy.Basic
 import FarzullaProofs.CBDCPrivacy.Bridge
 import FarzullaProofs.ConsciousnessNominalisation.Basic
+import FarzullaProofs.ConsciousnessNominalisation.Bridge
 import FarzullaProofs.MonographQualia.Basic
+import FarzullaProofs.MonographQualia.Bridge

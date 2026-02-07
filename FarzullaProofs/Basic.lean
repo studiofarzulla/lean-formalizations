@@ -17,6 +17,6 @@ This is the root module. Individual paper formalizations live in:
 - `AsymptoticProtection/` — protection core + saturation-gap bridge (Silver bridge)
 - `AutonomousRedteam/` — residual core + reduction-ratio bridge (Silver bridge)
 - `CBDCPrivacy/` — epsilon composition core + repeated-budget bridge (Silver bridge)
-- `ConsciousnessNominalisation/` — consciousness nominalisation scaffolding (Bronze)
-- `MonographQualia/` — monograph qualia scaffolding (Bronze)
+- `ConsciousnessNominalisation/` — grounding-gap core + deficit bridge (Silver bridge)
+- `MonographQualia/` — qualia-distance core + energy bridge (Silver bridge)
 -/

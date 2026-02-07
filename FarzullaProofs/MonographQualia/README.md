@@ -5,6 +5,7 @@ Canonical source paper:
 
 Lean module(s):
 - FarzullaProofs/MonographQualia/Basic.lean
+- FarzullaProofs/MonographQualia/Bridge.lean
 
 Tiered depth policy:
 - Bronze: definitions + 2+ checked claims

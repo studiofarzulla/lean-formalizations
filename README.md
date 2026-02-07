@@ -164,9 +164,11 @@ FarzullaProofs/
 |   |-- Basic.lean                          # Bronze epsilon composition core
 |   +-- Bridge.lean                         # Silver repeated-composition bridge
 |-- ConsciousnessNominalisation/
-|   +-- Basic.lean                          # Bronze scaffold
+|   |-- Basic.lean                          # Bronze grounding-gap core
+|   +-- Bridge.lean                         # Silver grounding-deficit bridge
 |-- MonographQualia/
-|   +-- Basic.lean                          # Bronze scaffold
+|   |-- Basic.lean                          # Bronze qualia-distance core
+|   +-- Bridge.lean                         # Silver qualia-energy/metric bridge
 +-- IdentityThesis/
     |-- Basic.lean                          # Delta-framework: 6 theorems + 1 class
     |-- SetTheory.lean                      # ZFC instance: 5 theorems + 1 instance

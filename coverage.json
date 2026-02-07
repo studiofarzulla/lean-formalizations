@@ -13,7 +13,7 @@
     {"paper": "asymptotic", "module": "AsymptoticProtection", "status": "silver-bridge"},
     {"paper": "autonomous", "module": "AutonomousRedteam", "status": "silver-bridge"},
     {"paper": "cbdc-privacy", "module": "CBDCPrivacy", "status": "silver-bridge"},
-    {"paper": "consciousness-nominalisation", "module": "ConsciousnessNominalisation", "status": "bronze"},
-    {"paper": "monograph-qualia", "module": "MonographQualia", "status": "bronze"}
+    {"paper": "consciousness-nominalisation", "module": "ConsciousnessNominalisation", "status": "silver-bridge"},
+    {"paper": "monograph-qualia", "module": "MonographQualia", "status": "silver-bridge"}
   ]
 }
