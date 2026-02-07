@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "FarzullaProofs: Machine-Checked Proofs for Interdisciplinary Research"
+version: 1.0.0
+date-released: 2026-02-07
+license: CC-BY-4.0
+url: https://github.com/studiofarzulla/lean-formalizations
+repository-code: https://github.com/studiofarzulla/lean-formalizations
+
+authors:
+  - family-names: Farzulla
+    given-names: Murad
+    orcid: https://orcid.org/0009-0002-7164-8704
+
+keywords:
+  - lean4
+  - mathlib
+  - formal verification
+  - theorem proving
+  - quantum mechanics
+  - game theory
+  - friction dynamics
+  - structural identity
+
+references:
+  - type: article
+    title: "Quantum Statistics from Oscillatory Sampling"
+    authors:
+      - family-names: Farzulla
+        given-names: Murad
+    doi: 10.5281/zenodo.18091063
+    year: 2026
+
+  - type: article
+    title: "The Axiom of Consent: A Unified Formal Framework for Friction Dynamics"
+    authors:
+      - family-names: Farzulla
+        given-names: Murad
+    doi: 10.5281/zenodo.17684676
+    year: 2025
+
+  - type: article
+    title: "The Replicator-Optimization Mechanism"
+    authors:
+      - family-names: Farzulla
+        given-names: Murad
+    doi: 10.5281/zenodo.18090979
+    year: 2026
+
+  - type: article
+    title: "Identity is Irreducibly Relational"
+    authors:
+      - family-names: Farzulla
+        given-names: Murad
+    doi: 10.5281/zenodo.18186445
+    year: 2026
