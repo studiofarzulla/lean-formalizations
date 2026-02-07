@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0-foundation",
+  "scope": "canonical-main-papers",
+  "papers": [
+    {"paper": "consensual-sovereignty", "module": "ConsensualSovereignty", "status": "bronze"},
+    {"paper": "axiom-of-consent", "module": "AxiomOfConsent", "status": "silver-existing"},
+    {"paper": "rom-ethics", "module": "ROMEthics", "status": "bronze"},
+    {"paper": "identity-thesis", "module": "IdentityThesis", "status": "silver-existing"},
+    {"paper": "quantum-oscillation", "module": "QuantumOscillatory", "status": "silver-existing"},
+    {"paper": "semantic-vision", "module": "SemanticVision", "status": "bronze"},
+    {"paper": "genre-mimicry", "module": "GenreMimicry", "status": "bronze"},
+    {"paper": "aml-paradox", "module": "AMLParadox", "status": "bronze"},
+    {"paper": "asymptotic", "module": "AsymptoticProtection", "status": "bronze"},
+    {"paper": "autonomous", "module": "AutonomousRedteam", "status": "bronze"},
+    {"paper": "cbdc-privacy", "module": "CBDCPrivacy", "status": "bronze"},
+    {"paper": "consciousness-nominalisation", "module": "ConsciousnessNominalisation", "status": "bronze"},
+    {"paper": "monograph-qualia", "module": "MonographQualia", "status": "bronze"}
+  ]
+}

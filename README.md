@@ -5,11 +5,17 @@
 [![CI](https://github.com/studiofarzulla/lean-formalizations/actions/workflows/lean_action_ci.yml/badge.svg)](https://github.com/studiofarzulla/lean-formalizations/actions)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Machine-checked proofs in Lean 4 for results across four research papers by [Murad Farzulla](https://orcid.org/0009-0002-7164-8704). All 56 theorems build against Mathlib v4.27.0 with zero errors.
+Machine-checked proofs in Lean 4 for results across canonical research papers by [Murad Farzulla](https://orcid.org/0009-0002-7164-8704), plus shared formal scaffolding for empirical-heavy papers. Formalization depth is tiered (Bronze/Silver/Gold) and tracked per paper.
 
 ---
 
 ## Papers and Theorems
+
+### Program scope and coverage
+
+- Canonical paper coverage is tracked in `coverage.json`.
+- Theorem naming convention is documented in `THEOREM_ID_CONVENTIONS.md`.
+- Each paper module includes `PaperMap.md` mapping manuscript theorem IDs to Lean declarations.
 
 ### Quantum Oscillatory Sampling (TBI-QM)
 
@@ -125,12 +131,37 @@ GitHub Actions runs `lake build` on every push via [lean-action](https://github.
 ```
 FarzullaProofs/
 |-- Basic.lean                              # Root module documentation
+|-- Common/
+|   |-- Probability.lean                    # Shared probability utilities
+|   |-- Optimization.lean                   # Shared optimization utilities
+|   |-- Dynamics.lean                       # Shared dynamics utilities
+|   +-- Relations.lean                      # Shared relation utilities
 |-- QuantumOscillatory/
 |   +-- Interference.lean                   # TBI-QM: 11 theorems
 |-- AxiomOfConsent/
 |   +-- Friction.lean                       # AoC: 12 theorems + 1 definition
 |-- ROM/
 |   +-- Basic.lean                          # ROM: 11 theorems + 3 definitions
+|-- ConsensualSovereignty/
+|   +-- Basic.lean                          # Bronze scaffold
+|-- ROMEthics/
+|   +-- Basic.lean                          # Bronze bridge scaffold
+|-- SemanticVision/
+|   +-- Basic.lean                          # Bronze scaffold
+|-- GenreMimicry/
+|   +-- Basic.lean                          # Bronze scaffold
+|-- AMLParadox/
+|   +-- Basic.lean                          # Bronze scaffold
+|-- AsymptoticProtection/
+|   +-- Basic.lean                          # Bronze scaffold
+|-- AutonomousRedteam/
+|   +-- Basic.lean                          # Bronze scaffold
+|-- CBDCPrivacy/
+|   +-- Basic.lean                          # Bronze scaffold
+|-- ConsciousnessNominalisation/
+|   +-- Basic.lean                          # Bronze scaffold
+|-- MonographQualia/
+|   +-- Basic.lean                          # Bronze scaffold
 +-- IdentityThesis/
     |-- Basic.lean                          # Delta-framework: 6 theorems + 1 class
     |-- SetTheory.lean                      # ZFC instance: 5 theorems + 1 instance
