@@ -5,6 +5,7 @@ Canonical source paper:
 
 Lean module(s):
 - FarzullaProofs/AutonomousRedteam/Basic.lean
+- FarzullaProofs/AutonomousRedteam/Bridge.lean
 
 Tiered depth policy:
 - Bronze: definitions + 2+ checked claims

@@ -155,9 +155,11 @@ FarzullaProofs/
 |   |-- Basic.lean                          # Bronze AML utility core
 |   +-- Bridge.lean                         # Silver rates/advantage bridge
 |-- AsymptoticProtection/
-|   +-- Basic.lean                          # Bronze scaffold
+|   |-- Basic.lean                          # Bronze protection-level core
+|   +-- Bridge.lean                         # Silver saturation-gap bridge
 |-- AutonomousRedteam/
-|   +-- Basic.lean                          # Bronze scaffold
+|   |-- Basic.lean                          # Bronze residual-incidents core
+|   +-- Bridge.lean                         # Silver reduction-ratio bridge
 |-- CBDCPrivacy/
 |   |-- Basic.lean                          # Bronze epsilon composition core
 |   +-- Bridge.lean                         # Silver repeated-composition bridge

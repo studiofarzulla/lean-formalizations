@@ -5,6 +5,7 @@ Canonical source paper:
 
 Lean module(s):
 - FarzullaProofs/AsymptoticProtection/Basic.lean
+- FarzullaProofs/AsymptoticProtection/Bridge.lean
 
 Tiered depth policy:
 - Bronze: definitions + 2+ checked claims

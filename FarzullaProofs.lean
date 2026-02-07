@@ -20,7 +20,9 @@ import FarzullaProofs.GenreMimicry.Basic
 import FarzullaProofs.AMLParadox.Basic
 import FarzullaProofs.AMLParadox.Bridge
 import FarzullaProofs.AsymptoticProtection.Basic
+import FarzullaProofs.AsymptoticProtection.Bridge
 import FarzullaProofs.AutonomousRedteam.Basic
+import FarzullaProofs.AutonomousRedteam.Bridge
 import FarzullaProofs.CBDCPrivacy.Basic
 import FarzullaProofs.CBDCPrivacy.Bridge
 import FarzullaProofs.ConsciousnessNominalisation.Basic
