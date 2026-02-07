@@ -5,6 +5,7 @@ Canonical source paper:
 
 Lean module(s):
 - FarzullaProofs/SemanticVision/Basic.lean
+- FarzullaProofs/SemanticVision/Bridge.lean
 
 Tiered depth policy:
 - Bronze: definitions + 2+ checked claims

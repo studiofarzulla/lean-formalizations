@@ -16,7 +16,9 @@ import FarzullaProofs.ConsensualSovereignty.Dynamics
 import FarzullaProofs.ROMEthics.Basic
 import FarzullaProofs.ROMEthics.Bridge
 import FarzullaProofs.SemanticVision.Basic
+import FarzullaProofs.SemanticVision.Bridge
 import FarzullaProofs.GenreMimicry.Basic
+import FarzullaProofs.GenreMimicry.Bridge
 import FarzullaProofs.AMLParadox.Basic
 import FarzullaProofs.AMLParadox.Bridge
 import FarzullaProofs.AsymptoticProtection.Basic

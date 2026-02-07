@@ -148,9 +148,11 @@ FarzullaProofs/
 |   |-- Basic.lean                          # Bronze welfare core
 |   +-- Bridge.lean                         # Silver bridge to ROM + AoC friction
 |-- SemanticVision/
-|   +-- Basic.lean                          # Bronze scaffold
+|   |-- Basic.lean                          # Bronze Jaccard core
+|   +-- Bridge.lean                         # Silver distance/symmetry bridge
 |-- GenreMimicry/
-|   +-- Basic.lean                          # Bronze scaffold
+|   |-- Basic.lean                          # Bronze rate/odds core
+|   +-- Bridge.lean                         # Silver complement/monotonicity bridge
 |-- AMLParadox/
 |   |-- Basic.lean                          # Bronze AML utility core
 |   +-- Bridge.lean                         # Silver rates/advantage bridge
