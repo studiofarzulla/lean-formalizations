@@ -3,6 +3,7 @@ import FarzullaProofs.Common.Probability
 import FarzullaProofs.Common.Optimization
 import FarzullaProofs.Common.Dynamics
 import FarzullaProofs.Common.Relations
+import FarzullaProofs.Common.Adversarial
 import FarzullaProofs.QuantumOscillatory.Interference
 import FarzullaProofs.AxiomOfConsent.Friction
 import FarzullaProofs.AxiomOfConsent.Advanced

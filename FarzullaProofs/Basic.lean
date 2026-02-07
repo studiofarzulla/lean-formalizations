@@ -5,6 +5,7 @@ Machine-checked proofs for results in Farzulla (2025-2026).
 
 This is the root module. Individual paper formalizations live in:
 - `Common/` — shared lemmas/utilities used across paper modules
+  - includes adversarial dissensus dynamics + moving-equilibrium skeletons
 - `QuantumOscillatory/` — TBI-QM (Temporal Bitmap Interpretation)
 - `AxiomOfConsent/` — Friction core + advanced bounds/monotonicity (Gold core)
 - `ROM/` — Replicator-Optimization Mechanism core + advanced survival lemmas (Gold core)

@@ -135,6 +135,7 @@ FarzullaProofs/
 |   |-- Probability.lean                    # Shared probability utilities
 |   |-- Optimization.lean                   # Shared optimization utilities
 |   |-- Dynamics.lean                       # Shared dynamics utilities
+|   |-- Adversarial.lean                    # Relational identity + dissensus skeletons
 |   +-- Relations.lean                      # Shared relation utilities
 |-- QuantumOscillatory/
 |   +-- Interference.lean                   # TBI-QM: 11 theorems
