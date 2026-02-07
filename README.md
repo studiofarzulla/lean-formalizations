@@ -152,13 +152,15 @@ FarzullaProofs/
 |-- GenreMimicry/
 |   +-- Basic.lean                          # Bronze scaffold
 |-- AMLParadox/
-|   +-- Basic.lean                          # Bronze scaffold
+|   |-- Basic.lean                          # Bronze AML utility core
+|   +-- Bridge.lean                         # Silver rates/advantage bridge
 |-- AsymptoticProtection/
 |   +-- Basic.lean                          # Bronze scaffold
 |-- AutonomousRedteam/
 |   +-- Basic.lean                          # Bronze scaffold
 |-- CBDCPrivacy/
-|   +-- Basic.lean                          # Bronze scaffold
+|   |-- Basic.lean                          # Bronze epsilon composition core
+|   +-- Bridge.lean                         # Silver repeated-composition bridge
 |-- ConsciousnessNominalisation/
 |   +-- Basic.lean                          # Bronze scaffold
 |-- MonographQualia/

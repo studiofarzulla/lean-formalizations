@@ -18,8 +18,10 @@ import FarzullaProofs.ROMEthics.Bridge
 import FarzullaProofs.SemanticVision.Basic
 import FarzullaProofs.GenreMimicry.Basic
 import FarzullaProofs.AMLParadox.Basic
+import FarzullaProofs.AMLParadox.Bridge
 import FarzullaProofs.AsymptoticProtection.Basic
 import FarzullaProofs.AutonomousRedteam.Basic
 import FarzullaProofs.CBDCPrivacy.Basic
+import FarzullaProofs.CBDCPrivacy.Bridge
 import FarzullaProofs.ConsciousnessNominalisation.Basic
 import FarzullaProofs.MonographQualia.Basic

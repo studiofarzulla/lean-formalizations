@@ -5,6 +5,7 @@
 
 ## Lean entrypoints
 - FarzullaProofs/CBDCPrivacy/Basic.lean
+- FarzullaProofs/CBDCPrivacy/Bridge.lean
 
 ## Theorem ID convention
 - Manuscript: THM-<paper-slug>-<section>-<index>
@@ -16,5 +17,12 @@
 - THM-CBDCPrivacy-bronze-3 -> `composedEpsilon_comm`
 - THM-CBDCPrivacy-bronze-4 -> `composedEpsilon_mono_left`
 
+## Silver bridge mapping
+- THM-CBDCPrivacy-silver-1 -> `repeatedEpsilon`
+- THM-CBDCPrivacy-silver-2 -> `repeatedEpsilon_succ`
+- THM-CBDCPrivacy-silver-3 -> `repeatedEpsilon_nonneg`
+- THM-CBDCPrivacy-silver-4 -> `repeatedEpsilon_mono_steps`
+- THM-CBDCPrivacy-silver-5 -> `repeatedEpsilon_two_eq_composed`
+
 ## Status
-- bronze
+- silver-bridge
