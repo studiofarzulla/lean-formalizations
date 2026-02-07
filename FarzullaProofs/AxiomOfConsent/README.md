@@ -4,7 +4,8 @@ Canonical source paper:
 - papers-official/axiom-of-consent/main_v3_hedged.tex
 
 Lean module(s):
-- FarzullaProofs/AxiomOfConsent/Basic.lean
+- FarzullaProofs/AxiomOfConsent/Friction.lean
+- FarzullaProofs/AxiomOfConsent/Advanced.lean
 
 Tiered depth policy:
 - Bronze: definitions + 2+ checked claims

@@ -5,6 +5,7 @@ Canonical source paper:
 
 Lean module(s):
 - FarzullaProofs/ROM/Basic.lean
+- FarzullaProofs/ROM/Advanced.lean
 
 Tiered depth policy:
 - Bronze: definitions + 2+ checked claims

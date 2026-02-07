@@ -139,11 +139,16 @@ FarzullaProofs/
 |-- QuantumOscillatory/
 |   +-- Interference.lean                   # TBI-QM: 11 theorems
 |-- AxiomOfConsent/
-|   +-- Friction.lean                       # AoC: 12 theorems + 1 definition
+|   |-- Friction.lean                       # AoC core friction theorems
+|   +-- Advanced.lean                       # AoC gold extensions
 |-- ROM/
-|   +-- Basic.lean                          # ROM: 11 theorems + 3 definitions
+|   |-- Basic.lean                          # ROM core dynamics/results
+|   +-- Advanced.lean                       # ROM gold extensions
 |-- ConsensualSovereignty/
-|   +-- Basic.lean                          # Bronze scaffold
+|   |-- Definitions.lean                    # Consent primitives
+|   |-- Core.lean                           # Core alignment/friction claims
+|   |-- Dynamics.lean                       # Legitimacy dynamics
+|   +-- Advanced.lean                       # Gold extensions
 |-- ROMEthics/
 |   |-- Basic.lean                          # Bronze welfare core
 |   +-- Bridge.lean                         # Silver bridge to ROM + AoC friction

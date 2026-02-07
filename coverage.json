@@ -2,9 +2,9 @@
   "version": "0.1.0-foundation",
   "scope": "canonical-main-papers",
   "papers": [
-    {"paper": "consensual-sovereignty", "module": "ConsensualSovereignty", "status": "bronze"},
-    {"paper": "axiom-of-consent", "module": "AxiomOfConsent", "status": "silver-existing"},
-    {"paper": "rom-ethics", "module": "ROMEthics", "status": "silver-bridge"},
+    {"paper": "consensual-sovereignty", "module": "ConsensualSovereignty", "status": "gold-formal-core"},
+    {"paper": "axiom-of-consent", "module": "AxiomOfConsent", "status": "gold-formal-core"},
+    {"paper": "rom-ethics", "module": "ROMEthics", "status": "gold-core+silver-bridge"},
     {"paper": "identity-thesis", "module": "IdentityThesis", "status": "silver-existing"},
     {"paper": "quantum-oscillation", "module": "QuantumOscillatory", "status": "silver-existing"},
     {"paper": "semantic-vision", "module": "SemanticVision", "status": "silver-bridge"},

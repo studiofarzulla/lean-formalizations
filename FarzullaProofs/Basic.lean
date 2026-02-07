@@ -6,10 +6,10 @@ Machine-checked proofs for results in Farzulla (2025-2026).
 This is the root module. Individual paper formalizations live in:
 - `Common/` — shared lemmas/utilities used across paper modules
 - `QuantumOscillatory/` — TBI-QM (Temporal Bitmap Interpretation)
-- `AxiomOfConsent/` — Friction function properties
-- `ROM/` — Replicator-Optimization Mechanism
+- `AxiomOfConsent/` — Friction core + advanced bounds/monotonicity (Gold core)
+- `ROM/` — Replicator-Optimization Mechanism core + advanced survival lemmas (Gold core)
 - `IdentityThesis/` — Delta-framework and structural identity
-- `ConsensualSovereignty/` — Consent alignment and legitimacy scaffolding
+- `ConsensualSovereignty/` — Consent alignment/legitimacy core + advanced dynamics (Gold core)
 - `ROMEthics/` — bridge module for canonical ROM ethics paper mapping
 - `SemanticVision/` — Jaccard core + distance bridge (Silver bridge)
 - `GenreMimicry/` — rate/odds core + complement bridge (Silver bridge)

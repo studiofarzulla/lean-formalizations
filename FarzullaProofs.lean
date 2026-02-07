@@ -5,7 +5,9 @@ import FarzullaProofs.Common.Dynamics
 import FarzullaProofs.Common.Relations
 import FarzullaProofs.QuantumOscillatory.Interference
 import FarzullaProofs.AxiomOfConsent.Friction
+import FarzullaProofs.AxiomOfConsent.Advanced
 import FarzullaProofs.ROM.Basic
+import FarzullaProofs.ROM.Advanced
 import FarzullaProofs.IdentityThesis.Basic
 import FarzullaProofs.IdentityThesis.SetTheory
 import FarzullaProofs.IdentityThesis.Structuralism
@@ -13,6 +15,7 @@ import FarzullaProofs.ConsensualSovereignty.Basic
 import FarzullaProofs.ConsensualSovereignty.Definitions
 import FarzullaProofs.ConsensualSovereignty.Core
 import FarzullaProofs.ConsensualSovereignty.Dynamics
+import FarzullaProofs.ConsensualSovereignty.Advanced
 import FarzullaProofs.ROMEthics.Basic
 import FarzullaProofs.ROMEthics.Bridge
 import FarzullaProofs.SemanticVision.Basic
