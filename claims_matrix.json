@@ -1,0 +1,2524 @@
+{
+  "claim_count": 132,
+  "claims": [
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-bronze-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "amlUtility",
+      "manuscript_reference": "THM-AMLParadox-bronze-1",
+      "mapping_section": "Bronze mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-bronze-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "amlUtility_anti_fp",
+      "manuscript_reference": "THM-AMLParadox-bronze-3",
+      "mapping_section": "Bronze mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-bronze-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "amlUtility_eq_tp_of_zero_penalty",
+      "manuscript_reference": "THM-AMLParadox-bronze-4",
+      "mapping_section": "Bronze mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-bronze-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "amlUtility_mono_tp",
+      "manuscript_reference": "THM-AMLParadox-bronze-2",
+      "mapping_section": "Bronze mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-silver-6",
+      "falsification_boundaries": [],
+      "lean_declaration": "amlUtility_anti_penalty",
+      "manuscript_reference": "THM-AMLParadox-silver-6",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-silver-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "falsePositiveRate",
+      "manuscript_reference": "THM-AMLParadox-silver-1",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-silver-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "netDetectionAdvantage",
+      "manuscript_reference": "THM-AMLParadox-silver-3",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-silver-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "netDetectionAdvantage_eq_scaled_gap",
+      "manuscript_reference": "THM-AMLParadox-silver-4",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-silver-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "netDetectionAdvantage_pos_of_tp_gt_fp",
+      "manuscript_reference": "THM-AMLParadox-silver-5",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-silver-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "truePositiveRate",
+      "manuscript_reference": "THM-AMLParadox-silver-2",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-bronze-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "protectionLevel",
+      "manuscript_reference": "THM-AsymptoticProtection-bronze-1",
+      "mapping_section": "Bronze mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-bronze-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "protectionLevel_le_one",
+      "manuscript_reference": "THM-AsymptoticProtection-bronze-3",
+      "mapping_section": "Bronze mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-bronze-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "protectionLevel_nonneg",
+      "manuscript_reference": "THM-AsymptoticProtection-bronze-2",
+      "mapping_section": "Bronze mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-bronze-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "protectionLevel_zero_effort",
+      "manuscript_reference": "THM-AsymptoticProtection-bronze-4",
+      "mapping_section": "Bronze mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-silver-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "saturationGap",
+      "manuscript_reference": "THM-AsymptoticProtection-silver-1",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-silver-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "saturationGap_anti_effort",
+      "manuscript_reference": "THM-AsymptoticProtection-silver-4",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-silver-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "saturationGap_eq_inv",
+      "manuscript_reference": "THM-AsymptoticProtection-silver-3",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-silver-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "saturationGap_nonneg",
+      "manuscript_reference": "THM-AsymptoticProtection-silver-2",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-silver-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "saturationGap_zero_effort",
+      "manuscript_reference": "THM-AsymptoticProtection-silver-5",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-bronze-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "residualIncidents",
+      "manuscript_reference": "THM-AutonomousRedteam-bronze-1",
+      "mapping_section": "Bronze mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-bronze-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "residualIncidents_anti_blocked",
+      "manuscript_reference": "THM-AutonomousRedteam-bronze-2",
+      "mapping_section": "Bronze mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-bronze-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "residualIncidents_nonneg",
+      "manuscript_reference": "THM-AutonomousRedteam-bronze-4",
+      "mapping_section": "Bronze mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-bronze-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "residualIncidents_zero_of_full_block",
+      "manuscript_reference": "THM-AutonomousRedteam-bronze-3",
+      "mapping_section": "Bronze mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-silver-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "reductionRatio",
+      "manuscript_reference": "THM-AutonomousRedteam-silver-1",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-silver-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "reductionRatio_bounds",
+      "manuscript_reference": "THM-AutonomousRedteam-silver-2",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-silver-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "residualIncidents_anti_ratio",
+      "manuscript_reference": "THM-AutonomousRedteam-silver-4",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-silver-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "residualIncidents_eq_incidents_mul_one_sub_ratio",
+      "manuscript_reference": "THM-AutonomousRedteam-silver-3",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-silver-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "residualIncidents_zero_of_ratio_one",
+      "manuscript_reference": "THM-AutonomousRedteam-silver-5",
+      "mapping_section": "Silver bridge mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction",
+      "manuscript_reference": "friction definition",
+      "mapping_section": "Core mapping (selected)",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-gold-6",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_at_max_entropy",
+      "manuscript_reference": "THM-aoc-gold-6",
+      "mapping_section": "Gold extensions",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-gold-3",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_at_zero_alignment",
+      "manuscript_reference": "THM-aoc-gold-3",
+      "mapping_section": "Gold extensions",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-gold-4",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_at_zero_entropy",
+      "manuscript_reference": "THM-aoc-gold-4",
+      "mapping_section": "Gold extensions",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-gold-5",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_le_linear_upper",
+      "manuscript_reference": "THM-aoc-gold-5",
+      "mapping_section": "Gold extensions",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-gold-1",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_mono_entropy",
+      "manuscript_reference": "THM-aoc-gold-1",
+      "mapping_section": "Gold extensions",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-gold-2",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_mono_stake",
+      "manuscript_reference": "THM-aoc-gold-2",
+      "mapping_section": "Gold extensions",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-transfer-3",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "aocPath_nonneg",
+      "manuscript_reference": "THM-aoc-transfer-3",
+      "mapping_section": "Transfer mapping",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-transfer-4",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "aoc_dissensus_of_positive_discrepancy",
+      "manuscript_reference": "THM-aoc-transfer-4",
+      "mapping_section": "Transfer mapping",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-transfer-1",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "aoc_movingEquilibrium",
+      "manuscript_reference": "THM-aoc-transfer-1",
+      "mapping_section": "Transfer mapping",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-transfer-2",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "aoc_no_static_if_path_varies",
+      "manuscript_reference": "THM-aoc-transfer-2",
+      "mapping_section": "Transfer mapping",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "THM-aoc-transfer-5",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "aoc_path_boundedChase_zero",
+      "manuscript_reference": "THM-aoc-transfer-5",
+      "mapping_section": "Transfer mapping",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-bronze-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "composedEpsilon",
+      "manuscript_reference": "THM-CBDCPrivacy-bronze-1",
+      "mapping_section": "Bronze mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-bronze-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "composedEpsilon_comm",
+      "manuscript_reference": "THM-CBDCPrivacy-bronze-3",
+      "mapping_section": "Bronze mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-bronze-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "composedEpsilon_mono_left",
+      "manuscript_reference": "THM-CBDCPrivacy-bronze-4",
+      "mapping_section": "Bronze mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-bronze-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "composedEpsilon_nonneg",
+      "manuscript_reference": "THM-CBDCPrivacy-bronze-2",
+      "mapping_section": "Bronze mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-silver-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "repeatedEpsilon",
+      "manuscript_reference": "THM-CBDCPrivacy-silver-1",
+      "mapping_section": "Silver bridge mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-silver-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "repeatedEpsilon_mono_steps",
+      "manuscript_reference": "THM-CBDCPrivacy-silver-4",
+      "mapping_section": "Silver bridge mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-silver-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "repeatedEpsilon_nonneg",
+      "manuscript_reference": "THM-CBDCPrivacy-silver-3",
+      "mapping_section": "Silver bridge mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-silver-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "repeatedEpsilon_succ",
+      "manuscript_reference": "THM-CBDCPrivacy-silver-2",
+      "mapping_section": "Silver bridge mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-silver-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "repeatedEpsilon_two_eq_composed",
+      "manuscript_reference": "THM-CBDCPrivacy-silver-5",
+      "mapping_section": "Silver bridge mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-bronze-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "groundingGap",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-bronze-1",
+      "mapping_section": "Bronze mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-bronze-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "groundingGap_anti_grounded",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-bronze-4",
+      "mapping_section": "Bronze mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-bronze-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "groundingGap_pos",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-bronze-3",
+      "mapping_section": "Bronze mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-bronze-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "groundingGap_self",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-bronze-2",
+      "mapping_section": "Bronze mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-silver-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "groundingDeficit",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-silver-1",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-silver-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "groundingDeficit_anti_grounded",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-silver-4",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-silver-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "groundingDeficit_le_abs_gap",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-silver-5",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-silver-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "groundingDeficit_pos",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-silver-3",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-silver-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "groundingDeficit_self",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-silver-2",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-4-3",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "alignment_le_one",
+      "manuscript_reference": "THM-consov-4-3",
+      "mapping_section": "Core mapped claims",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-4-2",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "alignment_nonneg",
+      "manuscript_reference": "THM-consov-4-2",
+      "mapping_section": "Core mapped claims",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-4-1",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consent_holder_exists",
+      "manuscript_reference": "THM-consov-4-1",
+      "mapping_section": "Core mapped claims",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-4-4",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_nonneg",
+      "manuscript_reference": "THM-consov-4-4",
+      "mapping_section": "Core mapped claims",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-4-5",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_zero_of_perfect_alignment",
+      "manuscript_reference": "THM-consov-4-5",
+      "mapping_section": "Core mapped claims",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-4-6",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "legitimacy_mono_alignment",
+      "manuscript_reference": "THM-consov-4-6",
+      "mapping_section": "Core mapped claims",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-4-7",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "legitimacy_strict_mono_alignment",
+      "manuscript_reference": "THM-consov-4-7",
+      "mapping_section": "Core mapped claims",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-gold-3",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "alignment_eq_one_of_voice_one",
+      "manuscript_reference": "THM-consov-gold-3",
+      "mapping_section": "Gold extensions",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-gold-4",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "alignment_mono_voice",
+      "manuscript_reference": "THM-consov-gold-4",
+      "mapping_section": "Gold extensions",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-gold-7",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_zero_of_zero_stakes",
+      "manuscript_reference": "THM-consov-gold-7",
+      "mapping_section": "Gold extensions",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-gold-5",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "legitimacy_mono_performance",
+      "manuscript_reference": "THM-consov-gold-5",
+      "mapping_section": "Gold extensions",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-gold-6",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "legitimacy_strict_mono_performance",
+      "manuscript_reference": "THM-consov-gold-6",
+      "mapping_section": "Gold extensions",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-gold-1",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "totalStake_nonneg",
+      "manuscript_reference": "THM-consov-gold-1",
+      "mapping_section": "Gold extensions",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-gold-2",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "totalStake_pos_of_exists_pos",
+      "manuscript_reference": "THM-consov-gold-2",
+      "mapping_section": "Gold extensions",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-transfer-3",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consovPath_mono_alignment",
+      "manuscript_reference": "THM-consov-transfer-3",
+      "mapping_section": "Transfer mapping",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-transfer-4",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consov_dissensus_of_positive_discrepancy",
+      "manuscript_reference": "THM-consov-transfer-4",
+      "mapping_section": "Transfer mapping",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-transfer-1",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consov_movingEquilibrium",
+      "manuscript_reference": "THM-consov-transfer-1",
+      "mapping_section": "Transfer mapping",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-transfer-2",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consov_no_static_if_path_varies",
+      "manuscript_reference": "THM-consov-transfer-2",
+      "mapping_section": "Transfer mapping",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_id": "THM-consov-transfer-5",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consov_path_boundedChase_zero",
+      "manuscript_reference": "THM-consov-transfer-5",
+      "mapping_section": "Transfer mapping",
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-bronze-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "odds_pos",
+      "manuscript_reference": "THM-genre-bronze-4",
+      "mapping_section": "Bronze mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-bronze-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "rate_gap_pos",
+      "manuscript_reference": "THM-genre-bronze-3",
+      "mapping_section": "Bronze mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-bronze-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "rate_le_one",
+      "manuscript_reference": "THM-genre-bronze-2",
+      "mapping_section": "Bronze mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-bronze-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "rate_nonneg",
+      "manuscript_reference": "THM-genre-bronze-1",
+      "mapping_section": "Bronze mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-silver-7",
+      "falsification_boundaries": [],
+      "lean_declaration": "odds_rate_pos_of_bounds",
+      "manuscript_reference": "THM-genre-silver-7",
+      "mapping_section": "Silver bridge mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-silver-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "rateComplement",
+      "manuscript_reference": "THM-genre-silver-1",
+      "mapping_section": "Silver bridge mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-silver-6",
+      "falsification_boundaries": [],
+      "lean_declaration": "rateComplement_anti_numerator",
+      "manuscript_reference": "THM-genre-silver-6",
+      "mapping_section": "Silver bridge mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-silver-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "rateComplement_le_one",
+      "manuscript_reference": "THM-genre-silver-4",
+      "mapping_section": "Silver bridge mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-silver-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "rateComplement_nonneg",
+      "manuscript_reference": "THM-genre-silver-3",
+      "mapping_section": "Silver bridge mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-silver-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "rate_add_rateComplement",
+      "manuscript_reference": "THM-genre-silver-5",
+      "mapping_section": "Silver bridge mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-silver-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "rate_mono_numerator",
+      "manuscript_reference": "THM-genre-silver-2",
+      "mapping_section": "Silver bridge mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [],
+      "lean_declaration": "benacerraf_two",
+      "manuscript_reference": "Benacerraf divergence",
+      "mapping_section": "Core mapping (selected)",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [],
+      "lean_declaration": "defined_iff_refSet_nonempty",
+      "manuscript_reference": "Axiom 2.4 bridge",
+      "mapping_section": "Core mapping (selected)",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [],
+      "lean_declaration": "identity_thesis",
+      "manuscript_reference": "Theorem 2.5 (identity thesis)",
+      "mapping_section": "Core mapping (selected)",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [],
+      "lean_declaration": "no_self_sufficient",
+      "manuscript_reference": "Corollary 2.6",
+      "mapping_section": "Core mapping (selected)",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [],
+      "lean_declaration": "weak_discernibility_complex",
+      "manuscript_reference": "Structural discernibility",
+      "mapping_section": "Core mapping (selected)",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-bronze-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "qualiaDistance",
+      "manuscript_reference": "THM-MonographQualia-bronze-1",
+      "mapping_section": "Bronze mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-bronze-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "qualiaDistance_nonneg",
+      "manuscript_reference": "THM-MonographQualia-bronze-2",
+      "mapping_section": "Bronze mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-bronze-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "qualiaDistance_self",
+      "manuscript_reference": "THM-MonographQualia-bronze-3",
+      "mapping_section": "Bronze mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-bronze-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "qualiaDistance_symm",
+      "manuscript_reference": "THM-MonographQualia-bronze-4",
+      "mapping_section": "Bronze mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-silver-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "qualiaDistance_triangle",
+      "manuscript_reference": "THM-MonographQualia-silver-5",
+      "mapping_section": "Silver bridge mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-silver-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "qualiaEnergy",
+      "manuscript_reference": "THM-MonographQualia-silver-1",
+      "mapping_section": "Silver bridge mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-silver-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "qualiaEnergy_nonneg",
+      "manuscript_reference": "THM-MonographQualia-silver-2",
+      "mapping_section": "Silver bridge mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-silver-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "qualiaEnergy_self",
+      "manuscript_reference": "THM-MonographQualia-silver-3",
+      "mapping_section": "Silver bridge mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-silver-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "qualiaEnergy_symm",
+      "manuscript_reference": "THM-MonographQualia-silver-4",
+      "mapping_section": "Silver bridge mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "rom_simplex_invariant",
+      "manuscript_reference": "Section 4.1 simplex invariance",
+      "mapping_section": "Core mapping (selected)",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-gold-4",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consent_survival_le_legitimacy",
+      "manuscript_reference": "THM-rom-gold-4",
+      "mapping_section": "Gold extensions",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-gold-1",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consent_survival_nonneg",
+      "manuscript_reference": "THM-rom-gold-1",
+      "mapping_section": "Gold extensions",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-gold-5",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consent_survival_pos",
+      "manuscript_reference": "THM-rom-gold-5",
+      "mapping_section": "Gold extensions",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-gold-3",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consent_survival_scale_legitimacy",
+      "manuscript_reference": "THM-rom-gold-3",
+      "mapping_section": "Gold extensions",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-gold-2",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "consent_survival_zero_legitimacy",
+      "manuscript_reference": "THM-rom-gold-2",
+      "mapping_section": "Gold extensions",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-gold-6",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "row_stochastic_sum_const",
+      "manuscript_reference": "THM-rom-gold-6",
+      "mapping_section": "Gold extensions",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-transfer-5",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "romPath_nonneg",
+      "manuscript_reference": "THM-rom-transfer-5",
+      "mapping_section": "Transfer mapping",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-transfer-4",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "rom_dissensus_of_positive_discrepancy",
+      "manuscript_reference": "THM-rom-transfer-4",
+      "mapping_section": "Transfer mapping",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-transfer-1",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "rom_movingEquilibrium",
+      "manuscript_reference": "THM-rom-transfer-1",
+      "mapping_section": "Transfer mapping",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-transfer-2",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "rom_no_static_if_path_varies",
+      "manuscript_reference": "THM-rom-transfer-2",
+      "mapping_section": "Transfer mapping",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-rom-transfer-3",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "rom_path_boundedChase_zero",
+      "manuscript_reference": "THM-rom-transfer-3",
+      "mapping_section": "Transfer mapping",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-bronze-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "welfareScore",
+      "manuscript_reference": "THM-ROMEthics-bronze-1",
+      "mapping_section": "Bronze mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-bronze-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "welfareScore_anti_harm",
+      "manuscript_reference": "THM-ROMEthics-bronze-3",
+      "mapping_section": "Bronze mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-bronze-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "welfareScore_eq_benefit_of_zero_weight",
+      "manuscript_reference": "THM-ROMEthics-bronze-4",
+      "mapping_section": "Bronze mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-bronze-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "welfareScore_mono_benefit",
+      "manuscript_reference": "THM-ROMEthics-bronze-2",
+      "mapping_section": "Bronze mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-silver-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "ethicalSurvival",
+      "manuscript_reference": "THM-ROMEthics-silver-1",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-silver-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "ethicalSurvival_anti_harm",
+      "manuscript_reference": "THM-ROMEthics-silver-3",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-silver-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "ethicalSurvival_eq_rom_survival_of_zero_harm",
+      "manuscript_reference": "THM-ROMEthics-silver-4",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-silver-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "ethicalSurvival_mono_alignment_via_friction",
+      "manuscript_reference": "THM-ROMEthics-silver-5",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-silver-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "ethicalSurvival_mono_benefit",
+      "manuscript_reference": "THM-ROMEthics-silver-2",
+      "mapping_section": "Silver bridge mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-bronze-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "jaccard_le_one",
+      "manuscript_reference": "THM-semvis-bronze-2",
+      "mapping_section": "Bronze mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-bronze-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "jaccard_nonneg",
+      "manuscript_reference": "THM-semvis-bronze-1",
+      "mapping_section": "Bronze mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-bronze-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "jaccard_self_eq_one",
+      "manuscript_reference": "THM-semvis-bronze-3",
+      "mapping_section": "Bronze mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-silver-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "jaccardDistance",
+      "manuscript_reference": "THM-semvis-silver-1",
+      "mapping_section": "Silver bridge mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-silver-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "jaccardDistance_le_one",
+      "manuscript_reference": "THM-semvis-silver-4",
+      "mapping_section": "Silver bridge mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-silver-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "jaccardDistance_nonneg",
+      "manuscript_reference": "THM-semvis-silver-3",
+      "mapping_section": "Silver bridge mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-silver-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "jaccardDistance_self_eq_zero",
+      "manuscript_reference": "THM-semvis-silver-5",
+      "mapping_section": "Silver bridge mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-silver-6",
+      "falsification_boundaries": [],
+      "lean_declaration": "jaccardDistance_symm",
+      "manuscript_reference": "THM-semvis-silver-6",
+      "mapping_section": "Silver bridge mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-silver-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "jaccard_symm",
+      "manuscript_reference": "THM-semvis-silver-2",
+      "mapping_section": "Silver bridge mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    }
+  ],
+  "paper_count": 14,
+  "papers": [
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/AMLParadox/Basic.lean",
+        "FarzullaProofs/AMLParadox/Bridge.lean"
+      ],
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/AsymptoticProtection/Basic.lean",
+        "FarzullaProofs/AsymptoticProtection/Bridge.lean"
+      ],
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/AutonomousRedteam/Basic.lean",
+        "FarzullaProofs/AutonomousRedteam/Bridge.lean"
+      ],
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_entrypoints": [
+        "FarzullaProofs/AxiomOfConsent/Friction.lean",
+        "FarzullaProofs/AxiomOfConsent/Advanced.lean",
+        "FarzullaProofs/AxiomOfConsent/Transfers.lean"
+      ],
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/CBDCPrivacy/Basic.lean",
+        "FarzullaProofs/CBDCPrivacy/Bridge.lean"
+      ],
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/ConsciousnessNominalisation/Basic.lean",
+        "FarzullaProofs/ConsciousnessNominalisation/Bridge.lean"
+      ],
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_tags": [
+        "A-CS-FINITE",
+        "A-CS-STAKE-NN",
+        "A-CS-STAKE-POS-WIT",
+        "A-CS-VOICE-BOUND",
+        "A-CS-W1-NN",
+        "A-CS-W2-NN",
+        "A-CS-W2-POS",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "falsification_boundaries": [
+        "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
+        "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_entrypoints": [
+        "FarzullaProofs/ConsensualSovereignty/Definitions.lean",
+        "FarzullaProofs/ConsensualSovereignty/Core.lean",
+        "FarzullaProofs/ConsensualSovereignty/Dynamics.lean",
+        "FarzullaProofs/ConsensualSovereignty/Advanced.lean",
+        "FarzullaProofs/ConsensualSovereignty/Transfers.lean"
+      ],
+      "module": "ConsensualSovereignty",
+      "paper_map": "FarzullaProofs/ConsensualSovereignty/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/GenreMimicry/Basic.lean",
+        "FarzullaProofs/GenreMimicry/Bridge.lean"
+      ],
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/IdentityThesis/Basic.lean",
+        "FarzullaProofs/IdentityThesis/SetTheory.lean",
+        "FarzullaProofs/IdentityThesis/Structuralism.lean"
+      ],
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/MonographQualia/Basic.lean",
+        "FarzullaProofs/MonographQualia/Bridge.lean"
+      ],
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/QuantumOscillatory/Basic.lean"
+      ],
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_entrypoints": [
+        "FarzullaProofs/ROM/Basic.lean",
+        "FarzullaProofs/ROM/Advanced.lean",
+        "FarzullaProofs/ROM/Transfers.lean"
+      ],
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/ROMEthics/Basic.lean",
+        "FarzullaProofs/ROMEthics/Bridge.lean"
+      ],
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "silver-bridge"
+    },
+    {
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "falsification_boundaries": [],
+      "lean_entrypoints": [
+        "FarzullaProofs/SemanticVision/Basic.lean",
+        "FarzullaProofs/SemanticVision/Bridge.lean"
+      ],
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "silver-bridge"
+    }
+  ],
+  "source": "PaperMap.md",
+  "version": "0.1.0"
+}

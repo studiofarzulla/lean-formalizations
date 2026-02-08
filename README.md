@@ -121,6 +121,13 @@ lake exe cache get   # download pre-built Mathlib oleans (~5 min first time)
 lake build           # build FarzullaProofs (~30 sec)
 ```
 
+### Claims Matrix
+
+```bash
+tools/generate_claims_matrix.py           # regenerate claims_matrix.json
+tools/generate_claims_matrix.py --check   # fail if out of sync
+```
+
 ### CI
 
 GitHub Actions runs `lake build` on every push via [lean-action](https://github.com/leanprover/lean-action). Documentation is auto-deployed to GitHub Pages via [docgen-action](https://github.com/leanprover-community/docgen-action).
