@@ -6,6 +6,7 @@
 ## Lean entrypoints
 - FarzullaProofs/ROM/Basic.lean
 - FarzullaProofs/ROM/Advanced.lean
+- FarzullaProofs/ROM/Transfers.lean
 
 ## Theorem ID convention
 - Manuscript: THM-<paper-slug>-<section>-<index>
@@ -25,6 +26,25 @@
 - THM-rom-gold-4 -> `consent_survival_le_legitimacy`
 - THM-rom-gold-5 -> `consent_survival_pos`
 - THM-rom-gold-6 -> `row_stochastic_sum_const`
+
+## Transfer mapping
+- THM-rom-transfer-1 -> `rom_movingEquilibrium`
+- THM-rom-transfer-2 -> `rom_no_static_if_path_varies`
+- THM-rom-transfer-3 -> `rom_path_boundedChase_zero`
+- THM-rom-transfer-4 -> `rom_dissensus_of_positive_discrepancy`
+- THM-rom-transfer-5 -> `romPath_nonneg`
+
+## Assumption tags
+- `row_stochastic_sum`, `rom_simplex_invariant`, `row_stochastic_sum_const`: `A-ROM-ROWSTOCH` (+`A-ROM-SIMPLEX` for simplex theorem)
+- consent survival sign/bounds theorems: `A-ROM-L-NN`, `A-ROM-F-NN` (or positivity variants)
+- transfer no-static theorem: `A-DYN-VARPATH`
+- transfer dissensus theorem: `A-DISC-EQ0`, `A-DISC-POS`
+- transfer moving-equilibrium theorem: `A-DYN-MOVEQ`
+
+## Falsification boundaries
+- If row-stochasticity fails, mass-preservation claims do not apply.
+- If friction can be below `-1`, survival denominator can fail and sign/bound claims break.
+- If path variation witness is absent, no-static transfer theorem is not triggered.
 
 ## Status
 - gold-formal-core

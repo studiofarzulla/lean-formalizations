@@ -16,6 +16,7 @@ Machine-checked proofs in Lean 4 for results across canonical research papers by
 - Canonical paper coverage is tracked in `coverage.json`.
 - Theorem naming convention is documented in `THEOREM_ID_CONVENTIONS.md`.
 - Each paper module includes `PaperMap.md` mapping manuscript theorem IDs to Lean declarations.
+- Assumption tags and validity domains are tracked in `ASSUMPTIONS_LEDGER.md`.
 
 ### Quantum Oscillatory Sampling (TBI-QM)
 
