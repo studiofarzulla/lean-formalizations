@@ -140,6 +140,7 @@ make verify                                                 # one-command full v
 
 - `reports/INHOUSE_FORMALIZATION_DOCUMENTATION.md`
 - `reports/METHODS_FORMAL_VERIFICATION_WORKFLOW.md`
+- `reports/ALL_PAPERS_VERIFICATION_EXECUTION_PLAN.md`
 
 ### CI
 

@@ -88,6 +88,7 @@ Checks:
 - Status synchronization across `coverage.json`, `PaperMap.md`, and `claims_matrix.json`.
 - Gold modules have non-empty assumption tags.
 - Modules with transfer mappings expose assumption tags.
+- Gold/transfer claims in gold modules must use explicit claim-level assumptions.
 
 Output:
 - `reports/paper_verification_report.md`
@@ -143,10 +144,17 @@ This pattern is recommended for future expansions:
 6. Commit checkpoint
 
 ## Recommended next internal upgrades
-- Add CI step invoking `make verify`.
-- Add per-claim assumption granularity in `claims_matrix.json` (claim-level tags, not paper-level scope only).
+### Completed in this cycle
+- Added CI workflow: `.github/workflows/verify.yml` running `make verify` on push/PR.
+- Added claim-level assumption extraction in `tools/generate_claims_matrix.py`.
+- Added claim-level enforcement in `tools/verify_claims_consistency.py`.
+- Added publication-ready methods writeup: `reports/METHODS_FORMAL_VERIFICATION_WORKFLOW.md`.
+
+### Next upgrades
 - Add theorem dependency graph export for internal review dashboards.
 - Add release snapshots for report and matrix artifacts tied to commit hashes.
+- Add strict gate that every `silver-existing` module defines theorem-ID mapped claims for promotion planning.
+- Add promotion SLO checks for all non-gold modules (minimum theorem count and assumption tagging thresholds).
 
 ## Operational note
 The verification pipeline is now reproducible and can be run by any collaborator without manual bookkeeping, using repository-local tools only.
