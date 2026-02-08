@@ -128,6 +128,13 @@ tools/generate_claims_matrix.py           # regenerate claims_matrix.json
 tools/generate_claims_matrix.py --check   # fail if out of sync
 ```
 
+### Verification
+
+```bash
+tools/verify_papermap_refs.py                               # mapping -> declaration existence
+tools/verify_claims_consistency.py --report reports/paper_verification_report.md
+```
+
 ### CI
 
 GitHub Actions runs `lake build` on every push via [lean-action](https://github.com/leanprover/lean-action). Documentation is auto-deployed to GitHub Pages via [docgen-action](https://github.com/leanprover-community/docgen-action).
