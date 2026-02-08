@@ -64,10 +64,30 @@ def parse_assumption_tags(sections: Dict[str, List[str]]) -> List[str]:
             continue
         for line in section_bullets(lines):
             for token in BT_RE.findall(line):
-                if token.startswith("A-"):
+                if token.startswith("A-") or token == "NONE":
                     tags.append(token)
     # stable unique
     return sorted(set(tags))
+
+
+def parse_claim_level_assumptions(sections: Dict[str, List[str]]) -> Dict[str, List[str]]:
+    out: Dict[str, List[str]] = {}
+    for heading, lines in sections.items():
+        if heading.strip().lower() != "claim-level assumptions":
+            continue
+        for line in section_bullets(lines):
+            if "->" not in line:
+                continue
+            lhs, rhs = line.split("->", 1)
+            lhs = lhs.strip()
+            rhs = rhs.strip()
+            claim_match = THM_RE.search(lhs)
+            if not claim_match:
+                continue
+            claim_id = claim_match.group(1)
+            tags = [t for t in BT_RE.findall(rhs) if t.startswith("A-") or t == "NONE"]
+            out[claim_id] = sorted(set(tags))
+    return out
 
 
 def parse_falsification_boundaries(sections: Dict[str, List[str]]) -> List[str]:
@@ -114,6 +134,7 @@ def build_matrix() -> dict:
         canon = canonical_tex(sections)
         status = status_value(sections)
         assumptions = parse_assumption_tags(sections)
+        claim_assumptions = parse_claim_level_assumptions(sections)
         falsification = parse_falsification_boundaries(sections)
         entrypoints = lean_entrypoints(sections)
 
@@ -125,11 +146,18 @@ def build_matrix() -> dict:
                 "lean_entrypoints": entrypoints,
                 "paper_map": rel_pm,
                 "assumption_tags": assumptions,
+                "claim_level_assumptions": claim_assumptions,
                 "falsification_boundaries": falsification,
             }
         )
 
         for mapping_section, manuscript_ref, declaration, claim_id in parse_mappings(sections):
+            if claim_id and claim_id in claim_assumptions:
+                claim_tags = claim_assumptions[claim_id]
+                scope = "claim_level"
+            else:
+                claim_tags = assumptions
+                scope = "paper_level"
             claims.append(
                 {
                     "module": module,
@@ -139,8 +167,8 @@ def build_matrix() -> dict:
                     "manuscript_reference": manuscript_ref,
                     "lean_declaration": declaration,
                     "mapping_section": mapping_section,
-                    "assumption_scope": "paper_level",
-                    "assumption_tags": assumptions,
+                    "assumption_scope": scope,
+                    "assumption_tags": claim_tags,
                     "falsification_boundaries": falsification,
                     "paper_map": rel_pm,
                 }

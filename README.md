@@ -139,6 +139,7 @@ make verify                                                 # one-command full v
 ### In-House Documentation
 
 - `reports/INHOUSE_FORMALIZATION_DOCUMENTATION.md`
+- `reports/METHODS_FORMAL_VERIFICATION_WORKFLOW.md`
 
 ### CI
 

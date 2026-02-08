@@ -46,6 +46,20 @@
 - transfer no-static theorem: `A-DYN-VARPATH`
 - transfer dissensus theorem: `A-DISC-EQ0`, `A-DISC-POS`
 
+## Claim-level assumptions
+- THM-consov-gold-1 -> `A-CS-FINITE`, `A-CS-STAKE-NN`
+- THM-consov-gold-2 -> `A-CS-FINITE`, `A-CS-STAKE-NN`, `A-CS-STAKE-POS-WIT`
+- THM-consov-gold-3 -> `A-CS-FINITE`, `A-CS-STAKE-POS-WIT`
+- THM-consov-gold-4 -> `A-CS-FINITE`, `A-CS-STAKE-NN`, `A-CS-VOICE-MONO`, `A-CS-STAKE-POS-WIT`
+- THM-consov-gold-5 -> `A-CS-W2-NN`
+- THM-consov-gold-6 -> `A-CS-W2-POS`
+- THM-consov-gold-7 -> `A-CS-FINITE`
+- THM-consov-transfer-1 -> `A-DYN-MOVEQ`
+- THM-consov-transfer-2 -> `A-DYN-VARPATH`
+- THM-consov-transfer-3 -> `A-CS-W1-NN`
+- THM-consov-transfer-4 -> `A-DISC-EQ0`, `A-DISC-POS`
+- THM-consov-transfer-5 -> `A-CHASE-EXACT`, `A-DISC-EQ0`
+
 ## Falsification boundaries
 - If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.
 - If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.

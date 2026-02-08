@@ -40,6 +40,19 @@
 - transfer no-static theorem: `A-DYN-VARPATH`
 - transfer dissensus theorem: `A-DISC-EQ0`, `A-DISC-POS`
 
+## Claim-level assumptions
+- THM-aoc-gold-1 -> `A-AOC-SIGMA-NN`, `A-AOC-ALPHA-DOM`
+- THM-aoc-gold-2 -> `A-AOC-ALPHA-DOM`, `A-AOC-ENT-NN`
+- THM-aoc-gold-3 -> `NONE`
+- THM-aoc-gold-4 -> `NONE`
+- THM-aoc-gold-5 -> `A-AOC-SIGMA-NN`, `A-AOC-ALPHA-NN`, `A-AOC-ENT-NN`
+- THM-aoc-gold-6 -> `NONE`
+- THM-aoc-transfer-1 -> `A-DYN-MOVEQ`
+- THM-aoc-transfer-2 -> `A-DYN-VARPATH`
+- THM-aoc-transfer-3 -> `A-AOC-SIGMA-NN`, `A-AOC-ALPHA-DOM`, `A-AOC-ENT-NN`
+- THM-aoc-transfer-4 -> `A-DISC-EQ0`, `A-DISC-POS`
+- THM-aoc-transfer-5 -> `A-CHASE-EXACT`, `A-DISC-EQ0`
+
 ## Falsification boundaries
 - If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.
 - If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.

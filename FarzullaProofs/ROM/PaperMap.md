@@ -41,6 +41,19 @@
 - transfer dissensus theorem: `A-DISC-EQ0`, `A-DISC-POS`
 - transfer moving-equilibrium theorem: `A-DYN-MOVEQ`
 
+## Claim-level assumptions
+- THM-rom-gold-1 -> `A-ROM-L-NN`, `A-ROM-F-NN`
+- THM-rom-gold-2 -> `NONE`
+- THM-rom-gold-3 -> `NONE`
+- THM-rom-gold-4 -> `A-ROM-L-NN`, `A-ROM-F-NN`
+- THM-rom-gold-5 -> `A-ROM-F-NN`
+- THM-rom-gold-6 -> `A-ROM-ROWSTOCH`
+- THM-rom-transfer-1 -> `A-DYN-MOVEQ`
+- THM-rom-transfer-2 -> `A-DYN-VARPATH`
+- THM-rom-transfer-3 -> `A-CHASE-EXACT`, `A-DISC-EQ0`
+- THM-rom-transfer-4 -> `A-DISC-EQ0`, `A-DISC-POS`
+- THM-rom-transfer-5 -> `A-ROM-L-NN`, `A-ROM-F-NN`
+
 ## Falsification boundaries
 - If row-stochasticity fails, mass-preservation claims do not apply.
 - If friction can be below `-1`, survival denominator can fail and sign/bound claims break.

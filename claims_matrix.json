@@ -391,15 +391,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
-        "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "NONE"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-gold-6",
@@ -416,15 +410,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
-        "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "NONE"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-gold-3",
@@ -441,15 +429,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
-        "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "NONE"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-gold-4",
@@ -466,15 +448,11 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-AOC-ALPHA-DOM",
         "A-AOC-ALPHA-NN",
         "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-AOC-SIGMA-NN"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-gold-5",
@@ -491,15 +469,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
         "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
-        "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-AOC-SIGMA-NN"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-gold-1",
@@ -516,15 +489,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
         "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
-        "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-AOC-ENT-NN"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-gold-2",
@@ -541,15 +509,11 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
         "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
         "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-AOC-SIGMA-NN"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-transfer-3",
@@ -566,15 +530,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
-        "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
         "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-DISC-POS"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-transfer-4",
@@ -591,15 +550,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
-        "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-DYN-MOVEQ"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-transfer-1",
@@ -616,14 +569,8 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
-        "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
         "A-DYN-VARPATH"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
@@ -641,15 +588,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-AOC-ALPHA-DOM",
-        "A-AOC-ALPHA-NN",
-        "A-AOC-ENT-NN",
-        "A-AOC-SIGMA-NN",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CHASE-EXACT",
+        "A-DISC-EQ0"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
       "claim_id": "THM-aoc-transfer-5",
@@ -1096,18 +1038,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
         "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CS-STAKE-POS-WIT"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-gold-3",
@@ -1124,18 +1058,12 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
         "A-CS-FINITE",
         "A-CS-STAKE-NN",
         "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CS-VOICE-MONO"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-gold-4",
@@ -1152,18 +1080,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CS-FINITE"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-gold-7",
@@ -1180,18 +1099,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CS-W2-NN"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-gold-5",
@@ -1208,18 +1118,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CS-W2-POS"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-gold-6",
@@ -1236,18 +1137,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
         "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CS-STAKE-NN"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-gold-1",
@@ -1264,18 +1157,11 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
         "A-CS-FINITE",
         "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CS-STAKE-POS-WIT"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-gold-2",
@@ -1292,18 +1178,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CS-W1-NN"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-transfer-3",
@@ -1320,18 +1197,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
         "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-DISC-POS"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-transfer-4",
@@ -1348,18 +1217,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-DYN-MOVEQ"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-transfer-1",
@@ -1376,17 +1236,8 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
         "A-DYN-VARPATH"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
@@ -1404,18 +1255,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-CS-FINITE",
-        "A-CS-STAKE-NN",
-        "A-CS-STAKE-POS-WIT",
-        "A-CS-VOICE-BOUND",
-        "A-CS-W1-NN",
-        "A-CS-W2-NN",
-        "A-CS-W2-POS",
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-VARPATH"
+        "A-CHASE-EXACT",
+        "A-DISC-EQ0"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
       "claim_id": "THM-consov-transfer-5",
@@ -1926,16 +1769,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
         "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "A-ROM-L-NN"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-gold-4",
@@ -1952,16 +1789,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
         "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "A-ROM-L-NN"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-gold-1",
@@ -1978,16 +1809,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
-        "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "A-ROM-F-NN"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-gold-5",
@@ -2004,16 +1828,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
-        "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "NONE"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-gold-3",
@@ -2030,16 +1847,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
-        "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "NONE"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-gold-2",
@@ -2056,16 +1866,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
-        "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "A-ROM-ROWSTOCH"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-gold-6",
@@ -2082,16 +1885,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
         "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "A-ROM-L-NN"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-transfer-5",
@@ -2108,16 +1905,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
         "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
-        "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "A-DISC-POS"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-transfer-4",
@@ -2134,16 +1925,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
-        "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "A-DYN-MOVEQ"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-transfer-1",
@@ -2160,16 +1944,9 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
-        "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "A-DYN-VARPATH"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-transfer-2",
@@ -2186,16 +1963,10 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
+      "assumption_scope": "claim_level",
       "assumption_tags": [
-        "A-DISC-EQ0",
-        "A-DISC-POS",
-        "A-DYN-MOVEQ",
-        "A-DYN-VARPATH",
-        "A-ROM-F-NN",
-        "A-ROM-L-NN",
-        "A-ROM-ROWSTOCH",
-        "A-ROM-SIMPLEX"
+        "A-CHASE-EXACT",
+        "A-DISC-EQ0"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-rom-transfer-3",
@@ -2451,6 +2222,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/AMLParadox/Basic.lean",
@@ -2463,6 +2235,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/AsymptoticProtection/Basic.lean",
@@ -2475,6 +2248,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/AutonomousRedteam/Basic.lean",
@@ -2495,6 +2269,49 @@
         "A-DYN-VARPATH"
       ],
       "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_level_assumptions": {
+        "THM-aoc-gold-1": [
+          "A-AOC-ALPHA-DOM",
+          "A-AOC-SIGMA-NN"
+        ],
+        "THM-aoc-gold-2": [
+          "A-AOC-ALPHA-DOM",
+          "A-AOC-ENT-NN"
+        ],
+        "THM-aoc-gold-3": [
+          "NONE"
+        ],
+        "THM-aoc-gold-4": [
+          "NONE"
+        ],
+        "THM-aoc-gold-5": [
+          "A-AOC-ALPHA-NN",
+          "A-AOC-ENT-NN",
+          "A-AOC-SIGMA-NN"
+        ],
+        "THM-aoc-gold-6": [
+          "NONE"
+        ],
+        "THM-aoc-transfer-1": [
+          "A-DYN-MOVEQ"
+        ],
+        "THM-aoc-transfer-2": [
+          "A-DYN-VARPATH"
+        ],
+        "THM-aoc-transfer-3": [
+          "A-AOC-ALPHA-DOM",
+          "A-AOC-ENT-NN",
+          "A-AOC-SIGMA-NN"
+        ],
+        "THM-aoc-transfer-4": [
+          "A-DISC-EQ0",
+          "A-DISC-POS"
+        ],
+        "THM-aoc-transfer-5": [
+          "A-CHASE-EXACT",
+          "A-DISC-EQ0"
+        ]
+      },
       "falsification_boundaries": [
         "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
         "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
@@ -2512,6 +2329,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/CBDCPrivacy/Basic.lean",
@@ -2524,6 +2342,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/ConsciousnessNominalisation/Basic.lean",
@@ -2547,6 +2366,53 @@
         "A-DYN-VARPATH"
       ],
       "canonical_paper": "papers-official/consensual-sovereignty/paper/Farzulla_2025_Consent_Holding_v1.0.2.tex",
+      "claim_level_assumptions": {
+        "THM-consov-gold-1": [
+          "A-CS-FINITE",
+          "A-CS-STAKE-NN"
+        ],
+        "THM-consov-gold-2": [
+          "A-CS-FINITE",
+          "A-CS-STAKE-NN",
+          "A-CS-STAKE-POS-WIT"
+        ],
+        "THM-consov-gold-3": [
+          "A-CS-FINITE",
+          "A-CS-STAKE-POS-WIT"
+        ],
+        "THM-consov-gold-4": [
+          "A-CS-FINITE",
+          "A-CS-STAKE-NN",
+          "A-CS-STAKE-POS-WIT",
+          "A-CS-VOICE-MONO"
+        ],
+        "THM-consov-gold-5": [
+          "A-CS-W2-NN"
+        ],
+        "THM-consov-gold-6": [
+          "A-CS-W2-POS"
+        ],
+        "THM-consov-gold-7": [
+          "A-CS-FINITE"
+        ],
+        "THM-consov-transfer-1": [
+          "A-DYN-MOVEQ"
+        ],
+        "THM-consov-transfer-2": [
+          "A-DYN-VARPATH"
+        ],
+        "THM-consov-transfer-3": [
+          "A-CS-W1-NN"
+        ],
+        "THM-consov-transfer-4": [
+          "A-DISC-EQ0",
+          "A-DISC-POS"
+        ],
+        "THM-consov-transfer-5": [
+          "A-CHASE-EXACT",
+          "A-DISC-EQ0"
+        ]
+      },
       "falsification_boundaries": [
         "If finite-index or nonnegative-stake assumptions fail, weighted-sum bounds do not transfer.",
         "If weight-sign assumptions fail (`w1`, `w2`), monotonicity can reverse.",
@@ -2566,6 +2432,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/GenreMimicry/Basic.lean",
@@ -2578,6 +2445,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/IdentityThesis/Basic.lean",
@@ -2591,6 +2459,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/MonographQualia/Basic.lean",
@@ -2603,6 +2472,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/QuantumOscillatory/Interference.lean"
@@ -2623,6 +2493,46 @@
         "A-ROM-SIMPLEX"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_level_assumptions": {
+        "THM-rom-gold-1": [
+          "A-ROM-F-NN",
+          "A-ROM-L-NN"
+        ],
+        "THM-rom-gold-2": [
+          "NONE"
+        ],
+        "THM-rom-gold-3": [
+          "NONE"
+        ],
+        "THM-rom-gold-4": [
+          "A-ROM-F-NN",
+          "A-ROM-L-NN"
+        ],
+        "THM-rom-gold-5": [
+          "A-ROM-F-NN"
+        ],
+        "THM-rom-gold-6": [
+          "A-ROM-ROWSTOCH"
+        ],
+        "THM-rom-transfer-1": [
+          "A-DYN-MOVEQ"
+        ],
+        "THM-rom-transfer-2": [
+          "A-DYN-VARPATH"
+        ],
+        "THM-rom-transfer-3": [
+          "A-CHASE-EXACT",
+          "A-DISC-EQ0"
+        ],
+        "THM-rom-transfer-4": [
+          "A-DISC-EQ0",
+          "A-DISC-POS"
+        ],
+        "THM-rom-transfer-5": [
+          "A-ROM-F-NN",
+          "A-ROM-L-NN"
+        ]
+      },
       "falsification_boundaries": [
         "If row-stochasticity fails, mass-preservation claims do not apply.",
         "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
@@ -2640,6 +2550,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/ROMEthics/Basic.lean",
@@ -2652,6 +2563,7 @@
     {
       "assumption_tags": [],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_level_assumptions": {},
       "falsification_boundaries": [],
       "lean_entrypoints": [
         "FarzullaProofs/SemanticVision/Basic.lean",

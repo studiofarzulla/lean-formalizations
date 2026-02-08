@@ -80,6 +80,12 @@ def main() -> int:
         claim_count = len(claims)
         transfer_claims = [c for c in claims if "transfer" in c["mapping_section"].lower()]
         transfer_without_tags = [c for c in transfer_claims if not c.get("assumption_tags")]
+        gold_claims = [c for c in claims if "gold" in c["mapping_section"].lower()]
+        gold_or_transfer = [c for c in claims if ("gold" in c["mapping_section"].lower() or
+                                                  "transfer" in c["mapping_section"].lower())]
+        missing_claim_level = [
+            c for c in gold_or_transfer if c.get("assumption_scope") != "claim_level"
+        ]
 
         # Rule: gold modules must have non-empty paper-level assumption tags.
         paper_tags = cm_papers.get(module, {}).get("assumption_tags", [])
@@ -88,8 +94,15 @@ def main() -> int:
 
         # Rule: modules with transfer claims should have assumption tags in matrix.
         transfer_missing_tags = len(transfer_without_tags) > 0
+        # Rule: for gold modules, all gold/transfer claims should be claim-level tagged.
+        gold_claim_level_missing = gold_needs_tags and len(missing_claim_level) > 0
 
-        module_fail = status_mismatch or gold_missing_tags or transfer_missing_tags
+        module_fail = (
+            status_mismatch
+            or gold_missing_tags
+            or transfer_missing_tags
+            or gold_claim_level_missing
+        )
         fail = fail or module_fail
 
         rows.append(
@@ -100,10 +113,13 @@ def main() -> int:
                 "papermap_status": pm_status,
                 "claim_count": claim_count,
                 "transfer_claims": len(transfer_claims),
+                "gold_claims": len(gold_claims),
                 "assumption_tags": len(paper_tags),
+                "claim_level_missing": len(missing_claim_level),
                 "status_check": severity(status_mismatch),
                 "gold_tag_check": severity(gold_missing_tags),
                 "transfer_tag_check": severity(transfer_missing_tags),
+                "claim_level_check": severity(gold_claim_level_missing),
                 "module_result": severity(module_fail),
             }
         )
@@ -120,13 +136,14 @@ def main() -> int:
     lines.append("")
     lines.append("## Per-paper checks")
     lines.append("")
-    lines.append("| Module | Coverage | Claims | PaperMap | Claims | Transfer | Tags | Status Sync | Gold Tags | Transfer Tags | Result |")
-    lines.append("|---|---|---|---|---:|---:|---:|---|---|---|---|")
+    lines.append("| Module | Coverage | Claims | PaperMap | Claims | Gold | Transfer | Tags | Missing CL | Status Sync | Gold Tags | Transfer Tags | Claim-level | Result |")
+    lines.append("|---|---|---|---|---:|---:|---:|---:|---:|---|---|---|---|---|")
     for r in rows:
         lines.append(
             f"| {r['module']} | {r['coverage_status']} | {r['claims_status']} | {r['papermap_status']} | "
-            f"{r['claim_count']} | {r['transfer_claims']} | {r['assumption_tags']} | {r['status_check']} | "
-            f"{r['gold_tag_check']} | {r['transfer_tag_check']} | {r['module_result']} |"
+            f"{r['claim_count']} | {r['gold_claims']} | {r['transfer_claims']} | {r['assumption_tags']} | "
+            f"{r['claim_level_missing']} | {r['status_check']} | {r['gold_tag_check']} | "
+            f"{r['transfer_tag_check']} | {r['claim_level_check']} | {r['module_result']} |"
         )
 
     lines.append("")
@@ -135,6 +152,7 @@ def main() -> int:
     lines.append("- `Status Sync`: `coverage.json`, `claims_matrix.json`, and `PaperMap.md` statuses must match.")
     lines.append("- `Gold Tags`: modules with `gold` status must expose non-empty assumption tags.")
     lines.append("- `Transfer Tags`: modules with transfer mappings must expose assumption tags in matrix.")
+    lines.append("- `Claim-level`: gold modules must use claim-level assumptions on gold/transfer claims.")
 
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text("\n".join(lines) + "\n", encoding="utf-8")
