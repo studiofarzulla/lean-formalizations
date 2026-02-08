@@ -136,6 +136,7 @@ FarzullaProofs/
 |   |-- Optimization.lean                   # Shared optimization utilities
 |   |-- Dynamics.lean                       # Shared dynamics utilities
 |   |-- Adversarial.lean                    # Relational identity + dissensus skeletons
+|   |-- Transfers.lean                      # Generic transfer theorems
 |   +-- Relations.lean                      # Shared relation utilities
 |-- QuantumOscillatory/
 |   +-- Interference.lean                   # TBI-QM: 11 theorems
@@ -145,6 +146,7 @@ FarzullaProofs/
 |-- ROM/
 |   |-- Basic.lean                          # ROM core dynamics/results
 |   +-- Advanced.lean                       # ROM gold extensions
+|   +-- Transfers.lean                      # ROM instantiation of adversarial transfers
 |-- ConsensualSovereignty/
 |   |-- Definitions.lean                    # Consent primitives
 |   |-- Core.lean                           # Core alignment/friction claims
