@@ -8,6 +8,7 @@ import FarzullaProofs.Common.Transfers
 import FarzullaProofs.QuantumOscillatory.Interference
 import FarzullaProofs.AxiomOfConsent.Friction
 import FarzullaProofs.AxiomOfConsent.Advanced
+import FarzullaProofs.AxiomOfConsent.Transfers
 import FarzullaProofs.ROM.Basic
 import FarzullaProofs.ROM.Advanced
 import FarzullaProofs.ROM.Transfers
@@ -19,6 +20,7 @@ import FarzullaProofs.ConsensualSovereignty.Definitions
 import FarzullaProofs.ConsensualSovereignty.Core
 import FarzullaProofs.ConsensualSovereignty.Dynamics
 import FarzullaProofs.ConsensualSovereignty.Advanced
+import FarzullaProofs.ConsensualSovereignty.Transfers
 import FarzullaProofs.ROMEthics.Basic
 import FarzullaProofs.ROMEthics.Bridge
 import FarzullaProofs.SemanticVision.Basic

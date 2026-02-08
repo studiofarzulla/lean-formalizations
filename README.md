@@ -143,6 +143,7 @@ FarzullaProofs/
 |-- AxiomOfConsent/
 |   |-- Friction.lean                       # AoC core friction theorems
 |   +-- Advanced.lean                       # AoC gold extensions
+|   +-- Transfers.lean                      # AoC instantiation of adversarial transfers
 |-- ROM/
 |   |-- Basic.lean                          # ROM core dynamics/results
 |   +-- Advanced.lean                       # ROM gold extensions
@@ -152,6 +153,7 @@ FarzullaProofs/
 |   |-- Core.lean                           # Core alignment/friction claims
 |   |-- Dynamics.lean                       # Legitimacy dynamics
 |   +-- Advanced.lean                       # Gold extensions
+|   +-- Transfers.lean                      # Consov instantiation of adversarial transfers
 |-- ROMEthics/
 |   |-- Basic.lean                          # Bronze welfare core
 |   +-- Bridge.lean                         # Silver bridge to ROM + AoC friction
