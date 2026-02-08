@@ -133,7 +133,12 @@ tools/generate_claims_matrix.py --check   # fail if out of sync
 ```bash
 tools/verify_papermap_refs.py                               # mapping -> declaration existence
 tools/verify_claims_consistency.py --report reports/paper_verification_report.md
+make verify                                                 # one-command full verification
 ```
+
+### In-House Documentation
+
+- `reports/INHOUSE_FORMALIZATION_DOCUMENTATION.md`
 
 ### CI
 
