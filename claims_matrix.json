@@ -1,5 +1,5 @@
 {
-  "claim_count": 132,
+  "claim_count": 143,
   "claims": [
     {
       "assumption_scope": "paper_level",
@@ -1758,6 +1758,149 @@
     },
     {
       "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-10",
+      "falsification_boundaries": [],
+      "lean_declaration": "constructive_interference",
+      "manuscript_reference": "THM-quantum-core-10",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-2",
+      "falsification_boundaries": [],
+      "lean_declaration": "cross_term_eq_re_conj_mul",
+      "manuscript_reference": "THM-quantum-core-2",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-11",
+      "falsification_boundaries": [],
+      "lean_declaration": "destructive_interference",
+      "manuscript_reference": "THM-quantum-core-11",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-9",
+      "falsification_boundaries": [],
+      "lean_declaration": "double_slit_trig",
+      "manuscript_reference": "THM-quantum-core-9",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-1",
+      "falsification_boundaries": [],
+      "lean_declaration": "interference_two_path",
+      "manuscript_reference": "THM-quantum-core-1",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-3",
+      "falsification_boundaries": [],
+      "lean_declaration": "no_interference_when_orthogonal",
+      "manuscript_reference": "THM-quantum-core-3",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-7",
+      "falsification_boundaries": [],
+      "lean_declaration": "normSq_conj",
+      "manuscript_reference": "THM-quantum-core-7",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-5",
+      "falsification_boundaries": [],
+      "lean_declaration": "normSq_mul'",
+      "manuscript_reference": "THM-quantum-core-5",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-4",
+      "falsification_boundaries": [],
+      "lean_declaration": "normSq_nonneg'",
+      "manuscript_reference": "THM-quantum-core-4",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-8",
+      "falsification_boundaries": [],
+      "lean_declaration": "normSq_real_mul",
+      "manuscript_reference": "THM-quantum-core-8",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-core-6",
+      "falsification_boundaries": [],
+      "lean_declaration": "normSq_zero'",
+      "manuscript_reference": "THM-quantum-core-6",
+      "mapping_section": "Core mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "paper_level",
       "assumption_tags": [
         "A-DISC-EQ0",
         "A-DISC-POS",
@@ -2462,7 +2605,7 @@
       "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
       "falsification_boundaries": [],
       "lean_entrypoints": [
-        "FarzullaProofs/QuantumOscillatory/Basic.lean"
+        "FarzullaProofs/QuantumOscillatory/Interference.lean"
       ],
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",

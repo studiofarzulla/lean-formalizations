@@ -4,7 +4,7 @@ Canonical source paper:
 - papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex
 
 Lean module(s):
-- FarzullaProofs/QuantumOscillatory/Basic.lean
+- FarzullaProofs/QuantumOscillatory/Interference.lean
 
 Tiered depth policy:
 - Bronze: definitions + 2+ checked claims
