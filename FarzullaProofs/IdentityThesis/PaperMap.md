@@ -30,7 +30,7 @@
 - THM-identity-silver-9 (structural symmetry root condition) -> `i_squared`
 - THM-identity-silver-10 (Benacerraf encoding divergence) -> `benacerraf_two`
 
-## Gold candidate mapping
+## Gold mapping
 - THM-identity-gold-1 (complex root dual satisfaction) -> `neg_i_squared`
 - THM-identity-gold-2 (Von Neumann encoding theorem) -> `vonNeumann_two`
 - THM-identity-gold-3 (Zermelo encoding theorem) -> `zermelo_two`
@@ -71,4 +71,4 @@
 - Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation.
 
 ## Status
-- silver-existing
+- gold-formal-core

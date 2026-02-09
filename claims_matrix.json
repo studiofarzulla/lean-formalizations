@@ -2207,7 +2207,7 @@
       "mapping_section": "Bronze mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2227,7 +2227,7 @@
       "mapping_section": "Bronze mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2247,7 +2247,7 @@
       "mapping_section": "Bronze mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2267,7 +2267,7 @@
       "mapping_section": "Bronze mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2284,10 +2284,10 @@
       ],
       "lean_declaration": "neg_i_squared",
       "manuscript_reference": "THM-identity-gold-1 (complex root dual satisfaction)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2304,10 +2304,10 @@
       ],
       "lean_declaration": "vonNeumann_succ_card",
       "manuscript_reference": "THM-identity-gold-4 (Von Neumann successor cardinal growth)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2324,10 +2324,10 @@
       ],
       "lean_declaration": "vonNeumann_two",
       "manuscript_reference": "THM-identity-gold-2 (Von Neumann encoding theorem)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2344,10 +2344,10 @@
       ],
       "lean_declaration": "zermelo_succ_card",
       "manuscript_reference": "THM-identity-gold-5 (Zermelo successor cardinal bound)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2364,10 +2364,10 @@
       ],
       "lean_declaration": "zermelo_two",
       "manuscript_reference": "THM-identity-gold-3 (Zermelo encoding theorem)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2387,7 +2387,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2407,7 +2407,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2427,7 +2427,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2447,7 +2447,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2467,7 +2467,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2487,7 +2487,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2507,7 +2507,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2527,7 +2527,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2548,7 +2548,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2568,7 +2568,7 @@
       "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2845,7 +2845,7 @@
       "mapping_section": "Bronze mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2864,7 +2864,7 @@
       "mapping_section": "Bronze mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2883,7 +2883,7 @@
       "mapping_section": "Bronze mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2902,7 +2902,7 @@
       "mapping_section": "Bronze mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2921,7 +2921,7 @@
       "mapping_section": "Bronze mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2937,10 +2937,10 @@
       ],
       "lean_declaration": "constructive_interference",
       "manuscript_reference": "THM-quantum-gold-5 (fringe-extrema duality at canonical phases)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2956,10 +2956,10 @@
       ],
       "lean_declaration": "cross_term_eq_re_conj_mul",
       "manuscript_reference": "THM-quantum-gold-2 (cross-term algebraic witness)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2975,10 +2975,10 @@
       ],
       "lean_declaration": "destructive_interference",
       "manuscript_reference": "THM-quantum-gold-6 (fringe-extrema null at odd phase)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2994,10 +2994,10 @@
       ],
       "lean_declaration": "double_slit_trig",
       "manuscript_reference": "THM-quantum-gold-4 (double-slit envelope identity)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3013,10 +3013,10 @@
       ],
       "lean_declaration": "interference_two_path",
       "manuscript_reference": "THM-quantum-gold-1 (generalized interference decomposition pipeline)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3033,10 +3033,10 @@
       ],
       "lean_declaration": "no_interference_when_orthogonal",
       "manuscript_reference": "THM-quantum-gold-3 (orthogonality-to-classical-addition bridge)",
-      "mapping_section": "Gold candidate mapping",
+      "mapping_section": "Gold mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3055,7 +3055,7 @@
       "mapping_section": "Silver mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3074,7 +3074,7 @@
       "mapping_section": "Silver mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3093,7 +3093,7 @@
       "mapping_section": "Silver mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3112,7 +3112,7 @@
       "mapping_section": "Silver mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3131,7 +3131,7 @@
       "mapping_section": "Silver mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3151,7 +3151,7 @@
       "mapping_section": "Silver mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "paper_level",
@@ -4544,7 +4544,7 @@
       ],
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [
@@ -4692,7 +4692,7 @@
       ],
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [

@@ -25,7 +25,7 @@
 - THM-quantum-silver-5 (constructive interference case) -> `constructive_interference`
 - THM-quantum-silver-6 (destructive interference case) -> `destructive_interference`
 
-## Gold candidate mapping
+## Gold mapping
 - THM-quantum-gold-1 (generalized interference decomposition pipeline) -> `interference_two_path`
 - THM-quantum-gold-2 (cross-term algebraic witness) -> `cross_term_eq_re_conj_mul`
 - THM-quantum-gold-3 (orthogonality-to-classical-addition bridge) -> `no_interference_when_orthogonal`
@@ -63,4 +63,4 @@
 - Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer.
 
 ## Status
-- silver-existing
+- gold-formal-core
