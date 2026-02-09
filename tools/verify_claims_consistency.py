@@ -87,10 +87,12 @@ def main() -> int:
             c for c in gold_or_transfer if c.get("assumption_scope") != "claim_level"
         ]
 
-        # Rule: gold modules must have non-empty paper-level assumption tags.
+        # Rule: gold/silver modules must have non-empty paper-level assumption tags.
         paper_tags = cm_papers.get(module, {}).get("assumption_tags", [])
         gold_needs_tags = "gold" in cov_status
+        silver_needs_tags = "silver" in cov_status
         gold_missing_tags = gold_needs_tags and not paper_tags
+        silver_missing_tags = silver_needs_tags and not paper_tags
 
         # Rule: modules with transfer claims should have assumption tags in matrix.
         transfer_missing_tags = len(transfer_without_tags) > 0
@@ -100,6 +102,7 @@ def main() -> int:
         module_fail = (
             status_mismatch
             or gold_missing_tags
+            or silver_missing_tags
             or transfer_missing_tags
             or gold_claim_level_missing
         )
@@ -118,6 +121,7 @@ def main() -> int:
                 "claim_level_missing": len(missing_claim_level),
                 "status_check": severity(status_mismatch),
                 "gold_tag_check": severity(gold_missing_tags),
+                "silver_tag_check": severity(silver_missing_tags),
                 "transfer_tag_check": severity(transfer_missing_tags),
                 "claim_level_check": severity(gold_claim_level_missing),
                 "module_result": severity(module_fail),
@@ -136,14 +140,14 @@ def main() -> int:
     lines.append("")
     lines.append("## Per-paper checks")
     lines.append("")
-    lines.append("| Module | Coverage | Claims | PaperMap | Claims | Gold | Transfer | Tags | Missing CL | Status Sync | Gold Tags | Transfer Tags | Claim-level | Result |")
-    lines.append("|---|---|---|---|---:|---:|---:|---:|---:|---|---|---|---|---|")
+    lines.append("| Module | Coverage | Claims | PaperMap | Claims | Gold | Transfer | Tags | Missing CL | Status Sync | Gold Tags | Silver Tags | Transfer Tags | Claim-level | Result |")
+    lines.append("|---|---|---|---|---:|---:|---:|---:|---:|---|---|---|---|---|---|")
     for r in rows:
         lines.append(
             f"| {r['module']} | {r['coverage_status']} | {r['claims_status']} | {r['papermap_status']} | "
             f"{r['claim_count']} | {r['gold_claims']} | {r['transfer_claims']} | {r['assumption_tags']} | "
             f"{r['claim_level_missing']} | {r['status_check']} | {r['gold_tag_check']} | "
-            f"{r['transfer_tag_check']} | {r['claim_level_check']} | {r['module_result']} |"
+            f"{r['silver_tag_check']} | {r['transfer_tag_check']} | {r['claim_level_check']} | {r['module_result']} |"
         )
 
     lines.append("")
@@ -151,6 +155,7 @@ def main() -> int:
     lines.append("")
     lines.append("- `Status Sync`: `coverage.json`, `claims_matrix.json`, and `PaperMap.md` statuses must match.")
     lines.append("- `Gold Tags`: modules with `gold` status must expose non-empty assumption tags.")
+    lines.append("- `Silver Tags`: modules with `silver` status must expose non-empty assumption tags.")
     lines.append("- `Transfer Tags`: modules with transfer mappings must expose assumption tags in matrix.")
     lines.append("- `Claim-level`: gold modules must use claim-level assumptions on gold/transfer claims.")
 
