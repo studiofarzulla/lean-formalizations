@@ -5,6 +5,8 @@ Canonical source paper:
 
 Lean module(s):
 - FarzullaProofs/IdentityThesis/Basic.lean
+- FarzullaProofs/IdentityThesis/SetTheory.lean
+- FarzullaProofs/IdentityThesis/Structuralism.lean
 
 Tiered depth policy:
 - Bronze: definitions + 2+ checked claims

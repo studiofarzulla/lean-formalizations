@@ -1,5 +1,5 @@
 {
-  "claim_count": 143,
+  "claim_count": 157,
   "claims": [
     {
       "assumption_scope": "paper_level",
@@ -1418,66 +1418,382 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-DELTA-IRREFL"
+      ],
       "canonical_paper": "papers-official/identity-thesis/main.tex",
-      "claim_id": "",
-      "falsification_boundaries": [],
-      "lean_declaration": "benacerraf_two",
-      "manuscript_reference": "Benacerraf divergence",
-      "mapping_section": "Core mapping (selected)",
-      "module": "IdentityThesis",
-      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
-      "status": "silver-existing"
-    },
-    {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
-      "canonical_paper": "papers-official/identity-thesis/main.tex",
-      "claim_id": "",
-      "falsification_boundaries": [],
+      "claim_id": "THM-identity-bronze-2",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
       "lean_declaration": "defined_iff_refSet_nonempty",
-      "manuscript_reference": "Axiom 2.4 bridge",
-      "mapping_section": "Core mapping (selected)",
+      "manuscript_reference": "THM-identity-bronze-2 (Axiom 2.4 bridge)",
+      "mapping_section": "Bronze mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
       "status": "silver-existing"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-DELTA-IRREFL"
+      ],
       "canonical_paper": "papers-official/identity-thesis/main.tex",
-      "claim_id": "",
-      "falsification_boundaries": [],
+      "claim_id": "THM-identity-bronze-4",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "delta_ext_of_refSet_eq",
+      "manuscript_reference": "THM-identity-bronze-4 (referential extensionality bridge)",
+      "mapping_section": "Bronze mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-DELTA-IRREFL"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-bronze-3",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "mutual_membership_of_symmetric",
+      "manuscript_reference": "THM-identity-bronze-3 (symmetric-delta membership lift)",
+      "mapping_section": "Bronze mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-DELTA-IRREFL"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-bronze-1",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "self_not_in_refSet",
+      "manuscript_reference": "THM-identity-bronze-1 (Axiom 2.2 operationalization)",
+      "mapping_section": "Bronze mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-CPLX-STD"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-gold-1",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "neg_i_squared",
+      "manuscript_reference": "THM-identity-gold-1 (complex root dual satisfaction)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-ENCODING"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-gold-4",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "vonNeumann_succ_card",
+      "manuscript_reference": "THM-identity-gold-4 (Von Neumann successor cardinal growth)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-ENCODING"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-gold-2",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "vonNeumann_two",
+      "manuscript_reference": "THM-identity-gold-2 (Von Neumann encoding theorem)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-ENCODING"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-gold-5",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "zermelo_succ_card",
+      "manuscript_reference": "THM-identity-gold-5 (Zermelo successor cardinal bound)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-ENCODING"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-gold-3",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "zermelo_two",
+      "manuscript_reference": "THM-identity-gold-3 (Zermelo encoding theorem)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-ENCODING"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-silver-10",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "benacerraf_two",
+      "manuscript_reference": "THM-identity-silver-10 (Benacerraf encoding divergence)",
+      "mapping_section": "Silver mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-SET-EXT"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-silver-3",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "empty_ne_singleton_zero",
+      "manuscript_reference": "THM-identity-silver-3 (empty-set distinguishability witness)",
+      "mapping_section": "Silver mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-SET-EXT"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-silver-4",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "empty_set_defined",
+      "manuscript_reference": "THM-identity-silver-4 (Proposition 4.1 empty set defined)",
+      "mapping_section": "Silver mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-SET-EXT"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-silver-5",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "empty_set_refSet_nonempty",
+      "manuscript_reference": "THM-identity-silver-5 (Proposition 4.1 nonempty referential set)",
+      "mapping_section": "Silver mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-CPLX-STD"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-silver-9",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "i_squared",
+      "manuscript_reference": "THM-identity-silver-9 (structural symmetry root condition)",
+      "mapping_section": "Silver mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-DELTA-IRREFL"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-silver-1",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
       "lean_declaration": "identity_thesis",
-      "manuscript_reference": "Theorem 2.5 (identity thesis)",
-      "mapping_section": "Core mapping (selected)",
+      "manuscript_reference": "THM-identity-silver-1 (Theorem 2.5 identity thesis)",
+      "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
       "status": "silver-existing"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-SET-EXT"
+      ],
       "canonical_paper": "papers-official/identity-thesis/main.tex",
-      "claim_id": "",
-      "falsification_boundaries": [],
+      "claim_id": "THM-identity-silver-6",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "ne_univ_defined",
+      "manuscript_reference": "THM-identity-silver-6 (non-universal set definedness)",
+      "mapping_section": "Silver mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-DELTA-IRREFL"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-silver-2",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
       "lean_declaration": "no_self_sufficient",
-      "manuscript_reference": "Corollary 2.6",
-      "mapping_section": "Core mapping (selected)",
+      "manuscript_reference": "THM-identity-silver-2 (Corollary 2.6 no-self-sufficiency)",
+      "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
       "status": "silver-existing"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-DELTA-IRREFL",
+        "A-ID-SET-EXT"
+      ],
       "canonical_paper": "papers-official/identity-thesis/main.tex",
-      "claim_id": "",
-      "falsification_boundaries": [],
+      "claim_id": "THM-identity-silver-7",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
+      "lean_declaration": "set_self_not_in_refSet",
+      "manuscript_reference": "THM-identity-silver-7 (set-level self exclusion)",
+      "mapping_section": "Silver mapping",
+      "module": "IdentityThesis",
+      "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-ID-CPLX-STD"
+      ],
+      "canonical_paper": "papers-official/identity-thesis/main.tex",
+      "claim_id": "THM-identity-silver-8",
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
       "lean_declaration": "weak_discernibility_complex",
-      "manuscript_reference": "Structural discernibility",
-      "mapping_section": "Core mapping (selected)",
+      "manuscript_reference": "THM-identity-silver-8 (weak discernibility witness pair)",
+      "mapping_section": "Silver mapping",
       "module": "IdentityThesis",
       "paper_map": "FarzullaProofs/IdentityThesis/PaperMap.md",
       "status": "silver-existing"
@@ -2443,10 +2759,79 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-ID-CPLX-STD",
+        "A-ID-DELTA-IRREFL",
+        "A-ID-ENCODING",
+        "A-ID-SET-EXT"
+      ],
       "canonical_paper": "papers-official/identity-thesis/main.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-identity-bronze-1": [
+          "A-ID-DELTA-IRREFL"
+        ],
+        "THM-identity-bronze-2": [
+          "A-ID-DELTA-IRREFL"
+        ],
+        "THM-identity-bronze-3": [
+          "A-ID-DELTA-IRREFL"
+        ],
+        "THM-identity-bronze-4": [
+          "A-ID-DELTA-IRREFL"
+        ],
+        "THM-identity-gold-1": [
+          "A-ID-CPLX-STD"
+        ],
+        "THM-identity-gold-2": [
+          "A-ID-ENCODING"
+        ],
+        "THM-identity-gold-3": [
+          "A-ID-ENCODING"
+        ],
+        "THM-identity-gold-4": [
+          "A-ID-ENCODING"
+        ],
+        "THM-identity-gold-5": [
+          "A-ID-ENCODING"
+        ],
+        "THM-identity-silver-1": [
+          "A-ID-DELTA-IRREFL"
+        ],
+        "THM-identity-silver-10": [
+          "A-ID-ENCODING"
+        ],
+        "THM-identity-silver-2": [
+          "A-ID-DELTA-IRREFL"
+        ],
+        "THM-identity-silver-3": [
+          "A-ID-SET-EXT"
+        ],
+        "THM-identity-silver-4": [
+          "A-ID-SET-EXT"
+        ],
+        "THM-identity-silver-5": [
+          "A-ID-SET-EXT"
+        ],
+        "THM-identity-silver-6": [
+          "A-ID-SET-EXT"
+        ],
+        "THM-identity-silver-7": [
+          "A-ID-DELTA-IRREFL",
+          "A-ID-SET-EXT"
+        ],
+        "THM-identity-silver-8": [
+          "A-ID-CPLX-STD"
+        ],
+        "THM-identity-silver-9": [
+          "A-ID-CPLX-STD"
+        ]
+      },
+      "falsification_boundaries": [
+        "If delta irreflexivity is weakened, self-exclusion and no-self-sufficient claims do not follow.",
+        "If the set-theoretic model is not extensional (or not modeled as inequality-based delta), Section 4 witness claims do not transfer.",
+        "If the complex-number structure is replaced by a weaker algebraic system, weak-discernibility examples may not hold unchanged.",
+        "Encoding-divergence claims are representation-dependent and do not imply ontology-level disagreement without structural interpretation."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/IdentityThesis/Basic.lean",
         "FarzullaProofs/IdentityThesis/SetTheory.lean",

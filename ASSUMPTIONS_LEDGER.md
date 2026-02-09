@@ -36,5 +36,11 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-CS-W2-NN`: nonnegative performance weight.
 - `A-CS-W2-POS`: positive performance weight.
 
+## Identity Thesis tags
+- `A-ID-DELTA-IRREFL`: irreflexive distinguishability relation (`forall A, not delta A A`).
+- `A-ID-SET-EXT`: set-theoretic extensional instance modeled by inequality (`delta A B := A != B`).
+- `A-ID-CPLX-STD`: standard complex-number field structure (`Complex` over `Real`).
+- `A-ID-ENCODING`: encoding-specific interpretation for Von Neumann vs Zermelo constructions.
+
 ## Reading rule
 A theorem claim is valid only under the tags listed for that claim in its `PaperMap.md` mapping.
