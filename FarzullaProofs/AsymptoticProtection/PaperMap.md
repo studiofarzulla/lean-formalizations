@@ -24,5 +24,26 @@
 - THM-AsymptoticProtection-silver-4 -> `saturationGap_anti_effort`
 - THM-AsymptoticProtection-silver-5 -> `saturationGap_zero_effort`
 
+## Assumption tags
+- Nonnegative parameter domain for effort and intensity terms: `A-AP-NONNEG`.
+- Positive denominator domain for rational closed forms: `A-AP-DEN-POS`.
+- Monotone-effort ordering assumptions for anti-gap results: `A-AP-EFFORT-MONO`.
+
+## Claim-level assumptions
+- THM-AsymptoticProtection-bronze-1 -> `A-AP-DEN-POS`
+- THM-AsymptoticProtection-bronze-2 -> `A-AP-NONNEG`
+- THM-AsymptoticProtection-bronze-3 -> `A-AP-NONNEG`
+- THM-AsymptoticProtection-bronze-4 -> `A-AP-DEN-POS`
+- THM-AsymptoticProtection-silver-1 -> `A-AP-DEN-POS`
+- THM-AsymptoticProtection-silver-2 -> `A-AP-NONNEG`
+- THM-AsymptoticProtection-silver-3 -> `A-AP-DEN-POS`
+- THM-AsymptoticProtection-silver-4 -> `A-AP-NONNEG`, `A-AP-EFFORT-MONO`, `A-AP-DEN-POS`
+- THM-AsymptoticProtection-silver-5 -> `A-AP-DEN-POS`
+
+## Falsification boundaries
+- If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.
+- Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.
+- These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions.
+
 ## Status
 - silver-bridge

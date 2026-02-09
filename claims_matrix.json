@@ -132,11 +132,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-DEN-POS"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
       "claim_id": "THM-AsymptoticProtection-bronze-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_declaration": "protectionLevel",
       "manuscript_reference": "THM-AsymptoticProtection-bronze-1",
       "mapping_section": "Bronze mapping",
@@ -145,11 +151,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-NONNEG"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
       "claim_id": "THM-AsymptoticProtection-bronze-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_declaration": "protectionLevel_le_one",
       "manuscript_reference": "THM-AsymptoticProtection-bronze-3",
       "mapping_section": "Bronze mapping",
@@ -158,11 +170,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-NONNEG"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
       "claim_id": "THM-AsymptoticProtection-bronze-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_declaration": "protectionLevel_nonneg",
       "manuscript_reference": "THM-AsymptoticProtection-bronze-2",
       "mapping_section": "Bronze mapping",
@@ -171,11 +189,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-DEN-POS"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
       "claim_id": "THM-AsymptoticProtection-bronze-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_declaration": "protectionLevel_zero_effort",
       "manuscript_reference": "THM-AsymptoticProtection-bronze-4",
       "mapping_section": "Bronze mapping",
@@ -184,11 +208,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-DEN-POS"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
       "claim_id": "THM-AsymptoticProtection-silver-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_declaration": "saturationGap",
       "manuscript_reference": "THM-AsymptoticProtection-silver-1",
       "mapping_section": "Silver bridge mapping",
@@ -197,11 +227,19 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-DEN-POS",
+        "A-AP-EFFORT-MONO",
+        "A-AP-NONNEG"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
       "claim_id": "THM-AsymptoticProtection-silver-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_declaration": "saturationGap_anti_effort",
       "manuscript_reference": "THM-AsymptoticProtection-silver-4",
       "mapping_section": "Silver bridge mapping",
@@ -210,11 +248,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-DEN-POS"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
       "claim_id": "THM-AsymptoticProtection-silver-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_declaration": "saturationGap_eq_inv",
       "manuscript_reference": "THM-AsymptoticProtection-silver-3",
       "mapping_section": "Silver bridge mapping",
@@ -223,11 +267,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-NONNEG"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
       "claim_id": "THM-AsymptoticProtection-silver-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_declaration": "saturationGap_nonneg",
       "manuscript_reference": "THM-AsymptoticProtection-silver-2",
       "mapping_section": "Silver bridge mapping",
@@ -236,11 +286,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-DEN-POS"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
       "claim_id": "THM-AsymptoticProtection-silver-5",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_declaration": "saturationGap_zero_effort",
       "manuscript_reference": "THM-AsymptoticProtection-silver-5",
       "mapping_section": "Silver bridge mapping",
@@ -608,11 +664,17 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
       "claim_id": "THM-CBDCPrivacy-bronze-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_declaration": "composedEpsilon",
       "manuscript_reference": "THM-CBDCPrivacy-bronze-1",
       "mapping_section": "Bronze mapping",
@@ -621,11 +683,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
       "claim_id": "THM-CBDCPrivacy-bronze-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_declaration": "composedEpsilon_comm",
       "manuscript_reference": "THM-CBDCPrivacy-bronze-3",
       "mapping_section": "Bronze mapping",
@@ -634,11 +702,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
       "claim_id": "THM-CBDCPrivacy-bronze-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_declaration": "composedEpsilon_mono_left",
       "manuscript_reference": "THM-CBDCPrivacy-bronze-4",
       "mapping_section": "Bronze mapping",
@@ -647,11 +721,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP",
+        "A-CBDC-EPS-NN"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
       "claim_id": "THM-CBDCPrivacy-bronze-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_declaration": "composedEpsilon_nonneg",
       "manuscript_reference": "THM-CBDCPrivacy-bronze-2",
       "mapping_section": "Bronze mapping",
@@ -660,11 +741,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
       "claim_id": "THM-CBDCPrivacy-silver-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_declaration": "repeatedEpsilon",
       "manuscript_reference": "THM-CBDCPrivacy-silver-1",
       "mapping_section": "Silver bridge mapping",
@@ -673,11 +760,19 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP",
+        "A-CBDC-EPS-NN",
+        "A-CBDC-STEPS-MONO"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
       "claim_id": "THM-CBDCPrivacy-silver-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_declaration": "repeatedEpsilon_mono_steps",
       "manuscript_reference": "THM-CBDCPrivacy-silver-4",
       "mapping_section": "Silver bridge mapping",
@@ -686,11 +781,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP",
+        "A-CBDC-EPS-NN"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
       "claim_id": "THM-CBDCPrivacy-silver-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_declaration": "repeatedEpsilon_nonneg",
       "manuscript_reference": "THM-CBDCPrivacy-silver-3",
       "mapping_section": "Silver bridge mapping",
@@ -699,11 +801,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
       "claim_id": "THM-CBDCPrivacy-silver-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_declaration": "repeatedEpsilon_succ",
       "manuscript_reference": "THM-CBDCPrivacy-silver-2",
       "mapping_section": "Silver bridge mapping",
@@ -712,11 +820,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
       "claim_id": "THM-CBDCPrivacy-silver-5",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_declaration": "repeatedEpsilon_two_eq_composed",
       "manuscript_reference": "THM-CBDCPrivacy-silver-5",
       "mapping_section": "Silver bridge mapping",
@@ -2863,10 +2977,48 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-AP-DEN-POS",
+        "A-AP-EFFORT-MONO",
+        "A-AP-NONNEG"
+      ],
       "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-AsymptoticProtection-bronze-1": [
+          "A-AP-DEN-POS"
+        ],
+        "THM-AsymptoticProtection-bronze-2": [
+          "A-AP-NONNEG"
+        ],
+        "THM-AsymptoticProtection-bronze-3": [
+          "A-AP-NONNEG"
+        ],
+        "THM-AsymptoticProtection-bronze-4": [
+          "A-AP-DEN-POS"
+        ],
+        "THM-AsymptoticProtection-silver-1": [
+          "A-AP-DEN-POS"
+        ],
+        "THM-AsymptoticProtection-silver-2": [
+          "A-AP-NONNEG"
+        ],
+        "THM-AsymptoticProtection-silver-3": [
+          "A-AP-DEN-POS"
+        ],
+        "THM-AsymptoticProtection-silver-4": [
+          "A-AP-DEN-POS",
+          "A-AP-EFFORT-MONO",
+          "A-AP-NONNEG"
+        ],
+        "THM-AsymptoticProtection-silver-5": [
+          "A-AP-DEN-POS"
+        ]
+      },
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/AsymptoticProtection/Basic.lean",
         "FarzullaProofs/AsymptoticProtection/Bridge.lean"
@@ -2957,10 +3109,50 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP",
+        "A-CBDC-EPS-NN",
+        "A-CBDC-STEPS-MONO"
+      ],
       "canonical_paper": "papers-official/cbdc-privacy/main.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-CBDCPrivacy-bronze-1": [
+          "A-CBDC-ADD-COMP"
+        ],
+        "THM-CBDCPrivacy-bronze-2": [
+          "A-CBDC-ADD-COMP",
+          "A-CBDC-EPS-NN"
+        ],
+        "THM-CBDCPrivacy-bronze-3": [
+          "A-CBDC-ADD-COMP"
+        ],
+        "THM-CBDCPrivacy-bronze-4": [
+          "A-CBDC-ADD-COMP"
+        ],
+        "THM-CBDCPrivacy-silver-1": [
+          "A-CBDC-ADD-COMP"
+        ],
+        "THM-CBDCPrivacy-silver-2": [
+          "A-CBDC-ADD-COMP"
+        ],
+        "THM-CBDCPrivacy-silver-3": [
+          "A-CBDC-ADD-COMP",
+          "A-CBDC-EPS-NN"
+        ],
+        "THM-CBDCPrivacy-silver-4": [
+          "A-CBDC-ADD-COMP",
+          "A-CBDC-EPS-NN",
+          "A-CBDC-STEPS-MONO"
+        ],
+        "THM-CBDCPrivacy-silver-5": [
+          "A-CBDC-ADD-COMP"
+        ]
+      },
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/CBDCPrivacy/Basic.lean",
         "FarzullaProofs/CBDCPrivacy/Bridge.lean"

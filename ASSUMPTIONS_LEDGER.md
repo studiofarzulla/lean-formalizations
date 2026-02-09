@@ -56,5 +56,15 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-GM-COUNT-BOUNDS`: numerator-order/count-bounds assumptions are provided (`0 <= d`, `d <= t`, or monotone variants).
 - `A-GM-ODDS-DOM`: odds argument remains in open interval `(0,1)`.
 
+## Asymptotic Protection tags
+- `A-AP-NONNEG`: protection parameters are nonnegative (`0 <= k`, `0 <= n`).
+- `A-AP-DEN-POS`: denominator-domain condition (`0 < 1 + k*n`).
+- `A-AP-EFFORT-MONO`: ordered effort inputs for monotonic comparisons (`n1 <= n2`).
+
+## CBDC Privacy tags
+- `A-CBDC-ADD-COMP`: privacy composition is modeled as additive epsilon accounting.
+- `A-CBDC-EPS-NN`: epsilon budgets are nonnegative.
+- `A-CBDC-STEPS-MONO`: step counts are compared under an order witness (`n <= m`).
+
 ## Reading rule
 A theorem claim is valid only under the tags listed for that claim in its `PaperMap.md` mapping.
