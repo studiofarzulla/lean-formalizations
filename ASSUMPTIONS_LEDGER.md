@@ -82,6 +82,7 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-CN-LINEAR-GAP`: nominalisation gap is modeled linearly (`nominal - grounded`).
 - `A-CN-NORM-DEN`: normalized deficit denominator is strictly positive (`|nominal| + 1`).
 - `A-CN-GROUNDED-MONO`: grounding variables are ordered for monotonic comparisons.
+- `A-CN-ZERO-CHAR`: zero-characterization lemmas for real-valued grounding gap forms.
 
 ## Monograph Qualia tags
 - `A-MQ-ABS-METRIC`: qualia distance uses absolute-value real metric form.

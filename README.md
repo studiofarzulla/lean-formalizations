@@ -207,6 +207,7 @@ FarzullaProofs/
 |-- ConsciousnessNominalisation/
 |   |-- Basic.lean                          # Bronze grounding-gap core
 |   +-- Bridge.lean                         # Silver grounding-deficit bridge
+|   +-- Advanced.lean                       # Gold grounding-gap/deficit equivalence extensions
 |-- MonographQualia/
 |   |-- Basic.lean                          # Bronze qualia-distance core
 |   +-- Bridge.lean                         # Silver qualia-energy/metric bridge

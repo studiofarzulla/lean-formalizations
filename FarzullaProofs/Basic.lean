@@ -18,6 +18,6 @@ This is the root module. Individual paper formalizations live in:
 - `AsymptoticProtection/` — protection core + saturation-gap bridge + gold extensions
 - `AutonomousRedteam/` — residual core + reduction-ratio bridge + gold extensions
 - `CBDCPrivacy/` — epsilon composition core + repeated-budget bridge + gold extensions
-- `ConsciousnessNominalisation/` — grounding-gap core + deficit bridge (Silver bridge)
+- `ConsciousnessNominalisation/` — grounding-gap core + deficit bridge + gold extensions
 - `MonographQualia/` — qualia-distance core + energy bridge + gold extensions
 -/

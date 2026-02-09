@@ -1,5 +1,5 @@
 {
-  "claim_count": 195,
+  "claim_count": 199,
   "claims": [
     {
       "assumption_scope": "claim_level",
@@ -1283,7 +1283,7 @@
       "mapping_section": "Bronze mapping",
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1303,7 +1303,7 @@
       "mapping_section": "Bronze mapping",
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1322,7 +1322,7 @@
       "mapping_section": "Bronze mapping",
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1341,7 +1341,87 @@
       "mapping_section": "Bronze mapping",
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP",
+        "A-CN-NORM-DEN"
+      ],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-gold-4",
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
+      "lean_declaration": "groundingDeficit_eq_zero_of_eq",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP",
+        "A-CN-NORM-DEN"
+      ],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-gold-3",
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
+      "lean_declaration": "groundingDeficit_ge_neg_abs_gap",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP",
+        "A-CN-NORM-DEN"
+      ],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-gold-2",
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
+      "lean_declaration": "groundingDeficit_nonneg_of_gap_nonneg",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP",
+        "A-CN-ZERO-CHAR"
+      ],
+      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "claim_id": "THM-ConsciousnessNominalisation-gold-1",
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
+      "lean_declaration": "groundingGap_eq_zero_iff",
+      "manuscript_reference": "THM-ConsciousnessNominalisation-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "ConsciousnessNominalisation",
+      "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1361,7 +1441,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1382,7 +1462,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1402,7 +1482,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1422,7 +1502,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1442,7 +1522,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "paper_level",
@@ -4253,7 +4333,8 @@
       "assumption_tags": [
         "A-CN-GROUNDED-MONO",
         "A-CN-LINEAR-GAP",
-        "A-CN-NORM-DEN"
+        "A-CN-NORM-DEN",
+        "A-CN-ZERO-CHAR"
       ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_level_assumptions": {
@@ -4269,6 +4350,22 @@
         "THM-ConsciousnessNominalisation-bronze-4": [
           "A-CN-GROUNDED-MONO",
           "A-CN-LINEAR-GAP"
+        ],
+        "THM-ConsciousnessNominalisation-gold-1": [
+          "A-CN-LINEAR-GAP",
+          "A-CN-ZERO-CHAR"
+        ],
+        "THM-ConsciousnessNominalisation-gold-2": [
+          "A-CN-LINEAR-GAP",
+          "A-CN-NORM-DEN"
+        ],
+        "THM-ConsciousnessNominalisation-gold-3": [
+          "A-CN-LINEAR-GAP",
+          "A-CN-NORM-DEN"
+        ],
+        "THM-ConsciousnessNominalisation-gold-4": [
+          "A-CN-LINEAR-GAP",
+          "A-CN-NORM-DEN"
         ],
         "THM-ConsciousnessNominalisation-silver-1": [
           "A-CN-LINEAR-GAP",
@@ -4299,11 +4396,12 @@
       ],
       "lean_entrypoints": [
         "FarzullaProofs/ConsciousnessNominalisation/Basic.lean",
-        "FarzullaProofs/ConsciousnessNominalisation/Bridge.lean"
+        "FarzullaProofs/ConsciousnessNominalisation/Bridge.lean",
+        "FarzullaProofs/ConsciousnessNominalisation/Advanced.lean"
       ],
       "module": "ConsciousnessNominalisation",
       "paper_map": "FarzullaProofs/ConsciousnessNominalisation/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [
