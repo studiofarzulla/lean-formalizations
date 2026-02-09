@@ -42,5 +42,10 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-ID-CPLX-STD`: standard complex-number field structure (`Complex` over `Real`).
 - `A-ID-ENCODING`: encoding-specific interpretation for Von Neumann vs Zermelo constructions.
 
+## Quantum Oscillatory tags
+- `A-QO-CPLX`: amplitudes and intensity are modeled in standard complex arithmetic (`Complex.normSq` semantics).
+- `A-QO-TRIG`: trigonometric equalities rely on standard real cosine identities.
+- `A-QO-ORTHO`: cross-term orthogonality witness is explicitly provided (`cross term = 0`).
+
 ## Reading rule
 A theorem claim is valid only under the tags listed for that claim in its `PaperMap.md` mapping.

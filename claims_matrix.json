@@ -1,5 +1,5 @@
 {
-  "claim_count": 157,
+  "claim_count": 163,
   "claims": [
     {
       "assumption_scope": "paper_level",
@@ -1916,144 +1916,326 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX"
+      ],
       "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-10",
-      "falsification_boundaries": [],
-      "lean_declaration": "constructive_interference",
-      "manuscript_reference": "THM-quantum-core-10",
-      "mapping_section": "Core mapping",
-      "module": "QuantumOscillatory",
-      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
-    },
-    {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
-      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-2",
-      "falsification_boundaries": [],
-      "lean_declaration": "cross_term_eq_re_conj_mul",
-      "manuscript_reference": "THM-quantum-core-2",
-      "mapping_section": "Core mapping",
-      "module": "QuantumOscillatory",
-      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
-    },
-    {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
-      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-11",
-      "falsification_boundaries": [],
-      "lean_declaration": "destructive_interference",
-      "manuscript_reference": "THM-quantum-core-11",
-      "mapping_section": "Core mapping",
-      "module": "QuantumOscillatory",
-      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
-    },
-    {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
-      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-9",
-      "falsification_boundaries": [],
-      "lean_declaration": "double_slit_trig",
-      "manuscript_reference": "THM-quantum-core-9",
-      "mapping_section": "Core mapping",
-      "module": "QuantumOscillatory",
-      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
-    },
-    {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
-      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-1",
-      "falsification_boundaries": [],
-      "lean_declaration": "interference_two_path",
-      "manuscript_reference": "THM-quantum-core-1",
-      "mapping_section": "Core mapping",
-      "module": "QuantumOscillatory",
-      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
-    },
-    {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
-      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-3",
-      "falsification_boundaries": [],
-      "lean_declaration": "no_interference_when_orthogonal",
-      "manuscript_reference": "THM-quantum-core-3",
-      "mapping_section": "Core mapping",
-      "module": "QuantumOscillatory",
-      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
-      "status": "silver-existing"
-    },
-    {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
-      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-7",
-      "falsification_boundaries": [],
+      "claim_id": "THM-quantum-bronze-4",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
       "lean_declaration": "normSq_conj",
-      "manuscript_reference": "THM-quantum-core-7",
-      "mapping_section": "Core mapping",
+      "manuscript_reference": "THM-quantum-bronze-4 (conjugation invariance)",
+      "mapping_section": "Bronze mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
       "status": "silver-existing"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX"
+      ],
       "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-5",
-      "falsification_boundaries": [],
+      "claim_id": "THM-quantum-bronze-2",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
       "lean_declaration": "normSq_mul'",
-      "manuscript_reference": "THM-quantum-core-5",
-      "mapping_section": "Core mapping",
+      "manuscript_reference": "THM-quantum-bronze-2 (intensity multiplicativity)",
+      "mapping_section": "Bronze mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
       "status": "silver-existing"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX"
+      ],
       "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-4",
-      "falsification_boundaries": [],
+      "claim_id": "THM-quantum-bronze-1",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
       "lean_declaration": "normSq_nonneg'",
-      "manuscript_reference": "THM-quantum-core-4",
-      "mapping_section": "Core mapping",
+      "manuscript_reference": "THM-quantum-bronze-1 (intensity non-negativity)",
+      "mapping_section": "Bronze mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
       "status": "silver-existing"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX"
+      ],
       "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-8",
-      "falsification_boundaries": [],
+      "claim_id": "THM-quantum-bronze-5",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
       "lean_declaration": "normSq_real_mul",
-      "manuscript_reference": "THM-quantum-core-8",
-      "mapping_section": "Core mapping",
+      "manuscript_reference": "THM-quantum-bronze-5 (real-scaling quadratic law)",
+      "mapping_section": "Bronze mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
       "status": "silver-existing"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX"
+      ],
       "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_id": "THM-quantum-core-6",
-      "falsification_boundaries": [],
+      "claim_id": "THM-quantum-bronze-3",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
       "lean_declaration": "normSq_zero'",
-      "manuscript_reference": "THM-quantum-core-6",
-      "mapping_section": "Core mapping",
+      "manuscript_reference": "THM-quantum-bronze-3 (zero field intensity)",
+      "mapping_section": "Bronze mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-TRIG"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-gold-5",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "constructive_interference",
+      "manuscript_reference": "THM-quantum-gold-5 (fringe-extrema duality at canonical phases)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-gold-2",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "cross_term_eq_re_conj_mul",
+      "manuscript_reference": "THM-quantum-gold-2 (cross-term algebraic witness)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-TRIG"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-gold-6",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "destructive_interference",
+      "manuscript_reference": "THM-quantum-gold-6 (fringe-extrema null at odd phase)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-TRIG"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-gold-4",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "double_slit_trig",
+      "manuscript_reference": "THM-quantum-gold-4 (double-slit envelope identity)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-gold-1",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "interference_two_path",
+      "manuscript_reference": "THM-quantum-gold-1 (generalized interference decomposition pipeline)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX",
+        "A-QO-ORTHO"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-gold-3",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "no_interference_when_orthogonal",
+      "manuscript_reference": "THM-quantum-gold-3 (orthogonality-to-classical-addition bridge)",
+      "mapping_section": "Gold candidate mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-TRIG"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-silver-5",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "constructive_interference",
+      "manuscript_reference": "THM-quantum-silver-5 (constructive interference case)",
+      "mapping_section": "Silver mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-silver-2",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "cross_term_eq_re_conj_mul",
+      "manuscript_reference": "THM-quantum-silver-2 (cross-term equals real-conjugate product)",
+      "mapping_section": "Silver mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-TRIG"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-silver-6",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "destructive_interference",
+      "manuscript_reference": "THM-quantum-silver-6 (destructive interference case)",
+      "mapping_section": "Silver mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-TRIG"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-silver-4",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "double_slit_trig",
+      "manuscript_reference": "THM-quantum-silver-4 (Eq. 22 half-angle identity)",
+      "mapping_section": "Silver mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-silver-1",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "interference_two_path",
+      "manuscript_reference": "THM-quantum-silver-1 (Eq. 19 two-path interference decomposition)",
+      "mapping_section": "Silver mapping",
+      "module": "QuantumOscillatory",
+      "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
+      "status": "silver-existing"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-QO-CPLX",
+        "A-QO-ORTHO"
+      ],
+      "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
+      "claim_id": "THM-quantum-silver-3",
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
+      "lean_declaration": "no_interference_when_orthogonal",
+      "manuscript_reference": "THM-quantum-silver-3 (Eq. 24 orthogonal no-interference limit)",
+      "mapping_section": "Silver mapping",
       "module": "QuantumOscillatory",
       "paper_map": "FarzullaProofs/QuantumOscillatory/PaperMap.md",
       "status": "silver-existing"
@@ -2855,10 +3037,72 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-QO-CPLX",
+        "A-QO-ORTHO",
+        "A-QO-TRIG"
+      ],
       "canonical_paper": "papers-official/quantum-oscillation/quantum-oscillatory-sampling.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-quantum-bronze-1": [
+          "A-QO-CPLX"
+        ],
+        "THM-quantum-bronze-2": [
+          "A-QO-CPLX"
+        ],
+        "THM-quantum-bronze-3": [
+          "A-QO-CPLX"
+        ],
+        "THM-quantum-bronze-4": [
+          "A-QO-CPLX"
+        ],
+        "THM-quantum-bronze-5": [
+          "A-QO-CPLX"
+        ],
+        "THM-quantum-gold-1": [
+          "A-QO-CPLX"
+        ],
+        "THM-quantum-gold-2": [
+          "A-QO-CPLX"
+        ],
+        "THM-quantum-gold-3": [
+          "A-QO-CPLX",
+          "A-QO-ORTHO"
+        ],
+        "THM-quantum-gold-4": [
+          "A-QO-TRIG"
+        ],
+        "THM-quantum-gold-5": [
+          "A-QO-TRIG"
+        ],
+        "THM-quantum-gold-6": [
+          "A-QO-TRIG"
+        ],
+        "THM-quantum-silver-1": [
+          "A-QO-CPLX"
+        ],
+        "THM-quantum-silver-2": [
+          "A-QO-CPLX"
+        ],
+        "THM-quantum-silver-3": [
+          "A-QO-CPLX",
+          "A-QO-ORTHO"
+        ],
+        "THM-quantum-silver-4": [
+          "A-QO-TRIG"
+        ],
+        "THM-quantum-silver-5": [
+          "A-QO-TRIG"
+        ],
+        "THM-quantum-silver-6": [
+          "A-QO-TRIG"
+        ]
+      },
+      "falsification_boundaries": [
+        "If amplitudes are not modeled in standard complex arithmetic, interference decomposition formulas may not transfer.",
+        "The no-interference reduction requires an explicit orthogonality-style zero cross-term witness.",
+        "Double-slit identities here are phase-model specific; empirical fringe claims need additional physical parameter assumptions beyond the current algebraic layer."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/QuantumOscillatory/Interference.lean"
       ],
