@@ -24,6 +24,26 @@
 - THM-semvis-silver-5 -> `jaccardDistance_self_eq_zero`
 - THM-semvis-silver-6 -> `jaccardDistance_symm`
 
+## Assumption tags
+- Set-overlap algebra on finite sets: `A-SV-FINSET`.
+- Non-empty union witness for upper-bound and non-negativity bridge claims: `A-SV-UNION-NONEMPTY`.
+
+## Claim-level assumptions
+- THM-semvis-bronze-1 -> `A-SV-FINSET`
+- THM-semvis-bronze-2 -> `A-SV-FINSET`, `A-SV-UNION-NONEMPTY`
+- THM-semvis-bronze-3 -> `A-SV-FINSET`, `A-SV-UNION-NONEMPTY`
+- THM-semvis-silver-1 -> `A-SV-FINSET`
+- THM-semvis-silver-2 -> `A-SV-FINSET`
+- THM-semvis-silver-3 -> `A-SV-FINSET`, `A-SV-UNION-NONEMPTY`
+- THM-semvis-silver-4 -> `A-SV-FINSET`
+- THM-semvis-silver-5 -> `A-SV-FINSET`, `A-SV-UNION-NONEMPTY`
+- THM-semvis-silver-6 -> `A-SV-FINSET`
+
+## Falsification boundaries
+- If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.
+- Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.
+- The current bridge formalizes boundedness/symmetry, not metric triangle inequality.
+
 ## Notes
 - The formal core captures overlap structure via Jaccard similarity on finite sets.
 - Bridge theorems convert similarity to a bounded symmetric distance view.

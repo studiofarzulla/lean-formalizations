@@ -2598,11 +2598,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET",
+        "A-SV-UNION-NONEMPTY"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
       "claim_id": "THM-semvis-bronze-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_declaration": "jaccard_le_one",
       "manuscript_reference": "THM-semvis-bronze-2",
       "mapping_section": "Bronze mapping",
@@ -2611,11 +2618,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
       "claim_id": "THM-semvis-bronze-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_declaration": "jaccard_nonneg",
       "manuscript_reference": "THM-semvis-bronze-1",
       "mapping_section": "Bronze mapping",
@@ -2624,11 +2637,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET",
+        "A-SV-UNION-NONEMPTY"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
       "claim_id": "THM-semvis-bronze-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_declaration": "jaccard_self_eq_one",
       "manuscript_reference": "THM-semvis-bronze-3",
       "mapping_section": "Bronze mapping",
@@ -2637,11 +2657,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
       "claim_id": "THM-semvis-silver-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_declaration": "jaccardDistance",
       "manuscript_reference": "THM-semvis-silver-1",
       "mapping_section": "Silver bridge mapping",
@@ -2650,11 +2676,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
       "claim_id": "THM-semvis-silver-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_declaration": "jaccardDistance_le_one",
       "manuscript_reference": "THM-semvis-silver-4",
       "mapping_section": "Silver bridge mapping",
@@ -2663,11 +2695,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET",
+        "A-SV-UNION-NONEMPTY"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
       "claim_id": "THM-semvis-silver-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_declaration": "jaccardDistance_nonneg",
       "manuscript_reference": "THM-semvis-silver-3",
       "mapping_section": "Silver bridge mapping",
@@ -2676,11 +2715,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET",
+        "A-SV-UNION-NONEMPTY"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
       "claim_id": "THM-semvis-silver-5",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_declaration": "jaccardDistance_self_eq_zero",
       "manuscript_reference": "THM-semvis-silver-5",
       "mapping_section": "Silver bridge mapping",
@@ -2689,11 +2735,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
       "claim_id": "THM-semvis-silver-6",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_declaration": "jaccardDistance_symm",
       "manuscript_reference": "THM-semvis-silver-6",
       "mapping_section": "Silver bridge mapping",
@@ -2702,11 +2754,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
       "claim_id": "THM-semvis-silver-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_declaration": "jaccard_symm",
       "manuscript_reference": "THM-semvis-silver-2",
       "mapping_section": "Silver bridge mapping",
@@ -3190,10 +3248,49 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-SV-FINSET",
+        "A-SV-UNION-NONEMPTY"
+      ],
       "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-semvis-bronze-1": [
+          "A-SV-FINSET"
+        ],
+        "THM-semvis-bronze-2": [
+          "A-SV-FINSET",
+          "A-SV-UNION-NONEMPTY"
+        ],
+        "THM-semvis-bronze-3": [
+          "A-SV-FINSET",
+          "A-SV-UNION-NONEMPTY"
+        ],
+        "THM-semvis-silver-1": [
+          "A-SV-FINSET"
+        ],
+        "THM-semvis-silver-2": [
+          "A-SV-FINSET"
+        ],
+        "THM-semvis-silver-3": [
+          "A-SV-FINSET",
+          "A-SV-UNION-NONEMPTY"
+        ],
+        "THM-semvis-silver-4": [
+          "A-SV-FINSET"
+        ],
+        "THM-semvis-silver-5": [
+          "A-SV-FINSET",
+          "A-SV-UNION-NONEMPTY"
+        ],
+        "THM-semvis-silver-6": [
+          "A-SV-FINSET"
+        ]
+      },
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/SemanticVision/Basic.lean",
         "FarzullaProofs/SemanticVision/Bridge.lean"
