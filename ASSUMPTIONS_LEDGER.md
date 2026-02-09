@@ -76,5 +76,21 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-AR-INC-POS`: incident baseline is strictly positive where ratio normalization is used.
 - `A-AR-BOUNDS`: bound/order assumptions are supplied (`0 <= blocked <= incidents` or ordered ratios).
 
+## Consciousness Nominalisation tags
+- `A-CN-LINEAR-GAP`: nominalisation gap is modeled linearly (`nominal - grounded`).
+- `A-CN-NORM-DEN`: normalized deficit denominator is strictly positive (`|nominal| + 1`).
+- `A-CN-GROUNDED-MONO`: grounding variables are ordered for monotonic comparisons.
+
+## Monograph Qualia tags
+- `A-MQ-ABS-METRIC`: qualia distance uses absolute-value real metric form.
+- `A-MQ-ENERGY-SQ`: qualia energy is modeled as squared distance.
+- `A-MQ-TRIANGLE`: triangle inequality inherited from absolute-value metric geometry.
+
+## ROM Ethics tags
+- `A-RE-LINEAR-WELFARE`: welfare is linear (`benefit - weight*harm`).
+- `A-RE-FRICTION-DOM`: friction/denominator domain ensures valid survival normalization.
+- `A-RE-WEIGHT-NN`: ethical weight is nonnegative for anti-harm monotonicity.
+- `A-RE-AOC-ROM-BRIDGE`: bridge uses AoC friction monotonicity and ROM survival monotonicity assumptions.
+
 ## Reading rule
 A theorem claim is valid only under the tags listed for that claim in its `PaperMap.md` mapping.

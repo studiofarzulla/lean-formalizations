@@ -959,11 +959,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-bronze-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_declaration": "groundingGap",
       "manuscript_reference": "THM-ConsciousnessNominalisation-bronze-1",
       "mapping_section": "Bronze mapping",
@@ -972,11 +978,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-GROUNDED-MONO",
+        "A-CN-LINEAR-GAP"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-bronze-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_declaration": "groundingGap_anti_grounded",
       "manuscript_reference": "THM-ConsciousnessNominalisation-bronze-4",
       "mapping_section": "Bronze mapping",
@@ -985,11 +998,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-bronze-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_declaration": "groundingGap_pos",
       "manuscript_reference": "THM-ConsciousnessNominalisation-bronze-3",
       "mapping_section": "Bronze mapping",
@@ -998,11 +1017,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-bronze-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_declaration": "groundingGap_self",
       "manuscript_reference": "THM-ConsciousnessNominalisation-bronze-2",
       "mapping_section": "Bronze mapping",
@@ -1011,11 +1036,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP",
+        "A-CN-NORM-DEN"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_declaration": "groundingDeficit",
       "manuscript_reference": "THM-ConsciousnessNominalisation-silver-1",
       "mapping_section": "Silver bridge mapping",
@@ -1024,11 +1056,19 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-GROUNDED-MONO",
+        "A-CN-LINEAR-GAP",
+        "A-CN-NORM-DEN"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_declaration": "groundingDeficit_anti_grounded",
       "manuscript_reference": "THM-ConsciousnessNominalisation-silver-4",
       "mapping_section": "Silver bridge mapping",
@@ -1037,11 +1077,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP",
+        "A-CN-NORM-DEN"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-5",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_declaration": "groundingDeficit_le_abs_gap",
       "manuscript_reference": "THM-ConsciousnessNominalisation-silver-5",
       "mapping_section": "Silver bridge mapping",
@@ -1050,11 +1097,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP",
+        "A-CN-NORM-DEN"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_declaration": "groundingDeficit_pos",
       "manuscript_reference": "THM-ConsciousnessNominalisation-silver-3",
       "mapping_section": "Silver bridge mapping",
@@ -1063,11 +1117,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CN-LINEAR-GAP",
+        "A-CN-NORM-DEN"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_declaration": "groundingDeficit_self",
       "manuscript_reference": "THM-ConsciousnessNominalisation-silver-2",
       "mapping_section": "Silver bridge mapping",
@@ -2107,11 +2168,17 @@
       "status": "silver-existing"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_id": "THM-MonographQualia-bronze-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_declaration": "qualiaDistance",
       "manuscript_reference": "THM-MonographQualia-bronze-1",
       "mapping_section": "Bronze mapping",
@@ -2120,11 +2187,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_id": "THM-MonographQualia-bronze-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_declaration": "qualiaDistance_nonneg",
       "manuscript_reference": "THM-MonographQualia-bronze-2",
       "mapping_section": "Bronze mapping",
@@ -2133,11 +2206,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_id": "THM-MonographQualia-bronze-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_declaration": "qualiaDistance_self",
       "manuscript_reference": "THM-MonographQualia-bronze-3",
       "mapping_section": "Bronze mapping",
@@ -2146,11 +2225,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_id": "THM-MonographQualia-bronze-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_declaration": "qualiaDistance_symm",
       "manuscript_reference": "THM-MonographQualia-bronze-4",
       "mapping_section": "Bronze mapping",
@@ -2159,11 +2244,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-TRIANGLE"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_id": "THM-MonographQualia-silver-5",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_declaration": "qualiaDistance_triangle",
       "manuscript_reference": "THM-MonographQualia-silver-5",
       "mapping_section": "Silver bridge mapping",
@@ -2172,11 +2264,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-ENERGY-SQ"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_id": "THM-MonographQualia-silver-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_declaration": "qualiaEnergy",
       "manuscript_reference": "THM-MonographQualia-silver-1",
       "mapping_section": "Silver bridge mapping",
@@ -2185,11 +2284,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-ENERGY-SQ"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_id": "THM-MonographQualia-silver-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_declaration": "qualiaEnergy_nonneg",
       "manuscript_reference": "THM-MonographQualia-silver-2",
       "mapping_section": "Silver bridge mapping",
@@ -2198,11 +2304,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-ENERGY-SQ"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_id": "THM-MonographQualia-silver-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_declaration": "qualiaEnergy_self",
       "manuscript_reference": "THM-MonographQualia-silver-3",
       "mapping_section": "Silver bridge mapping",
@@ -2211,11 +2324,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-ENERGY-SQ"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_id": "THM-MonographQualia-silver-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_declaration": "qualiaEnergy_symm",
       "manuscript_reference": "THM-MonographQualia-silver-4",
       "mapping_section": "Silver bridge mapping",
@@ -2789,11 +2909,17 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-LINEAR-WELFARE"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-ROMEthics-bronze-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_declaration": "welfareScore",
       "manuscript_reference": "THM-ROMEthics-bronze-1",
       "mapping_section": "Bronze mapping",
@@ -2802,11 +2928,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-LINEAR-WELFARE",
+        "A-RE-WEIGHT-NN"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-ROMEthics-bronze-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_declaration": "welfareScore_anti_harm",
       "manuscript_reference": "THM-ROMEthics-bronze-3",
       "mapping_section": "Bronze mapping",
@@ -2815,11 +2948,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-LINEAR-WELFARE"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-ROMEthics-bronze-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_declaration": "welfareScore_eq_benefit_of_zero_weight",
       "manuscript_reference": "THM-ROMEthics-bronze-4",
       "mapping_section": "Bronze mapping",
@@ -2828,11 +2967,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-LINEAR-WELFARE"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-ROMEthics-bronze-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_declaration": "welfareScore_mono_benefit",
       "manuscript_reference": "THM-ROMEthics-bronze-2",
       "mapping_section": "Bronze mapping",
@@ -2841,11 +2986,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-FRICTION-DOM",
+        "A-RE-LINEAR-WELFARE"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-ROMEthics-silver-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_declaration": "ethicalSurvival",
       "manuscript_reference": "THM-ROMEthics-silver-1",
       "mapping_section": "Silver bridge mapping",
@@ -2854,11 +3006,19 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-FRICTION-DOM",
+        "A-RE-LINEAR-WELFARE",
+        "A-RE-WEIGHT-NN"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-ROMEthics-silver-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_declaration": "ethicalSurvival_anti_harm",
       "manuscript_reference": "THM-ROMEthics-silver-3",
       "mapping_section": "Silver bridge mapping",
@@ -2867,11 +3027,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-AOC-ROM-BRIDGE",
+        "A-RE-LINEAR-WELFARE"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-ROMEthics-silver-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_declaration": "ethicalSurvival_eq_rom_survival_of_zero_harm",
       "manuscript_reference": "THM-ROMEthics-silver-4",
       "mapping_section": "Silver bridge mapping",
@@ -2880,11 +3047,19 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-AOC-ROM-BRIDGE",
+        "A-RE-FRICTION-DOM",
+        "A-RE-LINEAR-WELFARE"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-ROMEthics-silver-5",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_declaration": "ethicalSurvival_mono_alignment_via_friction",
       "manuscript_reference": "THM-ROMEthics-silver-5",
       "mapping_section": "Silver bridge mapping",
@@ -2893,11 +3068,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-FRICTION-DOM",
+        "A-RE-LINEAR-WELFARE"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_id": "THM-ROMEthics-silver-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_declaration": "ethicalSurvival_mono_benefit",
       "manuscript_reference": "THM-ROMEthics-silver-2",
       "mapping_section": "Silver bridge mapping",
@@ -3363,10 +3545,53 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-CN-GROUNDED-MONO",
+        "A-CN-LINEAR-GAP",
+        "A-CN-NORM-DEN"
+      ],
       "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-ConsciousnessNominalisation-bronze-1": [
+          "A-CN-LINEAR-GAP"
+        ],
+        "THM-ConsciousnessNominalisation-bronze-2": [
+          "A-CN-LINEAR-GAP"
+        ],
+        "THM-ConsciousnessNominalisation-bronze-3": [
+          "A-CN-LINEAR-GAP"
+        ],
+        "THM-ConsciousnessNominalisation-bronze-4": [
+          "A-CN-GROUNDED-MONO",
+          "A-CN-LINEAR-GAP"
+        ],
+        "THM-ConsciousnessNominalisation-silver-1": [
+          "A-CN-LINEAR-GAP",
+          "A-CN-NORM-DEN"
+        ],
+        "THM-ConsciousnessNominalisation-silver-2": [
+          "A-CN-LINEAR-GAP",
+          "A-CN-NORM-DEN"
+        ],
+        "THM-ConsciousnessNominalisation-silver-3": [
+          "A-CN-LINEAR-GAP",
+          "A-CN-NORM-DEN"
+        ],
+        "THM-ConsciousnessNominalisation-silver-4": [
+          "A-CN-GROUNDED-MONO",
+          "A-CN-LINEAR-GAP",
+          "A-CN-NORM-DEN"
+        ],
+        "THM-ConsciousnessNominalisation-silver-5": [
+          "A-CN-LINEAR-GAP",
+          "A-CN-NORM-DEN"
+        ]
+      },
+      "falsification_boundaries": [
+        "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
+        "Deficit normalization assumes denominator positivity via `|nominal| + 1`; alternative normalizations require remapping.",
+        "Anti-grounding monotonicity claims require explicit ordered grounding witnesses."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/ConsciousnessNominalisation/Basic.lean",
         "FarzullaProofs/ConsciousnessNominalisation/Bridge.lean"
@@ -3599,10 +3824,51 @@
       "status": "silver-existing"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-ENERGY-SQ",
+        "A-MQ-TRIANGLE"
+      ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-MonographQualia-bronze-1": [
+          "A-MQ-ABS-METRIC"
+        ],
+        "THM-MonographQualia-bronze-2": [
+          "A-MQ-ABS-METRIC"
+        ],
+        "THM-MonographQualia-bronze-3": [
+          "A-MQ-ABS-METRIC"
+        ],
+        "THM-MonographQualia-bronze-4": [
+          "A-MQ-ABS-METRIC"
+        ],
+        "THM-MonographQualia-silver-1": [
+          "A-MQ-ABS-METRIC",
+          "A-MQ-ENERGY-SQ"
+        ],
+        "THM-MonographQualia-silver-2": [
+          "A-MQ-ABS-METRIC",
+          "A-MQ-ENERGY-SQ"
+        ],
+        "THM-MonographQualia-silver-3": [
+          "A-MQ-ABS-METRIC",
+          "A-MQ-ENERGY-SQ"
+        ],
+        "THM-MonographQualia-silver-4": [
+          "A-MQ-ABS-METRIC",
+          "A-MQ-ENERGY-SQ"
+        ],
+        "THM-MonographQualia-silver-5": [
+          "A-MQ-ABS-METRIC",
+          "A-MQ-TRIANGLE"
+        ]
+      },
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/MonographQualia/Basic.lean",
         "FarzullaProofs/MonographQualia/Bridge.lean"
@@ -3752,10 +4018,55 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-RE-AOC-ROM-BRIDGE",
+        "A-RE-FRICTION-DOM",
+        "A-RE-LINEAR-WELFARE",
+        "A-RE-WEIGHT-NN"
+      ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-ROMEthics-bronze-1": [
+          "A-RE-LINEAR-WELFARE"
+        ],
+        "THM-ROMEthics-bronze-2": [
+          "A-RE-LINEAR-WELFARE"
+        ],
+        "THM-ROMEthics-bronze-3": [
+          "A-RE-LINEAR-WELFARE",
+          "A-RE-WEIGHT-NN"
+        ],
+        "THM-ROMEthics-bronze-4": [
+          "A-RE-LINEAR-WELFARE"
+        ],
+        "THM-ROMEthics-silver-1": [
+          "A-RE-FRICTION-DOM",
+          "A-RE-LINEAR-WELFARE"
+        ],
+        "THM-ROMEthics-silver-2": [
+          "A-RE-FRICTION-DOM",
+          "A-RE-LINEAR-WELFARE"
+        ],
+        "THM-ROMEthics-silver-3": [
+          "A-RE-FRICTION-DOM",
+          "A-RE-LINEAR-WELFARE",
+          "A-RE-WEIGHT-NN"
+        ],
+        "THM-ROMEthics-silver-4": [
+          "A-RE-AOC-ROM-BRIDGE",
+          "A-RE-LINEAR-WELFARE"
+        ],
+        "THM-ROMEthics-silver-5": [
+          "A-RE-AOC-ROM-BRIDGE",
+          "A-RE-FRICTION-DOM",
+          "A-RE-LINEAR-WELFARE"
+        ]
+      },
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/ROMEthics/Basic.lean",
         "FarzullaProofs/ROMEthics/Bridge.lean"
