@@ -51,5 +51,10 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-SV-FINSET`: semantic units are represented as finite sets with standard card/intersection/union behavior.
 - `A-SV-UNION-NONEMPTY`: non-empty union witness (`0 < (A ∪ B).card`) is provided where required.
 
+## Genre Mimicry tags
+- `A-GM-TOTAL-POS`: total/sample denominator is strictly positive.
+- `A-GM-COUNT-BOUNDS`: numerator-order/count-bounds assumptions are provided (`0 <= d`, `d <= t`, or monotone variants).
+- `A-GM-ODDS-DOM`: odds argument remains in open interval `(0,1)`.
+
 ## Reading rule
 A theorem claim is valid only under the tags listed for that claim in its `PaperMap.md` mapping.

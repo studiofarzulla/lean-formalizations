@@ -1275,11 +1275,17 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-ODDS-DOM"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-bronze-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "odds_pos",
       "manuscript_reference": "THM-genre-bronze-4",
       "mapping_section": "Bronze mapping",
@@ -1288,11 +1294,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-bronze-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "rate_gap_pos",
       "manuscript_reference": "THM-genre-bronze-3",
       "mapping_section": "Bronze mapping",
@@ -1301,11 +1314,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-bronze-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "rate_le_one",
       "manuscript_reference": "THM-genre-bronze-2",
       "mapping_section": "Bronze mapping",
@@ -1314,11 +1334,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-bronze-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "rate_nonneg",
       "manuscript_reference": "THM-genre-bronze-1",
       "mapping_section": "Bronze mapping",
@@ -1327,11 +1354,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-ODDS-DOM",
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-silver-7",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "odds_rate_pos_of_bounds",
       "manuscript_reference": "THM-genre-silver-7",
       "mapping_section": "Silver bridge mapping",
@@ -1340,11 +1374,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-silver-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "rateComplement",
       "manuscript_reference": "THM-genre-silver-1",
       "mapping_section": "Silver bridge mapping",
@@ -1353,11 +1393,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-silver-6",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "rateComplement_anti_numerator",
       "manuscript_reference": "THM-genre-silver-6",
       "mapping_section": "Silver bridge mapping",
@@ -1366,11 +1413,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-silver-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "rateComplement_le_one",
       "manuscript_reference": "THM-genre-silver-4",
       "mapping_section": "Silver bridge mapping",
@@ -1379,11 +1433,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-silver-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "rateComplement_nonneg",
       "manuscript_reference": "THM-genre-silver-3",
       "mapping_section": "Silver bridge mapping",
@@ -1392,11 +1453,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-silver-5",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "rate_add_rateComplement",
       "manuscript_reference": "THM-genre-silver-5",
       "mapping_section": "Silver bridge mapping",
@@ -1405,11 +1472,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
       "claim_id": "THM-genre-silver-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_declaration": "rate_mono_numerator",
       "manuscript_reference": "THM-genre-silver-2",
       "mapping_section": "Silver bridge mapping",
@@ -2986,10 +3060,60 @@
       "status": "gold-formal-core"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-ODDS-DOM",
+        "A-GM-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-genre-bronze-1": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-bronze-2": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-bronze-3": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-bronze-4": [
+          "A-GM-ODDS-DOM"
+        ],
+        "THM-genre-silver-1": [
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-silver-2": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-silver-3": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-silver-4": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-silver-5": [
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-silver-6": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-silver-7": [
+          "A-GM-ODDS-DOM",
+          "A-GM-TOTAL-POS"
+        ]
+      },
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/GenreMimicry/Basic.lean",
         "FarzullaProofs/GenreMimicry/Bridge.lean"
