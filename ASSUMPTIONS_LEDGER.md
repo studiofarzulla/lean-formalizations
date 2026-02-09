@@ -87,12 +87,14 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-MQ-ABS-METRIC`: qualia distance uses absolute-value real metric form.
 - `A-MQ-ENERGY-SQ`: qualia energy is modeled as squared distance.
 - `A-MQ-TRIANGLE`: triangle inequality inherited from absolute-value metric geometry.
+- `A-MQ-ZERO-CHAR`: zero-characterization lemmas over real distance/energy forms.
 
 ## ROM Ethics tags
 - `A-RE-LINEAR-WELFARE`: welfare is linear (`benefit - weight*harm`).
 - `A-RE-FRICTION-DOM`: friction/denominator domain ensures valid survival normalization.
 - `A-RE-WEIGHT-NN`: ethical weight is nonnegative for anti-harm monotonicity.
 - `A-RE-AOC-ROM-BRIDGE`: bridge uses AoC friction monotonicity and ROM survival monotonicity assumptions.
+- `A-RE-WELFARE-NN`: welfare is assumed nonnegative for sign/bound survival claims.
 
 ## Reading rule
 A theorem claim is valid only under the tags listed for that claim in its `PaperMap.md` mapping.

@@ -179,6 +179,7 @@ FarzullaProofs/
 |-- ROMEthics/
 |   |-- Basic.lean                          # Bronze welfare core
 |   +-- Bridge.lean                         # Silver bridge to ROM + AoC friction
+|   +-- Advanced.lean                       # Gold survival/welfare bounds extensions
 |-- SemanticVision/
 |   |-- Basic.lean                          # Bronze Jaccard core
 |   +-- Bridge.lean                         # Silver distance/symmetry bridge
@@ -209,6 +210,7 @@ FarzullaProofs/
 |-- MonographQualia/
 |   |-- Basic.lean                          # Bronze qualia-distance core
 |   +-- Bridge.lean                         # Silver qualia-energy/metric bridge
+|   +-- Advanced.lean                       # Gold distance/energy equivalence extensions
 +-- IdentityThesis/
     |-- Basic.lean                          # Delta-framework: 6 theorems + 1 class
     |-- SetTheory.lean                      # ZFC instance: 5 theorems + 1 instance

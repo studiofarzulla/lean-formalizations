@@ -1,5 +1,5 @@
 {
-  "claim_count": 187,
+  "claim_count": 195,
   "claims": [
     {
       "assumption_scope": "claim_level",
@@ -2587,7 +2587,7 @@
       "mapping_section": "Bronze mapping",
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2606,7 +2606,7 @@
       "mapping_section": "Bronze mapping",
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2625,7 +2625,7 @@
       "mapping_section": "Bronze mapping",
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2644,7 +2644,89 @@
       "mapping_section": "Bronze mapping",
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-ZERO-CHAR"
+      ],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-gold-1",
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
+      "lean_declaration": "qualiaDistance_eq_zero_iff",
+      "manuscript_reference": "THM-MonographQualia-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-ENERGY-SQ"
+      ],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-gold-4",
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
+      "lean_declaration": "qualiaDistance_le_energy_add_one",
+      "manuscript_reference": "THM-MonographQualia-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-ENERGY-SQ",
+        "A-MQ-ZERO-CHAR"
+      ],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-gold-3",
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
+      "lean_declaration": "qualiaEnergy_eq_zero_iff",
+      "manuscript_reference": "THM-MonographQualia-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-MQ-ABS-METRIC",
+        "A-MQ-ENERGY-SQ",
+        "A-MQ-ZERO-CHAR"
+      ],
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
+      "claim_id": "THM-MonographQualia-gold-2",
+      "falsification_boundaries": [
+        "Current mapping models qualia geometry in one-dimensional real terms; higher-dimensional or manifold models are out of scope.",
+        "Energy claims depend on squared-distance transform and do not imply physical-energy semantics without extra assumptions.",
+        "Triangle results cover metric consistency only, not perceptual calibration or psychometric identifiability."
+      ],
+      "lean_declaration": "qualiaEnergy_eq_zero_iff_distance_eq_zero",
+      "manuscript_reference": "THM-MonographQualia-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "MonographQualia",
+      "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2664,7 +2746,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2684,7 +2766,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2704,7 +2786,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2724,7 +2806,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -2744,7 +2826,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3328,7 +3410,7 @@
       "mapping_section": "Bronze mapping",
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3348,7 +3430,7 @@
       "mapping_section": "Bronze mapping",
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3367,7 +3449,7 @@
       "mapping_section": "Bronze mapping",
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3386,7 +3468,88 @@
       "mapping_section": "Bronze mapping",
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-FRICTION-DOM",
+        "A-RE-LINEAR-WELFARE"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-gold-1",
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
+      "lean_declaration": "ethicalSurvival_eq_welfare_of_zero_friction",
+      "manuscript_reference": "THM-ROMEthics-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-FRICTION-DOM",
+        "A-RE-LINEAR-WELFARE",
+        "A-RE-WELFARE-NN"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-gold-3",
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
+      "lean_declaration": "ethicalSurvival_le_welfare",
+      "manuscript_reference": "THM-ROMEthics-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-LINEAR-WELFARE"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-gold-4",
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
+      "lean_declaration": "ethicalSurvival_mono_benefit_zero_friction",
+      "manuscript_reference": "THM-ROMEthics-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RE-FRICTION-DOM",
+        "A-RE-LINEAR-WELFARE",
+        "A-RE-WELFARE-NN"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "THM-ROMEthics-gold-2",
+      "falsification_boundaries": [
+        "Ethical survival results assume denominator positivity (`1 + F > 0`) and do not cover singular regimes.",
+        "Welfare monotonicity claims rely on linear welfare specification and may fail under nonlinear ethical utility.",
+        "Alignment-transfer claims depend on AoC friction monotonicity and ROM anti-friction survival assumptions as imported."
+      ],
+      "lean_declaration": "ethicalSurvival_nonneg",
+      "manuscript_reference": "THM-ROMEthics-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "ROMEthics",
+      "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3406,7 +3569,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3427,7 +3590,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3447,7 +3610,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3468,7 +3631,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3488,7 +3651,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -4387,7 +4550,8 @@
       "assumption_tags": [
         "A-MQ-ABS-METRIC",
         "A-MQ-ENERGY-SQ",
-        "A-MQ-TRIANGLE"
+        "A-MQ-TRIANGLE",
+        "A-MQ-ZERO-CHAR"
       ],
       "canonical_paper": "papers-official/monograph-qualia/consciousness-narrative-paper.tex",
       "claim_level_assumptions": {
@@ -4402,6 +4566,24 @@
         ],
         "THM-MonographQualia-bronze-4": [
           "A-MQ-ABS-METRIC"
+        ],
+        "THM-MonographQualia-gold-1": [
+          "A-MQ-ABS-METRIC",
+          "A-MQ-ZERO-CHAR"
+        ],
+        "THM-MonographQualia-gold-2": [
+          "A-MQ-ABS-METRIC",
+          "A-MQ-ENERGY-SQ",
+          "A-MQ-ZERO-CHAR"
+        ],
+        "THM-MonographQualia-gold-3": [
+          "A-MQ-ABS-METRIC",
+          "A-MQ-ENERGY-SQ",
+          "A-MQ-ZERO-CHAR"
+        ],
+        "THM-MonographQualia-gold-4": [
+          "A-MQ-ABS-METRIC",
+          "A-MQ-ENERGY-SQ"
         ],
         "THM-MonographQualia-silver-1": [
           "A-MQ-ABS-METRIC",
@@ -4431,11 +4613,12 @@
       ],
       "lean_entrypoints": [
         "FarzullaProofs/MonographQualia/Basic.lean",
-        "FarzullaProofs/MonographQualia/Bridge.lean"
+        "FarzullaProofs/MonographQualia/Bridge.lean",
+        "FarzullaProofs/MonographQualia/Advanced.lean"
       ],
       "module": "MonographQualia",
       "paper_map": "FarzullaProofs/MonographQualia/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [
@@ -4582,7 +4765,8 @@
         "A-RE-AOC-ROM-BRIDGE",
         "A-RE-FRICTION-DOM",
         "A-RE-LINEAR-WELFARE",
-        "A-RE-WEIGHT-NN"
+        "A-RE-WEIGHT-NN",
+        "A-RE-WELFARE-NN"
       ],
       "canonical_paper": "papers-official/rom-ethics/main.tex",
       "claim_level_assumptions": {
@@ -4597,6 +4781,23 @@
           "A-RE-WEIGHT-NN"
         ],
         "THM-ROMEthics-bronze-4": [
+          "A-RE-LINEAR-WELFARE"
+        ],
+        "THM-ROMEthics-gold-1": [
+          "A-RE-FRICTION-DOM",
+          "A-RE-LINEAR-WELFARE"
+        ],
+        "THM-ROMEthics-gold-2": [
+          "A-RE-FRICTION-DOM",
+          "A-RE-LINEAR-WELFARE",
+          "A-RE-WELFARE-NN"
+        ],
+        "THM-ROMEthics-gold-3": [
+          "A-RE-FRICTION-DOM",
+          "A-RE-LINEAR-WELFARE",
+          "A-RE-WELFARE-NN"
+        ],
+        "THM-ROMEthics-gold-4": [
           "A-RE-LINEAR-WELFARE"
         ],
         "THM-ROMEthics-silver-1": [
@@ -4629,11 +4830,12 @@
       ],
       "lean_entrypoints": [
         "FarzullaProofs/ROMEthics/Basic.lean",
-        "FarzullaProofs/ROMEthics/Bridge.lean"
+        "FarzullaProofs/ROMEthics/Bridge.lean",
+        "FarzullaProofs/ROMEthics/Advanced.lean"
       ],
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [

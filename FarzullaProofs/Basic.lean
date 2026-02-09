@@ -11,7 +11,7 @@ This is the root module. Individual paper formalizations live in:
 - `ROM/` — Replicator-Optimization Mechanism core + advanced survival lemmas (Gold core)
 - `IdentityThesis/` — Delta-framework and structural identity
 - `ConsensualSovereignty/` — Consent alignment/legitimacy core + advanced dynamics (Gold core)
-- `ROMEthics/` — bridge module for canonical ROM ethics paper mapping
+- `ROMEthics/` — bridge module + gold extensions for canonical ROM ethics paper mapping
 - `SemanticVision/` — Jaccard core + distance bridge + gold extensions
 - `GenreMimicry/` — rate/odds core + complement bridge + gold extensions
 - `AMLParadox/` — AML utility core + rates bridge + gold extensions
@@ -19,5 +19,5 @@ This is the root module. Individual paper formalizations live in:
 - `AutonomousRedteam/` — residual core + reduction-ratio bridge + gold extensions
 - `CBDCPrivacy/` — epsilon composition core + repeated-budget bridge + gold extensions
 - `ConsciousnessNominalisation/` — grounding-gap core + deficit bridge (Silver bridge)
-- `MonographQualia/` — qualia-distance core + energy bridge (Silver bridge)
+- `MonographQualia/` — qualia-distance core + energy bridge + gold extensions
 -/

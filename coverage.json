@@ -5,7 +5,7 @@
     {"paper": "consensual-sovereignty", "module": "ConsensualSovereignty", "status": "gold-formal-core"},
     {"paper": "axiom-of-consent", "module": "AxiomOfConsent", "status": "gold-formal-core"},
     {"paper": "rom-ethics", "module": "ROM", "status": "gold-formal-core"},
-    {"paper": "rom-ethics-bridge", "module": "ROMEthics", "status": "silver-bridge"},
+    {"paper": "rom-ethics-bridge", "module": "ROMEthics", "status": "gold-formal-core"},
     {"paper": "identity-thesis", "module": "IdentityThesis", "status": "silver-existing"},
     {"paper": "quantum-oscillation", "module": "QuantumOscillatory", "status": "silver-existing"},
     {"paper": "semantic-vision", "module": "SemanticVision", "status": "gold-formal-core"},
@@ -15,6 +15,6 @@
     {"paper": "autonomous", "module": "AutonomousRedteam", "status": "gold-formal-core"},
     {"paper": "cbdc-privacy", "module": "CBDCPrivacy", "status": "gold-formal-core"},
     {"paper": "consciousness-nominalisation", "module": "ConsciousnessNominalisation", "status": "silver-bridge"},
-    {"paper": "monograph-qualia", "module": "MonographQualia", "status": "silver-bridge"}
+    {"paper": "monograph-qualia", "module": "MonographQualia", "status": "gold-formal-core"}
   ]
 }

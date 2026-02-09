@@ -23,6 +23,7 @@ import FarzullaProofs.ConsensualSovereignty.Advanced
 import FarzullaProofs.ConsensualSovereignty.Transfers
 import FarzullaProofs.ROMEthics.Basic
 import FarzullaProofs.ROMEthics.Bridge
+import FarzullaProofs.ROMEthics.Advanced
 import FarzullaProofs.SemanticVision.Basic
 import FarzullaProofs.SemanticVision.Bridge
 import FarzullaProofs.SemanticVision.Advanced
@@ -45,3 +46,4 @@ import FarzullaProofs.ConsciousnessNominalisation.Basic
 import FarzullaProofs.ConsciousnessNominalisation.Bridge
 import FarzullaProofs.MonographQualia.Basic
 import FarzullaProofs.MonographQualia.Bridge
+import FarzullaProofs.MonographQualia.Advanced
