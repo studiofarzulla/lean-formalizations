@@ -6,6 +6,7 @@
 ## Lean entrypoints
 - FarzullaProofs/AutonomousRedteam/Basic.lean
 - FarzullaProofs/AutonomousRedteam/Bridge.lean
+- FarzullaProofs/AutonomousRedteam/Advanced.lean
 
 ## Theorem ID convention
 - Manuscript: THM-<paper-slug>-<section>-<index>
@@ -24,6 +25,12 @@
 - THM-AutonomousRedteam-silver-4 -> `residualIncidents_anti_ratio`
 - THM-AutonomousRedteam-silver-5 -> `residualIncidents_zero_of_ratio_one`
 
+## Gold mapping
+- THM-AutonomousRedteam-gold-1 -> `residualIncidents_add_blocked`
+- THM-AutonomousRedteam-gold-2 -> `residualIncidents_le_incidents`
+- THM-AutonomousRedteam-gold-3 -> `reductionRatio_zero_blocked`
+- THM-AutonomousRedteam-gold-4 -> `incidents_mul_one_sub_ratio_eq_residual`
+
 ## Assumption tags
 - Residual model as linear subtraction (`incidents - blocked`): `A-AR-LINEAR-RESIDUAL`.
 - Positive incident-volume denominator for ratio claims: `A-AR-INC-POS`.
@@ -39,6 +46,10 @@
 - THM-AutonomousRedteam-silver-3 -> `A-AR-LINEAR-RESIDUAL`, `A-AR-INC-POS`
 - THM-AutonomousRedteam-silver-4 -> `A-AR-BOUNDS`
 - THM-AutonomousRedteam-silver-5 -> `A-AR-LINEAR-RESIDUAL`
+- THM-AutonomousRedteam-gold-1 -> `A-AR-LINEAR-RESIDUAL`
+- THM-AutonomousRedteam-gold-2 -> `A-AR-LINEAR-RESIDUAL`, `A-AR-BOUNDS`
+- THM-AutonomousRedteam-gold-3 -> `NONE`
+- THM-AutonomousRedteam-gold-4 -> `A-AR-LINEAR-RESIDUAL`, `A-AR-INC-POS`
 
 ## Falsification boundaries
 - Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.
@@ -46,4 +57,4 @@
 - Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios.
 
 ## Status
-- silver-bridge
+- gold-formal-core

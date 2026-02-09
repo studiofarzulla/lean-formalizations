@@ -6,6 +6,7 @@
 ## Lean entrypoints
 - FarzullaProofs/AMLParadox/Basic.lean
 - FarzullaProofs/AMLParadox/Bridge.lean
+- FarzullaProofs/AMLParadox/Advanced.lean
 
 ## Theorem ID convention
 - Manuscript: THM-<paper-slug>-<section>-<index>
@@ -25,6 +26,12 @@
 - THM-AMLParadox-silver-5 -> `netDetectionAdvantage_pos_of_tp_gt_fp`
 - THM-AMLParadox-silver-6 -> `amlUtility_anti_penalty`
 
+## Gold mapping
+- THM-AMLParadox-gold-1 -> `netDetectionAdvantage_eq_zero_of_eq`
+- THM-AMLParadox-gold-2 -> `netDetectionAdvantage_nonneg_of_tp_ge_fp`
+- THM-AMLParadox-gold-3 -> `amlUtility_eq_add_scaled`
+- THM-AMLParadox-gold-4 -> `amlUtility_eq_gap_of_unit_penalty`
+
 ## Assumption tags
 - Additive linear utility model in TP/FP and penalty: `A-AML-LINEAR-UTILITY`.
 - Positive denominator assumptions for rate/advantage normalization: `A-AML-TOTAL-POS`.
@@ -41,6 +48,10 @@
 - THM-AMLParadox-silver-4 -> `A-AML-TOTAL-POS`
 - THM-AMLParadox-silver-5 -> `A-AML-TOTAL-POS`
 - THM-AMLParadox-silver-6 -> `A-AML-LINEAR-UTILITY`, `A-AML-NONNEG`
+- THM-AMLParadox-gold-1 -> `A-AML-TOTAL-POS`
+- THM-AMLParadox-gold-2 -> `A-AML-TOTAL-POS`
+- THM-AMLParadox-gold-3 -> `A-AML-LINEAR-UTILITY`
+- THM-AMLParadox-gold-4 -> `A-AML-LINEAR-UTILITY`
 
 ## Falsification boundaries
 - If total alert volume is non-positive, normalized rate/advantage claims are not valid.
@@ -48,4 +59,4 @@
 - Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain.
 
 ## Status
-- silver-bridge
+- gold-formal-core

@@ -190,6 +190,7 @@ FarzullaProofs/
 |-- AMLParadox/
 |   |-- Basic.lean                          # Bronze AML utility core
 |   +-- Bridge.lean                         # Silver rates/advantage bridge
+|   +-- Advanced.lean                       # Gold utility/advantage extensions
 |-- AsymptoticProtection/
 |   |-- Basic.lean                          # Bronze protection-level core
 |   +-- Bridge.lean                         # Silver saturation-gap bridge
@@ -197,6 +198,7 @@ FarzullaProofs/
 |-- AutonomousRedteam/
 |   |-- Basic.lean                          # Bronze residual-incidents core
 |   +-- Bridge.lean                         # Silver reduction-ratio bridge
+|   +-- Advanced.lean                       # Gold residual-ratio equivalence extensions
 |-- CBDCPrivacy/
 |   |-- Basic.lean                          # Bronze epsilon composition core
 |   +-- Bridge.lean                         # Silver repeated-composition bridge

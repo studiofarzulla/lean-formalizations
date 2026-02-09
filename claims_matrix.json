@@ -1,5 +1,5 @@
 {
-  "claim_count": 179,
+  "claim_count": 187,
   "claims": [
     {
       "assumption_scope": "claim_level",
@@ -18,7 +18,7 @@
       "mapping_section": "Bronze mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -38,7 +38,7 @@
       "mapping_section": "Bronze mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -57,7 +57,7 @@
       "mapping_section": "Bronze mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -76,7 +76,83 @@
       "mapping_section": "Bronze mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-LINEAR-UTILITY"
+      ],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-gold-3",
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
+      "lean_declaration": "amlUtility_eq_add_scaled",
+      "manuscript_reference": "THM-AMLParadox-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-LINEAR-UTILITY"
+      ],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-gold-4",
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
+      "lean_declaration": "amlUtility_eq_gap_of_unit_penalty",
+      "manuscript_reference": "THM-AMLParadox-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-TOTAL-POS"
+      ],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-gold-1",
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
+      "lean_declaration": "netDetectionAdvantage_eq_zero_of_eq",
+      "manuscript_reference": "THM-AMLParadox-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-TOTAL-POS"
+      ],
+      "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
+      "claim_id": "THM-AMLParadox-gold-2",
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
+      "lean_declaration": "netDetectionAdvantage_nonneg_of_tp_ge_fp",
+      "manuscript_reference": "THM-AMLParadox-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "AMLParadox",
+      "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -96,7 +172,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -115,7 +191,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -134,7 +210,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -153,7 +229,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -172,7 +248,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -191,7 +267,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -459,7 +535,7 @@
       "mapping_section": "Bronze mapping",
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -479,7 +555,7 @@
       "mapping_section": "Bronze mapping",
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -499,7 +575,7 @@
       "mapping_section": "Bronze mapping",
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -518,7 +594,85 @@
       "mapping_section": "Bronze mapping",
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-INC-POS",
+        "A-AR-LINEAR-RESIDUAL"
+      ],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-gold-4",
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
+      "lean_declaration": "incidents_mul_one_sub_ratio_eq_residual",
+      "manuscript_reference": "THM-AutonomousRedteam-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "NONE"
+      ],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-gold-3",
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
+      "lean_declaration": "reductionRatio_zero_blocked",
+      "manuscript_reference": "THM-AutonomousRedteam-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-LINEAR-RESIDUAL"
+      ],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-gold-1",
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
+      "lean_declaration": "residualIncidents_add_blocked",
+      "manuscript_reference": "THM-AutonomousRedteam-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-BOUNDS",
+        "A-AR-LINEAR-RESIDUAL"
+      ],
+      "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
+      "claim_id": "THM-AutonomousRedteam-gold-2",
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
+      "lean_declaration": "residualIncidents_le_incidents",
+      "manuscript_reference": "THM-AutonomousRedteam-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "AutonomousRedteam",
+      "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -537,7 +691,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -557,7 +711,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -576,7 +730,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -596,7 +750,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -615,7 +769,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "paper_level",
@@ -3617,6 +3771,18 @@
         "THM-AMLParadox-bronze-4": [
           "A-AML-LINEAR-UTILITY"
         ],
+        "THM-AMLParadox-gold-1": [
+          "A-AML-TOTAL-POS"
+        ],
+        "THM-AMLParadox-gold-2": [
+          "A-AML-TOTAL-POS"
+        ],
+        "THM-AMLParadox-gold-3": [
+          "A-AML-LINEAR-UTILITY"
+        ],
+        "THM-AMLParadox-gold-4": [
+          "A-AML-LINEAR-UTILITY"
+        ],
         "THM-AMLParadox-silver-1": [
           "A-AML-TOTAL-POS"
         ],
@@ -3644,11 +3810,12 @@
       ],
       "lean_entrypoints": [
         "FarzullaProofs/AMLParadox/Basic.lean",
-        "FarzullaProofs/AMLParadox/Bridge.lean"
+        "FarzullaProofs/AMLParadox/Bridge.lean",
+        "FarzullaProofs/AMLParadox/Advanced.lean"
       ],
       "module": "AMLParadox",
       "paper_map": "FarzullaProofs/AMLParadox/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [
@@ -3736,6 +3903,20 @@
           "A-AR-BOUNDS",
           "A-AR-LINEAR-RESIDUAL"
         ],
+        "THM-AutonomousRedteam-gold-1": [
+          "A-AR-LINEAR-RESIDUAL"
+        ],
+        "THM-AutonomousRedteam-gold-2": [
+          "A-AR-BOUNDS",
+          "A-AR-LINEAR-RESIDUAL"
+        ],
+        "THM-AutonomousRedteam-gold-3": [
+          "NONE"
+        ],
+        "THM-AutonomousRedteam-gold-4": [
+          "A-AR-INC-POS",
+          "A-AR-LINEAR-RESIDUAL"
+        ],
         "THM-AutonomousRedteam-silver-1": [
           "A-AR-INC-POS"
         ],
@@ -3761,11 +3942,12 @@
       ],
       "lean_entrypoints": [
         "FarzullaProofs/AutonomousRedteam/Basic.lean",
-        "FarzullaProofs/AutonomousRedteam/Bridge.lean"
+        "FarzullaProofs/AutonomousRedteam/Bridge.lean",
+        "FarzullaProofs/AutonomousRedteam/Advanced.lean"
       ],
       "module": "AutonomousRedteam",
       "paper_map": "FarzullaProofs/AutonomousRedteam/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [
