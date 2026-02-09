@@ -11,9 +11,9 @@
     {"paper": "semantic-vision", "module": "SemanticVision", "status": "gold-formal-core"},
     {"paper": "genre-mimicry", "module": "GenreMimicry", "status": "gold-formal-core"},
     {"paper": "aml-paradox", "module": "AMLParadox", "status": "silver-bridge"},
-    {"paper": "asymptotic", "module": "AsymptoticProtection", "status": "silver-bridge"},
+    {"paper": "asymptotic", "module": "AsymptoticProtection", "status": "gold-formal-core"},
     {"paper": "autonomous", "module": "AutonomousRedteam", "status": "silver-bridge"},
-    {"paper": "cbdc-privacy", "module": "CBDCPrivacy", "status": "silver-bridge"},
+    {"paper": "cbdc-privacy", "module": "CBDCPrivacy", "status": "gold-formal-core"},
     {"paper": "consciousness-nominalisation", "module": "ConsciousnessNominalisation", "status": "silver-bridge"},
     {"paper": "monograph-qualia", "module": "MonographQualia", "status": "silver-bridge"}
   ]

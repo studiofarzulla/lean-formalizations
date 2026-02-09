@@ -1,5 +1,5 @@
 {
-  "claim_count": 171,
+  "claim_count": 179,
   "claims": [
     {
       "assumption_scope": "claim_level",
@@ -210,7 +210,7 @@
       "mapping_section": "Bronze mapping",
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -229,7 +229,7 @@
       "mapping_section": "Bronze mapping",
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -248,7 +248,7 @@
       "mapping_section": "Bronze mapping",
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -267,7 +267,83 @@
       "mapping_section": "Bronze mapping",
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-DEN-POS"
+      ],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-gold-2",
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
+      "lean_declaration": "protectionLevel_add_saturationGap",
+      "manuscript_reference": "THM-AsymptoticProtection-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "NONE"
+      ],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-gold-4",
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
+      "lean_declaration": "protectionLevel_eq_one_sub_saturationGap",
+      "manuscript_reference": "THM-AsymptoticProtection-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "NONE"
+      ],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-gold-3",
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
+      "lean_declaration": "saturationGap_eq_one_sub_protectionLevel",
+      "manuscript_reference": "THM-AsymptoticProtection-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AP-NONNEG"
+      ],
+      "canonical_paper": "papers-official/asymptotic/asymptotic-protection-sublimated.tex",
+      "claim_id": "THM-AsymptoticProtection-gold-1",
+      "falsification_boundaries": [
+        "If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.",
+        "Anti-effort monotonicity claims apply only under nonnegative `k` and ordered effort comparisons.",
+        "These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions."
+      ],
+      "lean_declaration": "saturationGap_le_one",
+      "manuscript_reference": "THM-AsymptoticProtection-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "AsymptoticProtection",
+      "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -286,7 +362,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -307,7 +383,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -326,7 +402,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -345,7 +421,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -364,7 +440,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -800,7 +876,7 @@
       "mapping_section": "Bronze mapping",
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -819,7 +895,7 @@
       "mapping_section": "Bronze mapping",
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -838,7 +914,7 @@
       "mapping_section": "Bronze mapping",
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -858,7 +934,85 @@
       "mapping_section": "Bronze mapping",
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP",
+        "A-CBDC-AVG-NORM"
+      ],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-gold-4",
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
+      "lean_declaration": "composedEpsilon_eq_repeated_two",
+      "manuscript_reference": "THM-CBDCPrivacy-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP"
+      ],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-gold-2",
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
+      "lean_declaration": "repeatedEpsilon_add_eps",
+      "manuscript_reference": "THM-CBDCPrivacy-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP",
+        "A-CBDC-STEPS-MONO"
+      ],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-gold-3",
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
+      "lean_declaration": "repeatedEpsilon_add_steps",
+      "manuscript_reference": "THM-CBDCPrivacy-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-CBDC-ADD-COMP"
+      ],
+      "canonical_paper": "papers-official/cbdc-privacy/main.tex",
+      "claim_id": "THM-CBDCPrivacy-gold-1",
+      "falsification_boundaries": [
+        "Results here assume linear/additive composition; advanced composition or concentrated DP variants are out of scope.",
+        "Nonnegativity and monotonicity claims rely on nonnegative epsilon budgets.",
+        "Step-growth comparisons require explicit ordering of release counts (`n <= m`)."
+      ],
+      "lean_declaration": "repeatedEpsilon_zero",
+      "manuscript_reference": "THM-CBDCPrivacy-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "CBDCPrivacy",
+      "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -877,7 +1031,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -898,7 +1052,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -918,7 +1072,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -937,7 +1091,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -956,7 +1110,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3516,6 +3670,18 @@
         "THM-AsymptoticProtection-bronze-4": [
           "A-AP-DEN-POS"
         ],
+        "THM-AsymptoticProtection-gold-1": [
+          "A-AP-NONNEG"
+        ],
+        "THM-AsymptoticProtection-gold-2": [
+          "A-AP-DEN-POS"
+        ],
+        "THM-AsymptoticProtection-gold-3": [
+          "NONE"
+        ],
+        "THM-AsymptoticProtection-gold-4": [
+          "NONE"
+        ],
         "THM-AsymptoticProtection-silver-1": [
           "A-AP-DEN-POS"
         ],
@@ -3541,11 +3707,12 @@
       ],
       "lean_entrypoints": [
         "FarzullaProofs/AsymptoticProtection/Basic.lean",
-        "FarzullaProofs/AsymptoticProtection/Bridge.lean"
+        "FarzullaProofs/AsymptoticProtection/Bridge.lean",
+        "FarzullaProofs/AsymptoticProtection/Advanced.lean"
       ],
       "module": "AsymptoticProtection",
       "paper_map": "FarzullaProofs/AsymptoticProtection/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [
@@ -3671,6 +3838,7 @@
     {
       "assumption_tags": [
         "A-CBDC-ADD-COMP",
+        "A-CBDC-AVG-NORM",
         "A-CBDC-EPS-NN",
         "A-CBDC-STEPS-MONO"
       ],
@@ -3688,6 +3856,20 @@
         ],
         "THM-CBDCPrivacy-bronze-4": [
           "A-CBDC-ADD-COMP"
+        ],
+        "THM-CBDCPrivacy-gold-1": [
+          "A-CBDC-ADD-COMP"
+        ],
+        "THM-CBDCPrivacy-gold-2": [
+          "A-CBDC-ADD-COMP"
+        ],
+        "THM-CBDCPrivacy-gold-3": [
+          "A-CBDC-ADD-COMP",
+          "A-CBDC-STEPS-MONO"
+        ],
+        "THM-CBDCPrivacy-gold-4": [
+          "A-CBDC-ADD-COMP",
+          "A-CBDC-AVG-NORM"
         ],
         "THM-CBDCPrivacy-silver-1": [
           "A-CBDC-ADD-COMP"
@@ -3715,11 +3897,12 @@
       ],
       "lean_entrypoints": [
         "FarzullaProofs/CBDCPrivacy/Basic.lean",
-        "FarzullaProofs/CBDCPrivacy/Bridge.lean"
+        "FarzullaProofs/CBDCPrivacy/Bridge.lean",
+        "FarzullaProofs/CBDCPrivacy/Advanced.lean"
       ],
       "module": "CBDCPrivacy",
       "paper_map": "FarzullaProofs/CBDCPrivacy/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [

@@ -6,6 +6,7 @@
 ## Lean entrypoints
 - FarzullaProofs/AsymptoticProtection/Basic.lean
 - FarzullaProofs/AsymptoticProtection/Bridge.lean
+- FarzullaProofs/AsymptoticProtection/Advanced.lean
 
 ## Theorem ID convention
 - Manuscript: THM-<paper-slug>-<section>-<index>
@@ -24,6 +25,12 @@
 - THM-AsymptoticProtection-silver-4 -> `saturationGap_anti_effort`
 - THM-AsymptoticProtection-silver-5 -> `saturationGap_zero_effort`
 
+## Gold mapping
+- THM-AsymptoticProtection-gold-1 -> `saturationGap_le_one`
+- THM-AsymptoticProtection-gold-2 -> `protectionLevel_add_saturationGap`
+- THM-AsymptoticProtection-gold-3 -> `saturationGap_eq_one_sub_protectionLevel`
+- THM-AsymptoticProtection-gold-4 -> `protectionLevel_eq_one_sub_saturationGap`
+
 ## Assumption tags
 - Nonnegative parameter domain for effort and intensity terms: `A-AP-NONNEG`.
 - Positive denominator domain for rational closed forms: `A-AP-DEN-POS`.
@@ -39,6 +46,10 @@
 - THM-AsymptoticProtection-silver-3 -> `A-AP-DEN-POS`
 - THM-AsymptoticProtection-silver-4 -> `A-AP-NONNEG`, `A-AP-EFFORT-MONO`, `A-AP-DEN-POS`
 - THM-AsymptoticProtection-silver-5 -> `A-AP-DEN-POS`
+- THM-AsymptoticProtection-gold-1 -> `A-AP-NONNEG`
+- THM-AsymptoticProtection-gold-2 -> `A-AP-DEN-POS`
+- THM-AsymptoticProtection-gold-3 -> `NONE`
+- THM-AsymptoticProtection-gold-4 -> `NONE`
 
 ## Falsification boundaries
 - If denominator positivity (`1 + k*n > 0`) is not satisfied, rational closed-form and bounds claims can fail.
@@ -46,4 +57,4 @@
 - These theorems formalize the deterministic algebraic scaffold; stochastic or adversarial perturbation models require additional assumptions.
 
 ## Status
-- silver-bridge
+- gold-formal-core

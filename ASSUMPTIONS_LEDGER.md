@@ -66,6 +66,7 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-CBDC-ADD-COMP`: privacy composition is modeled as additive epsilon accounting.
 - `A-CBDC-EPS-NN`: epsilon budgets are nonnegative.
 - `A-CBDC-STEPS-MONO`: step counts are compared under an order witness (`n <= m`).
+- `A-CBDC-AVG-NORM`: average-normalization algebra for two-step composition rewrites.
 
 ## AML Paradox tags
 - `A-AML-LINEAR-UTILITY`: utility model is linear (`tp - penalty*fp`).

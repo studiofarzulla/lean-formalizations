@@ -33,10 +33,12 @@ import FarzullaProofs.AMLParadox.Basic
 import FarzullaProofs.AMLParadox.Bridge
 import FarzullaProofs.AsymptoticProtection.Basic
 import FarzullaProofs.AsymptoticProtection.Bridge
+import FarzullaProofs.AsymptoticProtection.Advanced
 import FarzullaProofs.AutonomousRedteam.Basic
 import FarzullaProofs.AutonomousRedteam.Bridge
 import FarzullaProofs.CBDCPrivacy.Basic
 import FarzullaProofs.CBDCPrivacy.Bridge
+import FarzullaProofs.CBDCPrivacy.Advanced
 import FarzullaProofs.ConsciousnessNominalisation.Basic
 import FarzullaProofs.ConsciousnessNominalisation.Bridge
 import FarzullaProofs.MonographQualia.Basic

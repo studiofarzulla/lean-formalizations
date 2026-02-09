@@ -193,12 +193,14 @@ FarzullaProofs/
 |-- AsymptoticProtection/
 |   |-- Basic.lean                          # Bronze protection-level core
 |   +-- Bridge.lean                         # Silver saturation-gap bridge
+|   +-- Advanced.lean                       # Gold monotonicity/saturation extensions
 |-- AutonomousRedteam/
 |   |-- Basic.lean                          # Bronze residual-incidents core
 |   +-- Bridge.lean                         # Silver reduction-ratio bridge
 |-- CBDCPrivacy/
 |   |-- Basic.lean                          # Bronze epsilon composition core
 |   +-- Bridge.lean                         # Silver repeated-composition bridge
+|   +-- Advanced.lean                       # Gold composition algebra extensions
 |-- ConsciousnessNominalisation/
 |   |-- Basic.lean                          # Bronze grounding-gap core
 |   +-- Bridge.lean                         # Silver grounding-deficit bridge

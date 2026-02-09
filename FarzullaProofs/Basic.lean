@@ -15,9 +15,9 @@ This is the root module. Individual paper formalizations live in:
 - `SemanticVision/` — Jaccard core + distance bridge + gold extensions
 - `GenreMimicry/` — rate/odds core + complement bridge + gold extensions
 - `AMLParadox/` — AML utility core + rates bridge (Silver bridge)
-- `AsymptoticProtection/` — protection core + saturation-gap bridge (Silver bridge)
+- `AsymptoticProtection/` — protection core + saturation-gap bridge + gold extensions
 - `AutonomousRedteam/` — residual core + reduction-ratio bridge (Silver bridge)
-- `CBDCPrivacy/` — epsilon composition core + repeated-budget bridge (Silver bridge)
+- `CBDCPrivacy/` — epsilon composition core + repeated-budget bridge + gold extensions
 - `ConsciousnessNominalisation/` — grounding-gap core + deficit bridge (Silver bridge)
 - `MonographQualia/` — qualia-distance core + energy bridge (Silver bridge)
 -/
