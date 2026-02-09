@@ -50,6 +50,7 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 ## Semantic Vision tags
 - `A-SV-FINSET`: semantic units are represented as finite sets with standard card/intersection/union behavior.
 - `A-SV-UNION-NONEMPTY`: non-empty union witness (`0 < (A ∪ B).card`) is provided where required.
+- `A-SV-DISJOINT`: disjointness witness is provided for maximal-distance identities.
 
 ## Genre Mimicry tags
 - `A-GM-TOTAL-POS`: total/sample denominator is strictly positive.

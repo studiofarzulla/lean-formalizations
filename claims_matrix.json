@@ -1,5 +1,5 @@
 {
-  "claim_count": 163,
+  "claim_count": 171,
   "claims": [
     {
       "assumption_scope": "claim_level",
@@ -1579,14 +1579,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "odds_pos",
       "manuscript_reference": "THM-genre-bronze-4",
       "mapping_section": "Bronze mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1599,14 +1600,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "rate_gap_pos",
       "manuscript_reference": "THM-genre-bronze-3",
       "mapping_section": "Bronze mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1619,14 +1621,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "rate_le_one",
       "manuscript_reference": "THM-genre-bronze-2",
       "mapping_section": "Bronze mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1639,14 +1642,99 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "rate_nonneg",
       "manuscript_reference": "THM-genre-bronze-1",
       "mapping_section": "Bronze mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-TOTAL-POS"
+      ],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-gold-3",
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
+      ],
+      "lean_declaration": "odds_rate_eq_ratio",
+      "manuscript_reference": "THM-genre-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-ODDS-DOM",
+        "A-GM-TOTAL-POS"
+      ],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-gold-4",
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
+      ],
+      "lean_declaration": "odds_rate_nonneg_of_bounds",
+      "manuscript_reference": "THM-genre-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-TOTAL-POS"
+      ],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-gold-2",
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
+      ],
+      "lean_declaration": "rate_lt_one",
+      "manuscript_reference": "THM-genre-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-GM-COUNT-BOUNDS",
+        "A-GM-TOTAL-POS"
+      ],
+      "canonical_paper": "papers-official/genre-mimicry/genre-mimicry-arxiv.tex",
+      "claim_id": "THM-genre-gold-1",
+      "falsification_boundaries": [
+        "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
+        "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
+      ],
+      "lean_declaration": "rate_pos",
+      "manuscript_reference": "THM-genre-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "GenreMimicry",
+      "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1659,14 +1747,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "odds_rate_pos_of_bounds",
       "manuscript_reference": "THM-genre-silver-7",
       "mapping_section": "Silver bridge mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1678,14 +1767,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "rateComplement",
       "manuscript_reference": "THM-genre-silver-1",
       "mapping_section": "Silver bridge mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1698,14 +1788,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "rateComplement_anti_numerator",
       "manuscript_reference": "THM-genre-silver-6",
       "mapping_section": "Silver bridge mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1718,14 +1809,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "rateComplement_le_one",
       "manuscript_reference": "THM-genre-silver-4",
       "mapping_section": "Silver bridge mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1738,14 +1830,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "rateComplement_nonneg",
       "manuscript_reference": "THM-genre-silver-3",
       "mapping_section": "Silver bridge mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1757,14 +1850,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "rate_add_rateComplement",
       "manuscript_reference": "THM-genre-silver-5",
       "mapping_section": "Silver bridge mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -1777,14 +1871,15 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_declaration": "rate_mono_numerator",
       "manuscript_reference": "THM-genre-silver-2",
       "mapping_section": "Silver bridge mapping",
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3105,7 +3200,7 @@
       "mapping_section": "Bronze mapping",
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3124,7 +3219,7 @@
       "mapping_section": "Bronze mapping",
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3144,7 +3239,89 @@
       "mapping_section": "Bronze mapping",
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET",
+        "A-SV-UNION-NONEMPTY"
+      ],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-gold-3",
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
+      "lean_declaration": "jaccardDistance_bounds",
+      "manuscript_reference": "THM-semvis-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-DISJOINT",
+        "A-SV-FINSET",
+        "A-SV-UNION-NONEMPTY"
+      ],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-gold-2",
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
+      "lean_declaration": "jaccardDistance_eq_one_of_disjoint",
+      "manuscript_reference": "THM-semvis-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-FINSET",
+        "A-SV-UNION-NONEMPTY"
+      ],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-gold-4",
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
+      "lean_declaration": "jaccardDistance_eq_zero_of_eq",
+      "manuscript_reference": "THM-semvis-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-SV-DISJOINT",
+        "A-SV-FINSET",
+        "A-SV-UNION-NONEMPTY"
+      ],
+      "canonical_paper": "papers-official/semantic-vision/semantic-vision-arxiv.tex",
+      "claim_id": "THM-semvis-gold-1",
+      "falsification_boundaries": [
+        "If domains are not finite-set based, the exact Jaccard cardinality formulas here do not directly apply.",
+        "Claims requiring non-empty union witness do not cover empty-union edge cases without separate conventions.",
+        "The current bridge formalizes boundedness/symmetry, not metric triangle inequality."
+      ],
+      "lean_declaration": "jaccard_eq_zero_of_disjoint",
+      "manuscript_reference": "THM-semvis-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "SemanticVision",
+      "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3163,7 +3340,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3182,7 +3359,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3202,7 +3379,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3222,7 +3399,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3241,7 +3418,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_scope": "claim_level",
@@ -3260,7 +3437,7 @@
       "mapping_section": "Silver bridge mapping",
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     }
   ],
   "paper_count": 14,
@@ -3700,6 +3877,22 @@
         "THM-genre-bronze-4": [
           "A-GM-ODDS-DOM"
         ],
+        "THM-genre-gold-1": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-gold-2": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-gold-3": [
+          "A-GM-TOTAL-POS"
+        ],
+        "THM-genre-gold-4": [
+          "A-GM-COUNT-BOUNDS",
+          "A-GM-ODDS-DOM",
+          "A-GM-TOTAL-POS"
+        ],
         "THM-genre-silver-1": [
           "A-GM-TOTAL-POS"
         ],
@@ -3730,15 +3923,17 @@
       "falsification_boundaries": [
         "If total counts are non-positive, rate and complement inequalities in this mapping are invalid.",
         "Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.",
-        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded."
+        "Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.",
+        "Closed-form odds rewrite assumes positive/nonnull total denominator."
       ],
       "lean_entrypoints": [
         "FarzullaProofs/GenreMimicry/Basic.lean",
-        "FarzullaProofs/GenreMimicry/Bridge.lean"
+        "FarzullaProofs/GenreMimicry/Bridge.lean",
+        "FarzullaProofs/GenreMimicry/Advanced.lean"
       ],
       "module": "GenreMimicry",
       "paper_map": "FarzullaProofs/GenreMimicry/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     },
     {
       "assumption_tags": [
@@ -4077,6 +4272,7 @@
     },
     {
       "assumption_tags": [
+        "A-SV-DISJOINT",
         "A-SV-FINSET",
         "A-SV-UNION-NONEMPTY"
       ],
@@ -4090,6 +4286,24 @@
           "A-SV-UNION-NONEMPTY"
         ],
         "THM-semvis-bronze-3": [
+          "A-SV-FINSET",
+          "A-SV-UNION-NONEMPTY"
+        ],
+        "THM-semvis-gold-1": [
+          "A-SV-DISJOINT",
+          "A-SV-FINSET",
+          "A-SV-UNION-NONEMPTY"
+        ],
+        "THM-semvis-gold-2": [
+          "A-SV-DISJOINT",
+          "A-SV-FINSET",
+          "A-SV-UNION-NONEMPTY"
+        ],
+        "THM-semvis-gold-3": [
+          "A-SV-FINSET",
+          "A-SV-UNION-NONEMPTY"
+        ],
+        "THM-semvis-gold-4": [
           "A-SV-FINSET",
           "A-SV-UNION-NONEMPTY"
         ],
@@ -4121,11 +4335,12 @@
       ],
       "lean_entrypoints": [
         "FarzullaProofs/SemanticVision/Basic.lean",
-        "FarzullaProofs/SemanticVision/Bridge.lean"
+        "FarzullaProofs/SemanticVision/Bridge.lean",
+        "FarzullaProofs/SemanticVision/Advanced.lean"
       ],
       "module": "SemanticVision",
       "paper_map": "FarzullaProofs/SemanticVision/PaperMap.md",
-      "status": "silver-bridge"
+      "status": "gold-formal-core"
     }
   ],
   "source": "PaperMap.md",

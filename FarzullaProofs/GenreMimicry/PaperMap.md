@@ -6,6 +6,7 @@
 ## Lean entrypoints
 - FarzullaProofs/GenreMimicry/Basic.lean
 - FarzullaProofs/GenreMimicry/Bridge.lean
+- FarzullaProofs/GenreMimicry/Advanced.lean
 
 ## Theorem ID convention
 - Manuscript: THM-<paper-slug>-<section>-<index>
@@ -26,6 +27,12 @@
 - THM-genre-silver-6 -> `rateComplement_anti_numerator`
 - THM-genre-silver-7 -> `odds_rate_pos_of_bounds`
 
+## Gold mapping
+- THM-genre-gold-1 -> `rate_pos`
+- THM-genre-gold-2 -> `rate_lt_one`
+- THM-genre-gold-3 -> `odds_rate_eq_ratio`
+- THM-genre-gold-4 -> `odds_rate_nonneg_of_bounds`
+
 ## Assumption tags
 - Positive denominator/count-domain assumptions for rate arithmetic: `A-GM-TOTAL-POS`.
 - Numerator/total ordering assumptions for boundedness and monotonicity: `A-GM-COUNT-BOUNDS`.
@@ -43,15 +50,20 @@
 - THM-genre-silver-5 -> `A-GM-TOTAL-POS`
 - THM-genre-silver-6 -> `A-GM-TOTAL-POS`, `A-GM-COUNT-BOUNDS`
 - THM-genre-silver-7 -> `A-GM-TOTAL-POS`, `A-GM-ODDS-DOM`
+- THM-genre-gold-1 -> `A-GM-TOTAL-POS`, `A-GM-COUNT-BOUNDS`
+- THM-genre-gold-2 -> `A-GM-TOTAL-POS`, `A-GM-COUNT-BOUNDS`
+- THM-genre-gold-3 -> `A-GM-TOTAL-POS`
+- THM-genre-gold-4 -> `A-GM-TOTAL-POS`, `A-GM-COUNT-BOUNDS`, `A-GM-ODDS-DOM`
 
 ## Falsification boundaries
 - If total counts are non-positive, rate and complement inequalities in this mapping are invalid.
 - Monotonicity and anti-monotonicity claims depend on fixed-denominator comparisons and do not automatically extend to changing totals.
 - Odds claims require the mapped rate to remain strictly inside `(0,1)`; edge cases at `0` or `1` are excluded.
+- Closed-form odds rewrite assumes positive/nonnull total denominator.
 
 ## Notes
 - Core theorems model disclaimer frequencies as rates.
 - Bridge layer adds complement and monotonicity structure for comparative analysis.
 
 ## Status
-- silver-bridge
+- gold-formal-core

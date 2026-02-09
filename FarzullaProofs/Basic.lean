@@ -12,8 +12,8 @@ This is the root module. Individual paper formalizations live in:
 - `IdentityThesis/` — Delta-framework and structural identity
 - `ConsensualSovereignty/` — Consent alignment/legitimacy core + advanced dynamics (Gold core)
 - `ROMEthics/` — bridge module for canonical ROM ethics paper mapping
-- `SemanticVision/` — Jaccard core + distance bridge (Silver bridge)
-- `GenreMimicry/` — rate/odds core + complement bridge (Silver bridge)
+- `SemanticVision/` — Jaccard core + distance bridge + gold extensions
+- `GenreMimicry/` — rate/odds core + complement bridge + gold extensions
 - `AMLParadox/` — AML utility core + rates bridge (Silver bridge)
 - `AsymptoticProtection/` — protection core + saturation-gap bridge (Silver bridge)
 - `AutonomousRedteam/` — residual core + reduction-ratio bridge (Silver bridge)

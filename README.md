@@ -182,9 +182,11 @@ FarzullaProofs/
 |-- SemanticVision/
 |   |-- Basic.lean                          # Bronze Jaccard core
 |   +-- Bridge.lean                         # Silver distance/symmetry bridge
+|   +-- Advanced.lean                       # Gold disjointness/bounds extensions
 |-- GenreMimicry/
 |   |-- Basic.lean                          # Bronze rate/odds core
 |   +-- Bridge.lean                         # Silver complement/monotonicity bridge
+|   +-- Advanced.lean                       # Gold odds/rate closed-form extensions
 |-- AMLParadox/
 |   |-- Basic.lean                          # Bronze AML utility core
 |   +-- Bridge.lean                         # Silver rates/advantage bridge
