@@ -25,5 +25,27 @@
 - THM-AMLParadox-silver-5 -> `netDetectionAdvantage_pos_of_tp_gt_fp`
 - THM-AMLParadox-silver-6 -> `amlUtility_anti_penalty`
 
+## Assumption tags
+- Additive linear utility model in TP/FP and penalty: `A-AML-LINEAR-UTILITY`.
+- Positive denominator assumptions for rate/advantage normalization: `A-AML-TOTAL-POS`.
+- Nonnegative penalty/FP domain for anti-monotonicity claims: `A-AML-NONNEG`.
+
+## Claim-level assumptions
+- THM-AMLParadox-bronze-1 -> `A-AML-LINEAR-UTILITY`
+- THM-AMLParadox-bronze-2 -> `A-AML-LINEAR-UTILITY`
+- THM-AMLParadox-bronze-3 -> `A-AML-LINEAR-UTILITY`, `A-AML-NONNEG`
+- THM-AMLParadox-bronze-4 -> `A-AML-LINEAR-UTILITY`
+- THM-AMLParadox-silver-1 -> `A-AML-TOTAL-POS`
+- THM-AMLParadox-silver-2 -> `A-AML-TOTAL-POS`
+- THM-AMLParadox-silver-3 -> `A-AML-TOTAL-POS`
+- THM-AMLParadox-silver-4 -> `A-AML-TOTAL-POS`
+- THM-AMLParadox-silver-5 -> `A-AML-TOTAL-POS`
+- THM-AMLParadox-silver-6 -> `A-AML-LINEAR-UTILITY`, `A-AML-NONNEG`
+
+## Falsification boundaries
+- If total alert volume is non-positive, normalized rate/advantage claims are not valid.
+- Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.
+- Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain.
+
 ## Status
 - silver-bridge

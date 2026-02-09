@@ -66,5 +66,15 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-CBDC-EPS-NN`: epsilon budgets are nonnegative.
 - `A-CBDC-STEPS-MONO`: step counts are compared under an order witness (`n <= m`).
 
+## AML Paradox tags
+- `A-AML-LINEAR-UTILITY`: utility model is linear (`tp - penalty*fp`).
+- `A-AML-TOTAL-POS`: normalized rates/advantages use strictly positive total volume.
+- `A-AML-NONNEG`: nonnegative penalty/false-positive assumptions for anti-monotonicity statements.
+
+## Autonomous Redteam tags
+- `A-AR-LINEAR-RESIDUAL`: residual incidents are modeled linearly (`incidents - blocked`).
+- `A-AR-INC-POS`: incident baseline is strictly positive where ratio normalization is used.
+- `A-AR-BOUNDS`: bound/order assumptions are supplied (`0 <= blocked <= incidents` or ordered ratios).
+
 ## Reading rule
 A theorem claim is valid only under the tags listed for that claim in its `PaperMap.md` mapping.

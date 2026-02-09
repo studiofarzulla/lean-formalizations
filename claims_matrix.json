@@ -2,11 +2,17 @@
   "claim_count": 163,
   "claims": [
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-LINEAR-UTILITY"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-bronze-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "amlUtility",
       "manuscript_reference": "THM-AMLParadox-bronze-1",
       "mapping_section": "Bronze mapping",
@@ -15,11 +21,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-LINEAR-UTILITY",
+        "A-AML-NONNEG"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-bronze-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "amlUtility_anti_fp",
       "manuscript_reference": "THM-AMLParadox-bronze-3",
       "mapping_section": "Bronze mapping",
@@ -28,11 +41,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-LINEAR-UTILITY"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-bronze-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "amlUtility_eq_tp_of_zero_penalty",
       "manuscript_reference": "THM-AMLParadox-bronze-4",
       "mapping_section": "Bronze mapping",
@@ -41,11 +60,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-LINEAR-UTILITY"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-bronze-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "amlUtility_mono_tp",
       "manuscript_reference": "THM-AMLParadox-bronze-2",
       "mapping_section": "Bronze mapping",
@@ -54,11 +79,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-LINEAR-UTILITY",
+        "A-AML-NONNEG"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-silver-6",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "amlUtility_anti_penalty",
       "manuscript_reference": "THM-AMLParadox-silver-6",
       "mapping_section": "Silver bridge mapping",
@@ -67,11 +99,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-silver-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "falsePositiveRate",
       "manuscript_reference": "THM-AMLParadox-silver-1",
       "mapping_section": "Silver bridge mapping",
@@ -80,11 +118,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-silver-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "netDetectionAdvantage",
       "manuscript_reference": "THM-AMLParadox-silver-3",
       "mapping_section": "Silver bridge mapping",
@@ -93,11 +137,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-silver-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "netDetectionAdvantage_eq_scaled_gap",
       "manuscript_reference": "THM-AMLParadox-silver-4",
       "mapping_section": "Silver bridge mapping",
@@ -106,11 +156,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-silver-5",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "netDetectionAdvantage_pos_of_tp_gt_fp",
       "manuscript_reference": "THM-AMLParadox-silver-5",
       "mapping_section": "Silver bridge mapping",
@@ -119,11 +175,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AML-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
       "claim_id": "THM-AMLParadox-silver-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_declaration": "truePositiveRate",
       "manuscript_reference": "THM-AMLParadox-silver-2",
       "mapping_section": "Silver bridge mapping",
@@ -305,11 +367,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-LINEAR-RESIDUAL"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
       "claim_id": "THM-AutonomousRedteam-bronze-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_declaration": "residualIncidents",
       "manuscript_reference": "THM-AutonomousRedteam-bronze-1",
       "mapping_section": "Bronze mapping",
@@ -318,11 +386,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-BOUNDS",
+        "A-AR-LINEAR-RESIDUAL"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
       "claim_id": "THM-AutonomousRedteam-bronze-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_declaration": "residualIncidents_anti_blocked",
       "manuscript_reference": "THM-AutonomousRedteam-bronze-2",
       "mapping_section": "Bronze mapping",
@@ -331,11 +406,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-BOUNDS",
+        "A-AR-LINEAR-RESIDUAL"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
       "claim_id": "THM-AutonomousRedteam-bronze-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_declaration": "residualIncidents_nonneg",
       "manuscript_reference": "THM-AutonomousRedteam-bronze-4",
       "mapping_section": "Bronze mapping",
@@ -344,11 +426,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-LINEAR-RESIDUAL"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
       "claim_id": "THM-AutonomousRedteam-bronze-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_declaration": "residualIncidents_zero_of_full_block",
       "manuscript_reference": "THM-AutonomousRedteam-bronze-3",
       "mapping_section": "Bronze mapping",
@@ -357,11 +445,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-INC-POS"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
       "claim_id": "THM-AutonomousRedteam-silver-1",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_declaration": "reductionRatio",
       "manuscript_reference": "THM-AutonomousRedteam-silver-1",
       "mapping_section": "Silver bridge mapping",
@@ -370,11 +464,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-BOUNDS",
+        "A-AR-INC-POS"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
       "claim_id": "THM-AutonomousRedteam-silver-2",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_declaration": "reductionRatio_bounds",
       "manuscript_reference": "THM-AutonomousRedteam-silver-2",
       "mapping_section": "Silver bridge mapping",
@@ -383,11 +484,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-BOUNDS"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
       "claim_id": "THM-AutonomousRedteam-silver-4",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_declaration": "residualIncidents_anti_ratio",
       "manuscript_reference": "THM-AutonomousRedteam-silver-4",
       "mapping_section": "Silver bridge mapping",
@@ -396,11 +503,18 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-INC-POS",
+        "A-AR-LINEAR-RESIDUAL"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
       "claim_id": "THM-AutonomousRedteam-silver-3",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_declaration": "residualIncidents_eq_incidents_mul_one_sub_ratio",
       "manuscript_reference": "THM-AutonomousRedteam-silver-3",
       "mapping_section": "Silver bridge mapping",
@@ -409,11 +523,17 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_scope": "paper_level",
-      "assumption_tags": [],
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-AR-LINEAR-RESIDUAL"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
       "claim_id": "THM-AutonomousRedteam-silver-5",
-      "falsification_boundaries": [],
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_declaration": "residualIncidents_zero_of_ratio_one",
       "manuscript_reference": "THM-AutonomousRedteam-silver-5",
       "mapping_section": "Silver bridge mapping",
@@ -2964,10 +3084,51 @@
   "paper_count": 14,
   "papers": [
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-AML-LINEAR-UTILITY",
+        "A-AML-NONNEG",
+        "A-AML-TOTAL-POS"
+      ],
       "canonical_paper": "papers-official/aml-paradox/main-arxiv.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-AMLParadox-bronze-1": [
+          "A-AML-LINEAR-UTILITY"
+        ],
+        "THM-AMLParadox-bronze-2": [
+          "A-AML-LINEAR-UTILITY"
+        ],
+        "THM-AMLParadox-bronze-3": [
+          "A-AML-LINEAR-UTILITY",
+          "A-AML-NONNEG"
+        ],
+        "THM-AMLParadox-bronze-4": [
+          "A-AML-LINEAR-UTILITY"
+        ],
+        "THM-AMLParadox-silver-1": [
+          "A-AML-TOTAL-POS"
+        ],
+        "THM-AMLParadox-silver-2": [
+          "A-AML-TOTAL-POS"
+        ],
+        "THM-AMLParadox-silver-3": [
+          "A-AML-TOTAL-POS"
+        ],
+        "THM-AMLParadox-silver-4": [
+          "A-AML-TOTAL-POS"
+        ],
+        "THM-AMLParadox-silver-5": [
+          "A-AML-TOTAL-POS"
+        ],
+        "THM-AMLParadox-silver-6": [
+          "A-AML-LINEAR-UTILITY",
+          "A-AML-NONNEG"
+        ]
+      },
+      "falsification_boundaries": [
+        "If total alert volume is non-positive, normalized rate/advantage claims are not valid.",
+        "Utility monotonicity claims rely on linear TP/FP penalty form and do not cover nonlinear compliance objectives.",
+        "Positivity claims for net advantage require explicit TP > FP ordering in the mapped domain."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/AMLParadox/Basic.lean",
         "FarzullaProofs/AMLParadox/Bridge.lean"
@@ -3028,10 +3189,50 @@
       "status": "silver-bridge"
     },
     {
-      "assumption_tags": [],
+      "assumption_tags": [
+        "A-AR-BOUNDS",
+        "A-AR-INC-POS",
+        "A-AR-LINEAR-RESIDUAL"
+      ],
       "canonical_paper": "papers-official/autonomous/autonomous-redteam.tex",
-      "claim_level_assumptions": {},
-      "falsification_boundaries": [],
+      "claim_level_assumptions": {
+        "THM-AutonomousRedteam-bronze-1": [
+          "A-AR-LINEAR-RESIDUAL"
+        ],
+        "THM-AutonomousRedteam-bronze-2": [
+          "A-AR-BOUNDS",
+          "A-AR-LINEAR-RESIDUAL"
+        ],
+        "THM-AutonomousRedteam-bronze-3": [
+          "A-AR-LINEAR-RESIDUAL"
+        ],
+        "THM-AutonomousRedteam-bronze-4": [
+          "A-AR-BOUNDS",
+          "A-AR-LINEAR-RESIDUAL"
+        ],
+        "THM-AutonomousRedteam-silver-1": [
+          "A-AR-INC-POS"
+        ],
+        "THM-AutonomousRedteam-silver-2": [
+          "A-AR-BOUNDS",
+          "A-AR-INC-POS"
+        ],
+        "THM-AutonomousRedteam-silver-3": [
+          "A-AR-INC-POS",
+          "A-AR-LINEAR-RESIDUAL"
+        ],
+        "THM-AutonomousRedteam-silver-4": [
+          "A-AR-BOUNDS"
+        ],
+        "THM-AutonomousRedteam-silver-5": [
+          "A-AR-LINEAR-RESIDUAL"
+        ]
+      },
+      "falsification_boundaries": [
+        "Ratio-based statements require strictly positive incident baseline and fail at zero-denominator edge cases.",
+        "Residual monotonicity/anti-ratio claims assume linear residual accounting; nonlinear mitigation-response models are out of scope.",
+        "Bounds claims rely on explicit nonnegativity/order witnesses for blocked incidents and ratios."
+      ],
       "lean_entrypoints": [
         "FarzullaProofs/AutonomousRedteam/Basic.lean",
         "FarzullaProofs/AutonomousRedteam/Bridge.lean"
