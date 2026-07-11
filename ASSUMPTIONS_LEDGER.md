@@ -97,5 +97,14 @@ This ledger defines reusable assumption tags referenced by `PaperMap.md` files.
 - `A-RE-AOC-ROM-BRIDGE`: bridge uses AoC friction monotonicity and ROM survival monotonicity assumptions.
 - `A-RE-WELFARE-NN`: welfare is assumed nonnegative for sign/bound survival claims.
 
+## Regime Tenure tags
+- `A-RT-LINEAR-BURDEN`: capacity drain is linear (burden `gamma*kappa*F - r`; coupled `gamma*kappa*(1-L)*F - r`) with tenure law `T = C0/b`.
+- `A-RT-RESERVES-POS`: initial suppression capacity is strictly positive (`0 < C0`).
+- `A-RT-BURDEN-POS`: draining-regime witness (`0 < burden`).
+- `A-RT-COST-POS`: unit suppression cost is positive (`0 < gamma*kappa`, or componentwise positivity).
+- `A-RT-REPL-NN`: replenishment is nonnegative (`0 <= r`).
+- `A-RT-GATE-LINEAR`: legitimacy gate is linear (`g(L) = 1 - L`).
+- `A-RT-ORDERED`: ordered-parameter witnesses for comparative statics (`F1 < F2`, `r1 < r2`, etc.).
+
 ## Reading rule
 A theorem claim is valid only under the tags listed for that claim in its `PaperMap.md` mapping.

@@ -18,6 +18,11 @@
 - Remark 3.1 -> `identity_kernel_selection`, `identity_kernel_row_stochastic`
 - Appendix D detailed balance/non-potential -> `detailed_balance_zero_flow`, `rps_not_potential`
 - Section 5 consent survival monotonicity -> `consent_survival_mono_legitimacy`, `consent_survival_anti_friction`
+- Section 5.4 generalized legitimacy definition -> `generalized_legitimacy`
+- Section 5.4 generalized survival definition -> `generalized_survival`
+- Section 5.4 consent recovery at w2 = 0 -> `generalized_recovers_consent`
+- Section 5.4 generalized legitimacy nonnegativity -> `generalized_legitimacy_nonneg`
+- Section 5.4 generalized survival monotonicity -> `generalized_survival_mono`
 
 ## Gold extensions
 - THM-rom-gold-1 -> `consent_survival_nonneg`

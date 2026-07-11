@@ -9,6 +9,7 @@ This is the root module. Individual paper formalizations live in:
 - `QuantumOscillatory/` — TBI-QM (Temporal Bitmap Interpretation)
 - `AxiomOfConsent/` — Friction core + advanced bounds/monotonicity (Gold core)
 - `ROM/` — Replicator-Optimization Mechanism core + advanced survival lemmas (Gold core)
+- `RegimeTenure/` — suppression-capacity tenure law for the ROM legitimacy carve (Gold core)
 - `IdentityThesis/` — Delta-framework and structural identity
 - `ConsensualSovereignty/` — Consent alignment/legitimacy core + advanced dynamics (Gold core)
 - `ROMEthics/` — bridge module + gold extensions for canonical ROM ethics paper mapping

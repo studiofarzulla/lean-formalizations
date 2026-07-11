@@ -15,6 +15,7 @@
     {"paper": "autonomous", "module": "AutonomousRedteam", "status": "gold-formal-core"},
     {"paper": "cbdc-privacy", "module": "CBDCPrivacy", "status": "gold-formal-core"},
     {"paper": "consciousness-nominalisation", "module": "ConsciousnessNominalisation", "status": "gold-formal-core"},
-    {"paper": "monograph-qualia", "module": "MonographQualia", "status": "gold-formal-core"}
+    {"paper": "monograph-qualia", "module": "MonographQualia", "status": "gold-formal-core"},
+    {"paper": "rom-legitimacy-carve", "module": "RegimeTenure", "status": "gold-formal-core"}
   ]
 }

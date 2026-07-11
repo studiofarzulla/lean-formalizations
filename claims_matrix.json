@@ -1,5 +1,5 @@
 {
-  "claim_count": 199,
+  "claim_count": 226,
   "claims": [
     {
       "assumption_scope": "claim_level",
@@ -791,6 +791,156 @@
       ],
       "lean_declaration": "friction",
       "manuscript_reference": "friction definition",
+      "mapping_section": "Core mapping (selected)",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_quad",
+      "manuscript_reference": "Remark 2.3 quadratic friction definition",
+      "mapping_section": "Core mapping (selected)",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_quad_agrees_at_one",
+      "manuscript_reference": "Appendix F agreement with canonical form at alpha = 1",
+      "mapping_section": "Core mapping (selected)",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_quad_agrees_at_zero",
+      "manuscript_reference": "Appendix F agreement with canonical form at alpha = 0",
+      "mapping_section": "Core mapping (selected)",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_quad_le",
+      "manuscript_reference": "Appendix F quadratic boundedness (no pole at alpha = -1)",
+      "mapping_section": "Core mapping (selected)",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_quad_max_at_zero",
+      "manuscript_reference": "Appendix F maximum friction at zero alignment",
+      "mapping_section": "Core mapping (selected)",
+      "module": "AxiomOfConsent",
+      "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-AOC-ALPHA-DOM",
+        "A-AOC-ALPHA-NN",
+        "A-AOC-ENT-NN",
+        "A-AOC-SIGMA-NN",
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-VARPATH"
+      ],
+      "canonical_paper": "papers-official/axiom-of-consent/main_v3_hedged.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If `alpha <= -1`, denominator safety assumptions fail and multiple bounds/monotonicity claims no longer apply.",
+        "If stakes or entropy leave nonnegative domain, monotonicity/bound claims can reverse.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "friction_quad_nonneg",
+      "manuscript_reference": "Appendix F quadratic nonnegativity",
       "mapping_section": "Core mapping (selected)",
       "module": "AxiomOfConsent",
       "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
@@ -3252,6 +3402,136 @@
         "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
         "If path variation witness is absent, no-static transfer theorem is not triggered."
       ],
+      "lean_declaration": "generalized_legitimacy",
+      "manuscript_reference": "Section 5.4 generalized legitimacy definition",
+      "mapping_section": "Core mapping (selected)",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "generalized_legitimacy_nonneg",
+      "manuscript_reference": "Section 5.4 generalized legitimacy nonnegativity",
+      "mapping_section": "Core mapping (selected)",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "generalized_recovers_consent",
+      "manuscript_reference": "Section 5.4 consent recovery at w2 = 0",
+      "mapping_section": "Core mapping (selected)",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "generalized_survival",
+      "manuscript_reference": "Section 5.4 generalized survival definition",
+      "mapping_section": "Core mapping (selected)",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
+      "lean_declaration": "generalized_survival_mono",
+      "manuscript_reference": "Section 5.4 generalized survival monotonicity",
+      "mapping_section": "Core mapping (selected)",
+      "module": "ROM",
+      "paper_map": "FarzullaProofs/ROM/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "paper_level",
+      "assumption_tags": [
+        "A-DISC-EQ0",
+        "A-DISC-POS",
+        "A-DYN-MOVEQ",
+        "A-DYN-VARPATH",
+        "A-ROM-F-NN",
+        "A-ROM-L-NN",
+        "A-ROM-ROWSTOCH",
+        "A-ROM-SIMPLEX"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/main.tex",
+      "claim_id": "",
+      "falsification_boundaries": [
+        "If row-stochasticity fails, mass-preservation claims do not apply.",
+        "If friction can be below `-1`, survival denominator can fail and sign/bound claims break.",
+        "If path variation witness is absent, no-static transfer theorem is not triggered."
+      ],
       "lean_declaration": "rom_simplex_invariant",
       "manuscript_reference": "Section 4.1 simplex invariance",
       "mapping_section": "Core mapping (selected)",
@@ -3736,6 +4016,369 @@
     {
       "assumption_scope": "claim_level",
       "assumption_tags": [
+        "A-RT-COST-POS",
+        "A-RT-GATE-LINEAR",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-14",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "burdenL_mono_friction",
+      "manuscript_reference": "THM-RegimeTenure-gold-14",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-COST-POS",
+        "A-RT-GATE-LINEAR",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-11",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "burden_anti_legitimacy",
+      "manuscript_reference": "THM-RegimeTenure-gold-11",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-GATE-LINEAR",
+        "A-RT-LINEAR-BURDEN"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-13",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "burden_eq_burdenL_zero",
+      "manuscript_reference": "THM-RegimeTenure-gold-13",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-COST-POS",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-5",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "burden_mono_friction",
+      "manuscript_reference": "THM-RegimeTenure-gold-5",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-LINEAR-BURDEN"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-2",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "draining_iff",
+      "manuscript_reference": "THM-RegimeTenure-gold-2",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-GATE-LINEAR",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-REPL-NN"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-10",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "full_legitimacy_no_drain",
+      "manuscript_reference": "THM-RegimeTenure-gold-10",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-LINEAR-BURDEN"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-1",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "survival_threshold",
+      "manuscript_reference": "THM-RegimeTenure-gold-1",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED",
+        "A-RT-RESERVES-POS"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-4",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "tenure_anti_burden",
+      "manuscript_reference": "THM-RegimeTenure-gold-4",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-COST-POS",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED",
+        "A-RT-RESERVES-POS"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-6",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "tenure_anti_friction",
+      "manuscript_reference": "THM-RegimeTenure-gold-6",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-COST-POS",
+        "A-RT-GATE-LINEAR",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED",
+        "A-RT-RESERVES-POS"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-15",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "tenure_anti_friction_L",
+      "manuscript_reference": "THM-RegimeTenure-gold-15",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-COST-POS",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED",
+        "A-RT-RESERVES-POS"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-8",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "tenure_anti_intensity",
+      "manuscript_reference": "THM-RegimeTenure-gold-8",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-COST-POS",
+        "A-RT-GATE-LINEAR",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED",
+        "A-RT-RESERVES-POS"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-12",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "tenure_mono_legitimacy",
+      "manuscript_reference": "THM-RegimeTenure-gold-12",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED",
+        "A-RT-RESERVES-POS"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-7",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "tenure_mono_replenishment",
+      "manuscript_reference": "THM-RegimeTenure-gold-7",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-GATE-LINEAR",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED",
+        "A-RT-RESERVES-POS"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-16",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "tenure_mono_replenishment_L",
+      "manuscript_reference": "THM-RegimeTenure-gold-16",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-9",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "tenure_mono_reserves",
+      "manuscript_reference": "THM-RegimeTenure-gold-9",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-RESERVES-POS"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_id": "THM-RegimeTenure-gold-3",
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_declaration": "tenure_pos",
+      "manuscript_reference": "THM-RegimeTenure-gold-3",
+      "mapping_section": "Gold mapping",
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_scope": "claim_level",
+      "assumption_tags": [
         "A-SV-FINSET",
         "A-SV-UNION-NONEMPTY"
       ],
@@ -3991,7 +4634,7 @@
       "status": "gold-formal-core"
     }
   ],
-  "paper_count": 14,
+  "paper_count": 15,
   "papers": [
     {
       "assumption_tags": [
@@ -4933,6 +5576,123 @@
       ],
       "module": "ROMEthics",
       "paper_map": "FarzullaProofs/ROMEthics/PaperMap.md",
+      "status": "gold-formal-core"
+    },
+    {
+      "assumption_tags": [
+        "A-RT-BURDEN-POS",
+        "A-RT-COST-POS",
+        "A-RT-GATE-LINEAR",
+        "A-RT-LINEAR-BURDEN",
+        "A-RT-ORDERED",
+        "A-RT-REPL-NN",
+        "A-RT-RESERVES-POS"
+      ],
+      "canonical_paper": "papers-official/rom-ethics/legitimacy-carve/main.tex",
+      "claim_level_assumptions": {
+        "THM-RegimeTenure-gold-1": [
+          "A-RT-LINEAR-BURDEN"
+        ],
+        "THM-RegimeTenure-gold-10": [
+          "A-RT-GATE-LINEAR",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-REPL-NN"
+        ],
+        "THM-RegimeTenure-gold-11": [
+          "A-RT-COST-POS",
+          "A-RT-GATE-LINEAR",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED"
+        ],
+        "THM-RegimeTenure-gold-12": [
+          "A-RT-BURDEN-POS",
+          "A-RT-COST-POS",
+          "A-RT-GATE-LINEAR",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED",
+          "A-RT-RESERVES-POS"
+        ],
+        "THM-RegimeTenure-gold-13": [
+          "A-RT-GATE-LINEAR",
+          "A-RT-LINEAR-BURDEN"
+        ],
+        "THM-RegimeTenure-gold-14": [
+          "A-RT-COST-POS",
+          "A-RT-GATE-LINEAR",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED"
+        ],
+        "THM-RegimeTenure-gold-15": [
+          "A-RT-BURDEN-POS",
+          "A-RT-COST-POS",
+          "A-RT-GATE-LINEAR",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED",
+          "A-RT-RESERVES-POS"
+        ],
+        "THM-RegimeTenure-gold-16": [
+          "A-RT-BURDEN-POS",
+          "A-RT-GATE-LINEAR",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED",
+          "A-RT-RESERVES-POS"
+        ],
+        "THM-RegimeTenure-gold-2": [
+          "A-RT-LINEAR-BURDEN"
+        ],
+        "THM-RegimeTenure-gold-3": [
+          "A-RT-BURDEN-POS",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-RESERVES-POS"
+        ],
+        "THM-RegimeTenure-gold-4": [
+          "A-RT-BURDEN-POS",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED",
+          "A-RT-RESERVES-POS"
+        ],
+        "THM-RegimeTenure-gold-5": [
+          "A-RT-COST-POS",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED"
+        ],
+        "THM-RegimeTenure-gold-6": [
+          "A-RT-BURDEN-POS",
+          "A-RT-COST-POS",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED",
+          "A-RT-RESERVES-POS"
+        ],
+        "THM-RegimeTenure-gold-7": [
+          "A-RT-BURDEN-POS",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED",
+          "A-RT-RESERVES-POS"
+        ],
+        "THM-RegimeTenure-gold-8": [
+          "A-RT-BURDEN-POS",
+          "A-RT-COST-POS",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED",
+          "A-RT-RESERVES-POS"
+        ],
+        "THM-RegimeTenure-gold-9": [
+          "A-RT-BURDEN-POS",
+          "A-RT-LINEAR-BURDEN",
+          "A-RT-ORDERED"
+        ]
+      },
+      "falsification_boundaries": [
+        "If capacity drain is nonlinear in suppressed friction, the linear tenure law `T = C\u2080/b` does not apply.",
+        "If the draining witness (`0 < burden`) is absent, tenure comparative statics are not triggered; the funded branch (`b \u2264 0`) is governed by the first-passage escape law, which is verified numerically (`tenure_law_verify.py`), not formalized here.",
+        "If the legitimacy gate deviates from `g(L) = 1 \u2212 L` (e.g. repression backfire raising latent friction), the gated-burden claims do not apply.",
+        "The first-passage identity (mean tenure `= C\u2080/b`) itself is proved by hand in the paper's appendix and is outside the formalized scope."
+      ],
+      "lean_entrypoints": [
+        "FarzullaProofs/RegimeTenure/Basic.lean"
+      ],
+      "module": "RegimeTenure",
+      "paper_map": "FarzullaProofs/RegimeTenure/PaperMap.md",
       "status": "gold-formal-core"
     },
     {

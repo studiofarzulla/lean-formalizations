@@ -12,6 +12,7 @@ import FarzullaProofs.AxiomOfConsent.Transfers
 import FarzullaProofs.ROM.Basic
 import FarzullaProofs.ROM.Advanced
 import FarzullaProofs.ROM.Transfers
+import FarzullaProofs.RegimeTenure.Basic
 import FarzullaProofs.IdentityThesis.Basic
 import FarzullaProofs.IdentityThesis.SetTheory
 import FarzullaProofs.IdentityThesis.Structuralism
