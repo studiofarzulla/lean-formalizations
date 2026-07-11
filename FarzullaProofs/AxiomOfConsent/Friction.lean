@@ -1,6 +1,6 @@
 /-
   Axiom of Consent: Friction Function Properties
-  Formalization of Farzulla (2025), DOI: 10.5281/zenodo.17684676
+  Formalization of Farzulla (2025), DOI: 10.48550/arXiv.2601.06692
 
   Core friction function: F(σ, α, ε) = σ · (1 + ε) / (1 + α)
 
@@ -151,5 +151,46 @@ theorem friction_unbounded {σ ε B : ℝ}
       rw [heq]; linarith
     rw [div_eq_iff h6, mul_comm (2 * B)]
     exact (div_mul_cancel₀ _ h5).symm
+
+/-! ## Quadratic Friction Form (Paper Remark 2.3, Appendix F)
+
+Empirically-refined form: F^(2)(σ, α, ε) = σ · (1 + ε) / (1 + α²)
+Motivated by MARL U-shape: maximum friction at α = 0, not α → -1. -/
+
+/-- Quadratic friction: F^(2)(σ, α, ε) = σ · (1 + ε) / (1 + α²). -/
+noncomputable def friction_quad (σ α ε : ℝ) : ℝ := σ * (1 + ε) / (1 + α ^ 2)
+
+/-- Quadratic friction is non-negative for non-negative stakes. -/
+theorem friction_quad_nonneg {σ α ε : ℝ}
+    (hσ : 0 ≤ σ) (hε : 0 ≤ ε) :
+    0 ≤ friction_quad σ α ε := by
+  unfold friction_quad
+  apply div_nonneg
+  · exact mul_nonneg hσ (by linarith)
+  · positivity
+
+/-- Quadratic friction is bounded: no singularity at α = -1. -/
+theorem friction_quad_le {σ α ε : ℝ}
+    (hσ : 0 ≤ σ) (hε : 0 ≤ ε) :
+    friction_quad σ α ε ≤ σ * (1 + ε) := by
+  unfold friction_quad
+  have h1 : (0 : ℝ) < 1 + α ^ 2 := by positivity
+  have h2 : (1 : ℝ) ≤ 1 + α ^ 2 := by nlinarith [sq_nonneg α]
+  exact div_le_self (mul_nonneg hσ (by linarith)) h2
+
+/-- Maximum friction at α = 0: F^(2)(σ, 0, ε) = σ(1+ε). -/
+theorem friction_quad_max_at_zero (σ ε : ℝ) :
+    friction_quad σ 0 ε = σ * (1 + ε) := by
+  unfold friction_quad; simp
+
+/-- Agreement with canonical form at α = 0. -/
+theorem friction_quad_agrees_at_zero (σ ε : ℝ) :
+    friction_quad σ 0 ε = friction σ 0 ε := by
+  unfold friction_quad friction; simp
+
+/-- Agreement with canonical form at α = 1: both yield σ(1+ε)/2. -/
+theorem friction_quad_agrees_at_one (σ ε : ℝ) :
+    friction_quad σ 1 ε = friction σ 1 ε := by
+  unfold friction_quad friction; norm_num
 
 end AxiomOfConsent

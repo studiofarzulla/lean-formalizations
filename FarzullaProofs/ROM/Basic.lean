@@ -132,4 +132,38 @@ theorem consent_survival_anti_friction {L F₁ F₂ : ℝ}
   unfold consent_survival
   exact div_lt_div_of_pos_left hL (by linarith) (by linarith)
 
+/-! ## Generalized Legitimacy (Paper §5.4, Remark)
+
+L_gen(C) = w₁ · L_voice(C) + w₂ · P(C)
+Setting w₂ = 0 recovers consent_survival. -/
+
+/-- Generalized legitimacy combining voice and performance. -/
+noncomputable def generalized_legitimacy (w₁ w₂ L_voice P : ℝ) : ℝ :=
+  w₁ * L_voice + w₂ * P
+
+/-- Generalized survival function. -/
+noncomputable def generalized_survival (w₁ w₂ L_voice P F : ℝ) : ℝ :=
+  generalized_legitimacy w₁ w₂ L_voice P / (1 + F)
+
+/-- Setting w₂ = 0 recovers pure consent survival. -/
+theorem generalized_recovers_consent (L F : ℝ) :
+    generalized_survival 1 0 L 0 F = consent_survival L F := by
+  unfold generalized_survival generalized_legitimacy consent_survival
+  ring
+
+/-- Generalized legitimacy is non-negative when components are non-negative. -/
+theorem generalized_legitimacy_nonneg {w₁ w₂ L_voice P : ℝ}
+    (hw₁ : 0 ≤ w₁) (hw₂ : 0 ≤ w₂) (hL : 0 ≤ L_voice) (hP : 0 ≤ P) :
+    0 ≤ generalized_legitimacy w₁ w₂ L_voice P := by
+  unfold generalized_legitimacy
+  exact add_nonneg (mul_nonneg hw₁ hL) (mul_nonneg hw₂ hP)
+
+/-- Higher generalized legitimacy increases survival (monotonicity preserved). -/
+theorem generalized_survival_mono {w₁ w₂ L₁ L₂ P₁ P₂ F : ℝ}
+    (hF : 0 ≤ F)
+    (h : generalized_legitimacy w₁ w₂ L₁ P₁ < generalized_legitimacy w₁ w₂ L₂ P₂) :
+    generalized_survival w₁ w₂ L₁ P₁ F < generalized_survival w₁ w₂ L₂ P₂ F := by
+  unfold generalized_survival
+  exact div_lt_div_of_pos_right h (by linarith)
+
 end ROM
