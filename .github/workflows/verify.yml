@@ -16,13 +16,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Install elan
-        run: |
-          curl https://elan.lean-lang.org/install.sh -sSf | sh -s -- -y
-          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
-
-      - name: Run full verify pipeline
-        run: make verify
+      # Governance checks only (PaperMap refs, claims matrix, consistency).
+      # The Lean build runs in lean_action_ci.yml via leanprover/lean-action,
+      # which restores the Mathlib cache; building Mathlib from source here
+      # would exceed the runner time limit.
+      - name: Run governance checks
+        run: make verify-fast
 
       - name: Upload verification report
         if: always()
