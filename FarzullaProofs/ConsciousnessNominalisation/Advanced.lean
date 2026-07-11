@@ -40,7 +40,7 @@ theorem groundingDeficit_ge_neg_abs_gap (nominal grounded : ℝ) :
       ≤ -|groundingGap nominal grounded| / (|nominal| + 1) := by
     have hDenGeOne : (1 : ℝ) ≤ |nominal| + 1 := by linarith [abs_nonneg nominal]
     have hInvLeOne : (|nominal| + 1)⁻¹ ≤ 1 := by
-      exact (inv_le_iff_one_le_mul₀ hPos).2 (by simpa using hDenGeOne)
+      exact (inv_le_iff_one_le_mul₀ hPos).2 (by simp)
     have hMul : -|groundingGap nominal grounded| * 1
         ≤ -|groundingGap nominal grounded| * (|nominal| + 1)⁻¹ :=
       mul_le_mul_of_nonpos_left hInvLeOne hNeg

@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
 title: "FarzullaProofs: Machine-Checked Proofs for Interdisciplinary Research"
-version: 1.0.0
-date-released: 2026-02-07
+version: 2.0.0
+date-released: 2026-07-11
 license: CC-BY-4.0
 url: https://github.com/studiofarzulla/lean-formalizations
 repository-code: https://github.com/studiofarzulla/lean-formalizations
@@ -33,12 +33,12 @@ references:
     year: 2026
 
   - type: article
-    title: "The Axiom of Consent: A Unified Formal Framework for Friction Dynamics"
+    title: "The Axiom of Consent: Friction Dynamics in Multi-Agent Coordination"
     authors:
       - family-names: Farzulla
         given-names: Murad
-    doi: 10.5281/zenodo.17684676
-    year: 2025
+    doi: 10.48550/arXiv.2601.06692
+    year: 2026
 
   - type: article
     title: "The Replicator-Optimization Mechanism"

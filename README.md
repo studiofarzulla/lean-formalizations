@@ -7,6 +7,8 @@
 
 Machine-checked proofs in Lean 4 for results across canonical research papers by [Murad Farzulla](https://orcid.org/0009-0002-7164-8704), plus shared formal scaffolding for empirical-heavy papers. Formalization depth is tiered (Bronze/Silver/Gold) and tracked per paper.
 
+**Current scope:** 15 paper modules and shared `Common/` infrastructure — **246 machine-checked theorems**, ~2,700 lines of Lean, **zero `sorry`, zero custom axioms** (Lean 4 v4.27.0, Mathlib v4.27.0).
+
 ---
 
 ## Papers and Theorems
@@ -17,6 +19,27 @@ Machine-checked proofs in Lean 4 for results across canonical research papers by
 - Theorem naming convention is documented in `THEOREM_ID_CONVENTIONS.md`.
 - Each paper module includes `PaperMap.md` mapping manuscript theorem IDs to Lean declarations.
 - Assumption tags and validity domains are tracked in `ASSUMPTIONS_LEDGER.md`.
+
+| Module | Paper | Status | Theorems |
+|---|---|---|---:|
+| `AxiomOfConsent` | The Axiom of Consent ([arXiv:2601.06692](https://arxiv.org/abs/2601.06692)) | gold-formal-core | 28 |
+| `ROM` | The Replicator-Optimization Mechanism ([arXiv:2601.06363](https://arxiv.org/abs/2601.06363)) | gold-formal-core | 25 |
+| `RegimeTenure` | When Suppression Fails (ROM legitimacy carve) | gold-formal-core | 16 |
+| `ConsensualSovereignty` | Consensual Sovereignty | gold-formal-core | 19 |
+| `ROMEthics` | ROM ethics bridge (welfare/survival) | gold-formal-core | 11 |
+| `IdentityThesis` | Identity is Irreducibly Relational | gold-formal-core | 22 |
+| `QuantumOscillatory` | Quantum Statistics from Oscillatory Sampling | gold-formal-core | 11 |
+| `SemanticVision` | Semantic Vision | gold-formal-core | 12 |
+| `GenreMimicry` | Genre Mimicry | gold-formal-core | 14 |
+| `AMLParadox` | Legitimate Extraction (AML paradox) | gold-formal-core | 10 |
+| `AsymptoticProtection` | Asymptotic Protection | gold-formal-core | 11 |
+| `AutonomousRedteam` | Autonomous Red Team | gold-formal-core | 11 |
+| `CBDCPrivacy` | CBDC Privacy Architecture | gold-formal-core | 11 |
+| `ConsciousnessNominalisation` | Consciousness as Nominalisation Error | gold-formal-core | 11 |
+| `MonographQualia` | Consciousness Monograph (qualia) | gold-formal-core | 11 |
+| `Common` | shared dynamics/transfer/relation infrastructure | — | 23 |
+
+Detailed theorem tables for four representative papers follow; the full claim-by-claim mapping for every module lives in `claims_matrix.json`.
 
 ### Quantum Oscillatory Sampling (TBI-QM)
 
@@ -38,7 +61,7 @@ Machine-checked proofs in Lean 4 for results across canonical research papers by
 
 ### Axiom of Consent (Friction Dynamics)
 
-**Paper:** *The Axiom of Consent* -- [DOI: 10.5281/zenodo.17684676](https://doi.org/10.5281/zenodo.17684676)
+**Paper:** *The Axiom of Consent* -- [arXiv: 2601.06692](https://arxiv.org/abs/2601.06692)
 
 | Lean theorem | Paper result | Description |
 |---|---|---|
@@ -54,6 +77,11 @@ Machine-checked proofs in Lean 4 for results across canonical research papers by
 | `friction_stake_linear` | Section 2 | F scales linearly in stakes |
 | `friction_nonneg` | Section 2 | F >= 0 for valid parameters |
 | `friction_unbounded` | Section 4 | F diverges as alignment approaches -1 |
+| `friction_quad_nonneg` | Appendix F | Quadratic form F2 = sigma(1+eps)/(1+alpha^2) is non-negative |
+| `friction_quad_le` | Appendix F | Quadratic form is bounded: no pole at alpha = -1 |
+| `friction_quad_max_at_zero` | Remark 2.3 | Maximum friction at alpha = 0 |
+| `friction_quad_agrees_at_zero` | Remark 2.3 | Agrees with canonical form at alpha = 0 |
+| `friction_quad_agrees_at_one` | Remark 2.3 | Agrees with canonical form at alpha = 1 |
 
 ### Replicator-Optimization Mechanism (ROM)
 
@@ -72,6 +100,32 @@ Machine-checked proofs in Lean 4 for results across canonical research papers by
 | `skew_symmetric_nonzero_not_potential` | Appendix D | Skew-symmetric entry implies non-potential |
 | `consent_survival_mono_legitimacy` | Section 5 | Survival increases with legitimacy |
 | `consent_survival_anti_friction` | Section 5 | Survival decreases with friction |
+| `generalized_recovers_consent` | Section 5.4 | Setting w2 = 0 recovers consent survival |
+| `generalized_legitimacy_nonneg` | Section 5.4 | Generalized legitimacy is non-negative |
+| `generalized_survival_mono` | Section 5.4 | Generalized survival preserves monotonicity |
+
+### Regime Tenure (When Suppression Fails)
+
+**Paper:** *When Suppression Fails* -- ROM legitimacy carve, companion paper (in preparation). Its appendix cites this module (sixteen theorems, zero `sorry`) as the machine-checked verification of the tenure law's comparative statics; the first-passage identity T = C0/b is proved by hand there and is not formalized.
+
+| Lean theorem | Paper result | Description |
+|---|---|---|
+| `survival_threshold` | Survival dichotomy | gamma kappa F <= r implies non-positive burden |
+| `draining_iff` | Survival dichotomy | Positive burden iff r < gamma kappa F |
+| `tenure_pos` | Tenure law | Tenure is strictly positive in the draining case |
+| `tenure_anti_burden` | Structural statics | Tenure strictly decreases in the burden |
+| `burden_mono_friction` | Structural statics | Burden strictly increases in friction |
+| `tenure_anti_friction` | dT/dF < 0 | Friction shortens tenure |
+| `tenure_mono_replenishment` | dT/dr > 0 | Replenishment lengthens tenure |
+| `tenure_anti_intensity` | dT/dkappa < 0 | Repression intensity shortens tenure |
+| `tenure_mono_reserves` | dT/dC0 > 0 | Larger reserves lengthen tenure |
+| `full_legitimacy_no_drain` | L = 1 corner | Full legitimacy leaves burden -r <= 0 |
+| `burden_anti_legitimacy` | Legitimacy gate | Legitimacy strictly lowers the burden |
+| `tenure_mono_legitimacy` | dT/dL > 0 | Legitimacy lengthens tenure |
+| `burden_eq_burdenL_zero` | Legitimacy gate | Un-gated burden is the L = 0 slice |
+| `burdenL_mono_friction` | Gated statics | Friction raises the gated burden |
+| `tenure_anti_friction_L` | Gated statics | dT/dF < 0 on the coupled burden |
+| `tenure_mono_replenishment_L` | Gated statics | dT/dr > 0 on the coupled burden |
 
 ### Identity is Irreducibly Relational (Identity Thesis)
 
@@ -170,6 +224,8 @@ FarzullaProofs/
 |   |-- Basic.lean                          # ROM core dynamics/results
 |   +-- Advanced.lean                       # ROM gold extensions
 |   +-- Transfers.lean                      # ROM instantiation of adversarial transfers
+|-- RegimeTenure/
+|   +-- Basic.lean                          # Tenure law for the ROM legitimacy carve: 16 theorems
 |-- ConsensualSovereignty/
 |   |-- Definitions.lean                    # Consent primitives
 |   |-- Core.lean                           # Core alignment/friction claims
@@ -229,7 +285,7 @@ If you use this code in your research, please cite:
   author       = {Farzulla, Murad},
   title        = {{FarzullaProofs}: Machine-Checked Proofs for Interdisciplinary Research},
   year         = {2026},
-  version      = {1.0.0},
+  version      = {2.0.0},
   url          = {https://github.com/studiofarzulla/lean-formalizations},
   note         = {Lean 4 v4.27.0, Mathlib v4.27.0}
 }
