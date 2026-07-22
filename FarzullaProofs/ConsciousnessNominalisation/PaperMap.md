@@ -1,7 +1,7 @@
 # PaperMap: ConsciousnessNominalisation
 
 ## Canonical paper
-- papers-official/consciousness-nominalisation/main.tex
+- papers-official/monograph-qualia/consciousness-nominalisation/main.tex
 
 ## Lean entrypoints
 - FarzullaProofs/ConsciousnessNominalisation/Basic.lean

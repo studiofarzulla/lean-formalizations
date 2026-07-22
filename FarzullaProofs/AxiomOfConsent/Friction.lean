@@ -16,7 +16,7 @@ namespace AxiomOfConsent
 
 /-! ## Core Definition -/
 
-/-- The friction function F(σ, α, ε) = σ · (1 + ε) / (1 + α) (Paper Def. 2.3). -/
+/-- The friction function F(σ, α, ε) = σ · (1 + ε) / (1 + α) (Paper Def. 2.4). -/
 noncomputable def friction (σ α ε : ℝ) : ℝ := σ * (1 + ε) / (1 + α)
 
 /-! ## Zero Friction Condition (Paper §2, Proposition)
@@ -152,10 +152,17 @@ theorem friction_unbounded {σ ε B : ℝ}
     rw [div_eq_iff h6, mul_comm (2 * B)]
     exact (div_mul_cancel₀ _ h5).symm
 
-/-! ## Quadratic Friction Form (Paper Remark 2.3, Appendix F)
+/-! ## Quadratic Friction Form (Paper Remark 2.5, Appendix B.7)
 
-Empirically-refined form: F^(2)(σ, α, ε) = σ · (1 + ε) / (1 + α²)
-Motivated by MARL U-shape: maximum friction at α = 0, not α → -1. -/
+Historical/exploratory variant: F^(2)(σ, α, ε) = σ · (1 + ε) / (1 + α²),
+maximal at α = 0 and bounded on [-1, 1]. Originally motivated by an apparent
+U-shape in the companion MARL factorial; the companion's sign-aware control
+battery showed that U-shape was a sign-blind data-generating-process artifact,
+and the quadratic refinement was withdrawn as an empirical claim. The paper
+(v2) retains F^(2) only as a formal illustration that the desiderata, with
+divergence D6 relaxed to the symmetric condition D6′, under-determine F
+(Remark 2.5; Appendix B.7). The theorems below are properties of the
+mathematical form itself, independent of its empirical adequacy. -/
 
 /-- Quadratic friction: F^(2)(σ, α, ε) = σ · (1 + ε) / (1 + α²). -/
 noncomputable def friction_quad (σ α ε : ℝ) : ℝ := σ * (1 + ε) / (1 + α ^ 2)

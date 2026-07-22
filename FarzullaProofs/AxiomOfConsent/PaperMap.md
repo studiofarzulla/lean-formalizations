@@ -17,12 +17,18 @@
 - Section 2 (zero condition) -> `friction_zero_of_stake_zero`, `stake_zero_of_friction_zero`, `friction_eq_zero_iff`
 - Section 2 (monotonicity) -> `friction_strict_anti_alignment`, `friction_strict_mono_stake`, `friction_strict_mono_entropy`
 - Section 4 (bounds) -> `friction_pos`, `friction_at_perfect_alignment`, `friction_ge_half_stake`, `friction_unbounded`
-- Remark 2.3 quadratic friction definition -> `friction_quad`
-- Appendix F quadratic nonnegativity -> `friction_quad_nonneg`
-- Appendix F quadratic boundedness (no pole at alpha = -1) -> `friction_quad_le`
-- Appendix F maximum friction at zero alignment -> `friction_quad_max_at_zero`
-- Appendix F agreement with canonical form at alpha = 0 -> `friction_quad_agrees_at_zero`
-- Appendix F agreement with canonical form at alpha = 1 -> `friction_quad_agrees_at_one`
+- Remark 2.5 quadratic friction definition (formal variant; empirical motivation withdrawn) -> `friction_quad`
+- Remark 2.5 / Appendix B.7 quadratic nonnegativity -> `friction_quad_nonneg`
+- Remark 2.5 / Appendix B.7 quadratic boundedness (no pole at alpha = -1) -> `friction_quad_le`
+- Remark 2.5 / Appendix B.7 maximum friction at zero alignment -> `friction_quad_max_at_zero`
+- Remark 2.5 / Appendix B.7 agreement with canonical form at alpha = 0 -> `friction_quad_agrees_at_zero`
+- Remark 2.5 / Appendix B.7 agreement with canonical form at alpha = 1 -> `friction_quad_agrees_at_one`
+
+Note: the quadratic form F^(2) is retained in AoC v2 only as a formal
+under-determination illustration (desiderata with D6 relaxed to D6'). Its
+original empirical motivation (the MARL U-shape) was withdrawn by the
+companion MARL study as a sign-blind data-generating-process artifact; the
+Lean theorems above are valid independent of empirical adequacy.
 
 ## Gold extensions
 - THM-aoc-gold-1 -> `friction_mono_entropy`

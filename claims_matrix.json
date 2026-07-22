@@ -815,7 +815,7 @@
         "If path variation witness is absent, no-static transfer theorem is not triggered."
       ],
       "lean_declaration": "friction_quad",
-      "manuscript_reference": "Remark 2.3 quadratic friction definition",
+      "manuscript_reference": "Remark 2.5 quadratic friction definition (formal variant; empirical motivation withdrawn)",
       "mapping_section": "Core mapping (selected)",
       "module": "AxiomOfConsent",
       "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
@@ -840,7 +840,7 @@
         "If path variation witness is absent, no-static transfer theorem is not triggered."
       ],
       "lean_declaration": "friction_quad_agrees_at_one",
-      "manuscript_reference": "Appendix F agreement with canonical form at alpha = 1",
+      "manuscript_reference": "Remark 2.5 / Appendix B.7 agreement with canonical form at alpha = 1",
       "mapping_section": "Core mapping (selected)",
       "module": "AxiomOfConsent",
       "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
@@ -865,7 +865,7 @@
         "If path variation witness is absent, no-static transfer theorem is not triggered."
       ],
       "lean_declaration": "friction_quad_agrees_at_zero",
-      "manuscript_reference": "Appendix F agreement with canonical form at alpha = 0",
+      "manuscript_reference": "Remark 2.5 / Appendix B.7 agreement with canonical form at alpha = 0",
       "mapping_section": "Core mapping (selected)",
       "module": "AxiomOfConsent",
       "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
@@ -890,7 +890,7 @@
         "If path variation witness is absent, no-static transfer theorem is not triggered."
       ],
       "lean_declaration": "friction_quad_le",
-      "manuscript_reference": "Appendix F quadratic boundedness (no pole at alpha = -1)",
+      "manuscript_reference": "Remark 2.5 / Appendix B.7 quadratic boundedness (no pole at alpha = -1)",
       "mapping_section": "Core mapping (selected)",
       "module": "AxiomOfConsent",
       "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
@@ -915,7 +915,7 @@
         "If path variation witness is absent, no-static transfer theorem is not triggered."
       ],
       "lean_declaration": "friction_quad_max_at_zero",
-      "manuscript_reference": "Appendix F maximum friction at zero alignment",
+      "manuscript_reference": "Remark 2.5 / Appendix B.7 maximum friction at zero alignment",
       "mapping_section": "Core mapping (selected)",
       "module": "AxiomOfConsent",
       "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
@@ -940,7 +940,7 @@
         "If path variation witness is absent, no-static transfer theorem is not triggered."
       ],
       "lean_declaration": "friction_quad_nonneg",
-      "manuscript_reference": "Appendix F quadratic nonnegativity",
+      "manuscript_reference": "Remark 2.5 / Appendix B.7 quadratic nonnegativity",
       "mapping_section": "Core mapping (selected)",
       "module": "AxiomOfConsent",
       "paper_map": "FarzullaProofs/AxiomOfConsent/PaperMap.md",
@@ -1421,7 +1421,7 @@
       "assumption_tags": [
         "A-CN-LINEAR-GAP"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-bronze-1",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1441,7 +1441,7 @@
         "A-CN-GROUNDED-MONO",
         "A-CN-LINEAR-GAP"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-bronze-4",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1460,7 +1460,7 @@
       "assumption_tags": [
         "A-CN-LINEAR-GAP"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-bronze-3",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1479,7 +1479,7 @@
       "assumption_tags": [
         "A-CN-LINEAR-GAP"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-bronze-2",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1499,7 +1499,7 @@
         "A-CN-LINEAR-GAP",
         "A-CN-NORM-DEN"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-gold-4",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1519,7 +1519,7 @@
         "A-CN-LINEAR-GAP",
         "A-CN-NORM-DEN"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-gold-3",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1539,7 +1539,7 @@
         "A-CN-LINEAR-GAP",
         "A-CN-NORM-DEN"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-gold-2",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1559,7 +1559,7 @@
         "A-CN-LINEAR-GAP",
         "A-CN-ZERO-CHAR"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-gold-1",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1579,7 +1579,7 @@
         "A-CN-LINEAR-GAP",
         "A-CN-NORM-DEN"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-1",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1600,7 +1600,7 @@
         "A-CN-LINEAR-GAP",
         "A-CN-NORM-DEN"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-4",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1620,7 +1620,7 @@
         "A-CN-LINEAR-GAP",
         "A-CN-NORM-DEN"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-5",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1640,7 +1640,7 @@
         "A-CN-LINEAR-GAP",
         "A-CN-NORM-DEN"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-3",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -1660,7 +1660,7 @@
         "A-CN-LINEAR-GAP",
         "A-CN-NORM-DEN"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_id": "THM-ConsciousnessNominalisation-silver-2",
       "falsification_boundaries": [
         "Claims depend on linear gap semantics and do not directly transfer to nonlinear grounding functions.",
@@ -4979,7 +4979,7 @@
         "A-CN-NORM-DEN",
         "A-CN-ZERO-CHAR"
       ],
-      "canonical_paper": "papers-official/consciousness-nominalisation/main.tex",
+      "canonical_paper": "papers-official/monograph-qualia/consciousness-nominalisation/main.tex",
       "claim_level_assumptions": {
         "THM-ConsciousnessNominalisation-bronze-1": [
           "A-CN-LINEAR-GAP"

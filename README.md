@@ -77,11 +77,13 @@ Detailed theorem tables for four representative papers follow; the full claim-by
 | `friction_stake_linear` | Section 2 | F scales linearly in stakes |
 | `friction_nonneg` | Section 2 | F >= 0 for valid parameters |
 | `friction_unbounded` | Section 4 | F diverges as alignment approaches -1 |
-| `friction_quad_nonneg` | Appendix F | Quadratic form F2 = sigma(1+eps)/(1+alpha^2) is non-negative |
-| `friction_quad_le` | Appendix F | Quadratic form is bounded: no pole at alpha = -1 |
-| `friction_quad_max_at_zero` | Remark 2.3 | Maximum friction at alpha = 0 |
-| `friction_quad_agrees_at_zero` | Remark 2.3 | Agrees with canonical form at alpha = 0 |
-| `friction_quad_agrees_at_one` | Remark 2.3 | Agrees with canonical form at alpha = 1 |
+| `friction_quad_nonneg` | Remark 2.5 / App. B.7 | Quadratic form F2 = sigma(1+eps)/(1+alpha^2) is non-negative |
+| `friction_quad_le` | Remark 2.5 / App. B.7 | Quadratic form is bounded: no pole at alpha = -1 |
+| `friction_quad_max_at_zero` | Remark 2.5 | Maximum friction at alpha = 0 |
+| `friction_quad_agrees_at_zero` | Remark 2.5 | Agrees with canonical form at alpha = 0 |
+| `friction_quad_agrees_at_one` | Remark 2.5 | Agrees with canonical form at alpha = 1 |
+
+The quadratic form F2 is a formal variant only: its original empirical motivation (a U-shape in the companion MARL factorial) was withdrawn as a sign-blind DGP artifact, and AoC v2 retains it solely as an under-determination illustration (Remark 2.5, Appendix B.7). The theorems hold regardless.
 
 ### Replicator-Optimization Mechanism (ROM)
 
